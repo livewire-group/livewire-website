@@ -1,0 +1,4 @@
+{
+	"prettier": true,
+	"envs": ["es2020", "browser"]
+}
