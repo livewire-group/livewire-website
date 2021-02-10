@@ -13,7 +13,11 @@ module.exports = {
 
 	output: {
 		path: path.join(__dirname, 'dist'),
-		publicPath: '',
+		publicPath: '/',
+	},
+
+	resolve: {
+		extensions: ['.wasm', '.mjs', '.js', '.json', '.jsx'],
 	},
 
 	module: {
@@ -24,7 +28,7 @@ module.exports = {
 			},
 			{
 				loader: 'babel-loader',
-				test: /\.js?$/,
+				test: /\.jsx?$/,
 				exclude: /node_modules/,
 			},
 			{
