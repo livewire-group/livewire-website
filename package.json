@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
-  "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "name": "livewire-website",
+  "version": "0.0.1",
+  "description": "Livewire public website. Running on Hugo & Netlify CMS.",
+  "repository": "justrhysism/livewire",
   "main": "index.js",
   "scripts": {
     "lint": "xo",
@@ -19,7 +19,7 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
-  "author": "",
+  "author": "Rhys Lloyd <justrhysism@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.13",
