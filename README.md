@@ -4,16 +4,16 @@ This is a small business template built with [Victor Hugo](https://github.com/ne
 
 ## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
 This will setup everything needed for running the CMS:
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+- A new repository in your GitHub account with the code
+- Full Continuous Deployment to Netlify's global CDN network
+- Control users and access with Netlify Identity
+- Manage content with Netlify CMS
 
 Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
@@ -21,9 +21,11 @@ Now you're all set, and you can start editing content!
 
 ## Local Development
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+Clone this repository, and run `yarn` from the new folder to install all required dependencies.
 
-Then start the development server with `yarn start` or `npm start`.
+Then start the development server with `yarn start`.
+
+If you're working on the CMS, you will need to use the Netlify CMS proxy server, open a terminal above the project (e.g. one directory up) and run `npx netlify-cms-proxy-server`
 
 ## Layouts
 
