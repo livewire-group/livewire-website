@@ -29,6 +29,7 @@
     "@babel/preset-react": "^7.12.13",
     "@babel/register": "^7.12.13",
     "assets-webpack-plugin": "^7.0.0",
+    "autoprefixer": "^10.2.4",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^7.0.0",
@@ -46,9 +47,10 @@
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "plugin-error": "^1.0.1",
-    "postcss": "^8.2.5",
+    "postcss": "^8.2.6",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^5.0.0",
+    "postcss-nesting": "^7.0.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "react": "^16.8.6",
@@ -62,5 +64,11 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
     "xo": "^0.37.1"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.0.3"
   }
 }

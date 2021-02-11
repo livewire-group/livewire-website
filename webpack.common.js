@@ -41,6 +41,11 @@ module.exports = {
 					'sass-loader',
 				],
 			},
+			{
+				test: /\.pcss$/,
+				exclude: /node_modules/,
+				use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+			},
 		],
 	},
 
