@@ -1,8 +1,8 @@
 
 <!-- Logo Cloud -->
-<div class="bg-gray-100">
+<div class="">
 	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-		<p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+		<p class="text-center text-sm font-semibold uppercase tracking-wide">
 			{{ .title }}
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
@@ -12,7 +12,7 @@
 						{{ if .image }}
 							<img class="h-12" src="{{ .image }}" alt="{{ .name }}">
 						{{ else }}
-							<span class="font-serif text-gray-800">{{ .name }}</span>
+							<span class="font-serif text-gray-300">{{ .name }}</span>
 						{{ end }}
 					{{ if .url }}</a>{{ end }}
 				</div>

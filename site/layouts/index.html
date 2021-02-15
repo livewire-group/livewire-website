@@ -2,8 +2,12 @@
 
 {{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ range .Params.blurbs }}
-	{{ partial "short-text" . }}
+{{ if .Params.blurbs }}
+	<div class="">
+		{{ range .Params.blurbs }}
+			{{ partial "short-text" . }}
+		{{ end }}
+	</div>
 {{ end }}
 
 {{ partial "logo-cloud" .Params.brands }}
