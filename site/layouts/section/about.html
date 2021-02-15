@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+{{ .Content }}
+
+<div class="text-center">
+	<h2>{{ .Params.postContent.heading }}</h2>
+	<div>
+		{{ range .Params.postContent.blocks }}
+			<div class="">
+				<h3>{{ .title }}</h3>
+			</div>
+		{{ end }}
+	</div>
+</div>
+
+{{ end }}
