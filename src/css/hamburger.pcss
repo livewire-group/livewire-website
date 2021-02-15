@@ -1,0 +1,79 @@
+/**
+ * Hamburger
+ */
+
+
+.spline,
+.cross {
+	--speed: 0.25s;
+	--actual-speed: calc(var(--speed) / 2);
+
+	&,
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 11;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 1.7em;
+		height: 0.2em;
+		border-radius: 1em;
+		background: white;
+		transition: transform var(--actual-speed) ease-in-out, opacity 0s ease-in-out;
+	}
+}
+
+.spline {
+	&,
+	&::before,
+	&::after {
+		transition-delay: var(--actual-speed), var(--actual-speed);
+	}
+
+	&::before {
+		transform: translate(-50%, -0.5em);
+	}
+
+	&::after {
+		transform: translate(-50%, 0.5em);
+	}
+
+	.is-open & {
+		opacity: 0;
+
+		&::before,
+		&::after {
+			transform: translate(-50%, 0em);
+		}
+
+		&,
+		&::before,
+		&::after {
+			transition-delay: 0s, var(--actual-speed);
+		}
+	}
+}
+
+.cross {
+	opacity: 0;
+	background: transparent;
+	transition-delay: var(--actual-speed), var(--actual-speed);
+
+	.is-open & {
+		opacity: 1;
+
+		&::before {
+			transform: translateX(-50%) rotate(45deg);
+		}
+
+		&::after {
+			transform: translateX(-50%) rotate(-45deg);
+		}
+
+		&::before,
+		&::after {
+			transition-delay: var(--actual-speed), var(--actual-speed);
+		}
+	}
+}

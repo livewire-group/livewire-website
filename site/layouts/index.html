@@ -1,13 +1,17 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ range .Params.blurbs }}
+	{{ partial "short-text" . }}
+{{ end }}
 
-{{ partial "2-up" .Params }}
+{{ partial "logo-cloud" .Params.brands }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{/*{{ partial "2-up" .Params }}*/}}
 
-{{ partial "blog" . }}
+{{/*{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}*/}}
+
+{{/*{{ partial "blog" . }}*/}}
 
 {{ end }}

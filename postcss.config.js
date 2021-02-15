@@ -2,7 +2,7 @@ module.exports = {
 	plugins: {
 		'postcss-import': {},
 		tailwindcss: {},
-		'postcss-nesting': {},
+		'postcss-nested': {},
 		'postcss-preset-env': {
 			browsers: 'last 2 versions',
 		},

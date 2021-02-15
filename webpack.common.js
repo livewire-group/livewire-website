@@ -4,10 +4,11 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackCdnPlugin = require('webpack-cdn-plugin');
 
 module.exports = {
 	entry: {
-		main: path.join(__dirname, 'src', 'index.js'),
+		main: path.join(__dirname, 'src', 'index.ts'),
 		cms: path.join(__dirname, 'src', 'js', 'cms.js'),
 	},
 
@@ -17,7 +18,7 @@ module.exports = {
 	},
 
 	resolve: {
-		extensions: ['.wasm', '.mjs', '.js', '.json', '.jsx'],
+		extensions: ['.wasm', '.mjs', '.json', '.js', '.jsx', '.ts', '.tsx'],
 	},
 
 	module: {
@@ -28,7 +29,7 @@ module.exports = {
 			},
 			{
 				loader: 'babel-loader',
-				test: /\.jsx?$/,
+				test: /\.([jt])sx?$/,
 				exclude: /node_modules/,
 			},
 			{
@@ -36,15 +37,19 @@ module.exports = {
 				exclude: /node_modules/,
 				use: [
 					MiniCssExtractPlugin.loader,
-					'css-loader',
-					'postcss-loader',
+					{ loader: 'css-loader', options: { sourceMap: false } },
+					{ loader: 'postcss-loader', options: { sourceMap: false } },
 					'sass-loader',
 				],
 			},
 			{
 				test: /\.pcss$/,
 				exclude: /node_modules/,
-				use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+				use: [
+					MiniCssExtractPlugin.loader,
+					{ loader: 'css-loader', options: { sourceMap: false } },
+					{ loader: 'postcss-loader', options: { sourceMap: false } },
+				],
 			},
 		],
 	},
