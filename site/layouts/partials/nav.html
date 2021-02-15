@@ -13,11 +13,12 @@
 	</button>
 
 	<!-- Primary Nav -->
-	<ul id="nav-menu-list" class="fixed top-0 left-full h-full w-full z-10 flex flex-col items-center justify-center bg-gray-600 transition-transform transform -translate-x-0">
-		<li><a href="/about" class="">Who We Are</a></li>
-		<li><a href="/our-work" class="">Our Work</a></li>
-		<li><a href="/values" class="">Values</a></li>
-		<li><a href="/post" class="">Blog</a></li>
-		<li><a href="/contact" class="">Contact</a></li>
+	<ul id="nav-menu-list" class="fixed top-0 left-full h-full w-full z-10 flex flex-col items-center justify-center bg-gray-800 text-2xl transition-transform transform -translate-x-0">
+		{{ if not (eq .File.Dir "/") }}<li><a href="/" class="block text-gray-300 no-underline my-2">Home</a></li>{{ end }}
+		<li><a href="/about" class="block text-gray-300 no-underline my-2">Who We Are</a></li>
+		<li><a href="/our-work" class="block text-gray-300 no-underline my-2">Our Work</a></li>
+		<li><a href="/values" class="block text-gray-300 no-underline my-2">Values</a></li>
+		<li><a href="/post" class="block text-gray-300 no-underline my-2">Blog</a></li>
+		<li><a href="/contact" class="block text-gray-300 no-underline my-2">Contact</a></li>
 	</ul>
 </nav>
