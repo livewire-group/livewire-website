@@ -3,11 +3,7 @@
   {{ partial "head" . }}
   <body class="flex flex-col h-screen">
     {{ block "header" . }}
-      <div class="p-8">
-        <p class="text-base font-semibold text-gray-500 tracking-wide uppercase">Livewire</p>
-        <a class="text-sm text-gray-400" href="mailto:hello@livewire.group">hello@livewire.group</a>
-      </div>
-{{/*      {{ partial "nav" . }}*/}}
+      {{ partial "nav" . }}
     {{end}}
 
     <main class="flex-grow">

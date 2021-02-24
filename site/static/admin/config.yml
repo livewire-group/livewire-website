@@ -3,75 +3,107 @@ backend:
 
 local_backend: true
 
-media_folder: 'site/static/img' # Folder where user uploaded files should go
-public_folder: 'img'
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+media_library:
+  name: "cloudinary"
+  config:
+    cloud_name: "livewire-group"
+    api_key: "996367731921186"
 
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
-  - name: 'post' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Post' # Used in the UI, ie.: "New Post"
-    folder: 'site/content/post' # The path to the folder where the documents are stored
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Intro Blurb', name: 'description', widget: 'text' }
-      - { label: 'Image', name: 'image', widget: 'image', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'pages'
-    label: 'Pages'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Intro Blurb", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
     files:
-      - file: 'site/content/_index.md'
-        label: 'Home Page'
-        name: 'home'
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Image, name: image, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
           - {
-              label: 'Blurb',
-              name: blurb,
-              widget: object,
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - {
+              label: "Intros",
+              name: "intros",
+              widget: "list",
               fields:
                 [
-                  { label: 'Heading', name: 'heading', widget: string },
-                  { label: 'Text', name: 'text', widget: 'text' },
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Text", name: "text", widget: "text" },
                 ],
             }
           - {
-              label: 'Intro',
-              name: intro,
-              widget: object,
+              label: "Services",
+              name: "services",
+              widget: "object",
               fields:
                 [
-                  { label: 'Heading', name: 'heading', widget: string },
-                  { label: 'Text', name: 'text', widget: 'text' },
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Text", name: "text", widget: "text" },
+                  {
+                    label: "Services",
+                    name: "services",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Url", name: "url", widget: "string" },
+                        {
+                          label: "Icon",
+                          name: "icon",
+                          widget: "select",
+                          options: ["promotion", "magnet", "content"],
+                        },
+                      ],
+                  },
                 ],
             }
           - {
-              label: 'Products',
-              name: products,
-              widget: list,
+              label: "Brands",
+              name: "brands",
+              widget: "object",
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'Text', name: 'text', widget: 'text' },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Logos", name: "logos", widget: "list", fields: [
+                        {
+                          label: "Logo",
+                          name: "logo",
+                          widget: "image",
+                          required: false,
+                        },
+                        { label: "Name", name: "name", widget: "string" },
+                        # TODO: Figure out how to link to pages
+                        {
+                          label: "Url",
+                          name: "url",
+                          widget: "string",
+                          required: false,
+                        },
+                      ] },
                 ],
             }
-          - {
-              label: 'Values',
-              name: 'values',
-              widget: 'object',
-              fields:
-                [
-                  { label: 'Heading', name: 'heading', widget: string },
-                  { label: 'Text', name: 'text', widget: 'text' },
-                ],
-            }
-      - file: 'site/content/contact/_index.md'
-        label: 'Contact Page'
-        name: 'contact'
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Logo, name: logo, widget: image }
@@ -86,9 +118,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: 'site/content/products/_index.md'
-        label: 'Products Page'
-        name: 'products'
+      - file: "site/content/services/_index.md"
+        label: "Services Page"
+        name: "services"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
@@ -154,46 +186,46 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
-          - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
-          - { label: Full_image, name: full_image, widget: image }
-          - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: string,
-                        },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
-            }
-      - file: 'site/content/values/_index.md'
-        label: 'Values Page'
-        name: 'values'
+      #          - {
+      #              label: Testimonials,
+      #              name: testimonials,
+      #              widget: list,
+      #              fields:
+      #                [
+      #                  { label: Quote, name: quote, widget: string },
+      #                  { label: Author, name: author, widget: string },
+      #                ],
+      #            }
+      #          - { label: Full_image, name: full_image, widget: image }
+      #          - {
+      #              label: Pricing,
+      #              name: pricing,
+      #              widget: object,
+      #              fields:
+      #                [
+      #                  { label: Heading, name: heading, widget: string },
+      #                  { label: Description, name: description, widget: string },
+      #                  {
+      #                    label: Plans,
+      #                    name: plans,
+      #                    widget: list,
+      #                    fields:
+      #                      [
+      #                        { label: Plan, name: plan, widget: string },
+      #                        { label: Price, name: price, widget: string },
+      #                        {
+      #                          label: Description,
+      #                          name: description,
+      #                          widget: string,
+      #                        },
+      #                        { label: Items, name: items, widget: list },
+      #                      ],
+      #                  },
+      #                ],
+      #            }
+      - file: "site/content/values/_index.md"
+        label: "Values Page"
+        name: "values"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }

@@ -1,74 +1,82 @@
 ---
 title: The game changers in global marketing
 subtitle: Reach the next generation of consumers
-image: /img/home-jumbotron.jpg
-blurbs:
+intros:
   - heading: Who we are
     text: Livewire exists to utilise gaming to integrate brands with digitally
       native consumers, authentically intertwining brands with culture to win
       the attention battle for brands.
   - heading: Why we exist
-    text: We are digital pioneers, fanatical about utilising deep data insights to
+    text:
+      We are digital pioneers, fanatical about utilising deep data insights to
       act as game changers for brands to authentically engage the consumers in
       the digital realm across the world.
   - heading: Why we are leaders
     text: Our gaming and traditional marketing expertise impartially leads brand
       entry and strategy in the digital realm, delivering evergreen strategies
       that convert.
+services:
+  heading: What we do
+  text:
+    Our services encompass end to end brand services, including talent engagement,
+    programmatic and digital advertising, gaming and e-sports marketing, direct
+    publisher opportunities and more to deliver integrated strategies that deliver
+    market leading results.
+  services:
+    - title: Marketing
+      icon: promotion
+      url: /services/marketing
+    - title: Addressability
+      icon: magnet
+      url: /services/addressability
+    - title: Content
+      icon: content
+      url: /services/content
 brands:
-  title: We work with
+  title: Who we work with
   logos:
     - name: Microsoft
-      image: null
-      url: null
+      logo:
+      url:
     - name: L’Oreal
-      image: null
+      logo:
     - name: Red Bull
-      image: null
-      url: null
+      logo:
+      url:
     - name: American Express
-      image: null
-      url: null
+      logo:
+      url:
     - name: Disney
-      image: null
-      url: null
+      logo:
+      url:
     - name: Universal Pictures
-      image: null
-      url: null
+      logo:
+      url:
     - name: Burberry
-      image: null
-      url: null
+      logo:
+      url:
     - name: Jaguar
-      image: null
-      url: null
+      logo:
+      url:
     - name: Denstu
-      image: null
-      url: null
+      logo:
+      url:
     - name: Publicis
-      image: null
-      url: null
+      logo:
+      url:
     - name: WPP
-      image: null
-      url: null
+      logo:
+      url:
     - name: Epic Games
-      image: null
-      url: null
+      logo:
+      url:
     - name: EA (Electronic Arts)
-      image: null
-      url: null
+      logo:
+      url:
     - name: Activision
-      image: null
-      url: null
+      logo:
+      url:
     - name: Blizzard
-      image: null
-      url: null
-blurb:
-  heading: Empty
-  text: Empty
-intro:
-  heading: Empty
-  text: Empty
-values:
-  heading: Empty
-  text: Empty
+      logo:
+      url:
 ---

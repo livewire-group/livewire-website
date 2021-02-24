@@ -7,11 +7,11 @@
 	"htmlWhitespaceSensitivity": "ignore",
 	"overrides": [
 		{
-			"files": ["package.json"],
+			"files": ["package.json", "*.yml"],
 			"options": {
 				"useTabs": false,
 				"tabWidth": 2,
-				"parser": "json"
+				"singleQuote": false
 			}
 		}
 	]
