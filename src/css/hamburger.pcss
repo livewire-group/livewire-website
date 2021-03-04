@@ -2,7 +2,6 @@
  * Hamburger
  */
 
-
 .spline,
 .cross {
 	--speed: 0.25s;
@@ -11,8 +10,8 @@
 	&,
 	&::before,
 	&::after {
-		@apply bg-gray-400;
-		content: "";
+		@apply bg-black;
+		content: '';
 		position: absolute;
 		z-index: 11;
 		left: 50%;
@@ -20,7 +19,8 @@
 		width: 1.7em;
 		height: 0.2em;
 		border-radius: 1em;
-		transition: transform var(--actual-speed) ease-in-out, opacity 0s ease-in-out;
+		transition: transform var(--actual-speed) ease-in-out,
+			opacity 0s ease-in-out;
 	}
 }
 

@@ -1,16 +1,43 @@
 {{ define "main" }}
 
-{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "overline" .Params.overline) }}
+
+<div class="">
+	<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+		<div class="text-center">
+			<h1 class="mt-1 text-5xl font-extrabold sm:text-6xl sm:tracking-tight lg:text-7xl">LIVEWIRE</h1>
+		</div>
+	</div>
+</div>
+
+<div class="bg-primary text-black">
+	<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+		<div class="text-center">
+			<h1 class="mt-1 text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">{{.Title}}</h1>
+        {{ if .Params }} <p class="max-w-xl mt-5 mx-auto text-xl"> {{.Params.subtitle}}</p> {{ end }}
+		</div>
+	</div>
+</div>
+
+{{/*{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "overline" .Params.overline) }}*/}}
 
 {{ if .Params.intros }}
-	<div class="lg:flex lg:px-4">
+	<div class="max-w-4xl mx-auto flex flex-wrap">
 		{{ range .Params.intros }}
-			<div class="flex lg:p-4">
-				{{ partial "short-text" . }}
+			<div class="lg:w-1/2">
+					<div class="p-8">
+						<h2>{{.heading}}</h2>
+						<p>{{.text}}</p>
+					</div>
 			</div>
 		{{ end }}
 	</div>
 {{ end }}
+
+<div class="bg-primary">
+	<div class="">
+
+	</div>
+</div>
 
 {{ with .Params.services }}
 <div class="bg-gray-300 text-gray-900 text-center py-12 px-4 lg:px-16">

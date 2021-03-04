@@ -5,8 +5,18 @@ module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		extend: {
+			colors: {
+				primary: '#00fcb5',
+			},
 			fontFamily: {
-				sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+				sans: ['Inter', ...defaultTheme.fontFamily.sans],
+			},
+			typography: {
+				// DEFAULT: {
+				// 	css: {
+				// 		color: 'w'
+				// 	}
+				// }
 			},
 		},
 	},
