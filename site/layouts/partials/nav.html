@@ -1,4 +1,6 @@
 <div class="mx-auto lg:max-w-7xl w-full">
+	<p class="not-sr-only lg:hidden text-center bg-primary text-black pt-4">{{ partial "livewire-logo" }}</p>
+
 	<nav id="nav-menu" class="
 			font-display flex
 			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
@@ -7,7 +9,7 @@
 	">
 
 		{{ if not .Page.IsHome }}
-			<p class="text-xl bg-primary text-black -ml-2 pl-2 pt-4 lg:bg-transparent lg:text-white lg:p-0 lg:mr-4">
+			<p class="text-xl bg-primary text-black -ml-2 pl-2 pt-4 md:ml-0 lg:bg-transparent lg:text-white lg:p-0 lg:mr-4">
 				<a href="/" class="no-underline hover:underline">
 					{{ partial "livewire-logo" }}
 				</a>

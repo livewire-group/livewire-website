@@ -2,10 +2,29 @@ baseurl = "/"
 languageCode = "en-AU"
 languageLang = "en"
 title = "Livewire Group"
-
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-
 sectionPagesMenu = "main"
+
+[params]
+  foo = "bar"
+
+[[params.services]]
+	title = "Marketing"
+	url = "/services/marketing"
+	icon = "promotion"
+
+[[params.services]]
+	title = "Addressability"
+	url = "/services/addressability"
+	icon = "magnet"
+
+[[params.services]]
+	title = "Content"
+	url = "/services/content"
+	icon = "content"
+
+#heading = "What we do"
+#text = "Our services encompass end to end brand services, including talent engagement, programmatic and digital advertising, gaming and e-sports marketing, direct publisher opportunities and more to deliver integrated strategies that deliver market leading results."

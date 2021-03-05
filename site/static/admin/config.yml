@@ -50,32 +50,32 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-          - {
-              label: "Services",
-              name: "services",
-              widget: "object",
-              fields:
-                [
-                  { label: "Heading", name: "heading", widget: "string" },
-                  { label: "Text", name: "text", widget: "text" },
-                  {
-                    label: "Services",
-                    name: "services",
-                    widget: "list",
-                    fields:
-                      [
-                        { label: "Title", name: "title", widget: "string" },
-                        { label: "Url", name: "url", widget: "string" },
-                        {
-                          label: "Icon",
-                          name: "icon",
-                          widget: "select",
-                          options: ["promotion", "magnet", "content"],
-                        },
-                      ],
-                  },
-                ],
-            }
+          #          - {
+          #              label: "Services",
+          #              name: "services",
+          #              widget: "object",
+          #              fields:
+          #                [
+          #                  { label: "Heading", name: "heading", widget: "string" },
+          #                  { label: "Text", name: "text", widget: "text" },
+          #                  {
+          #                    label: "Services",
+          #                    name: "services",
+          #                    widget: "list",
+          #                    fields:
+          #                      [
+          #                        { label: "Title", name: "title", widget: "string" },
+          #                        { label: "Url", name: "url", widget: "string" },
+          #                        {
+          #                          label: "Icon",
+          #                          name: "icon",
+          #                          widget: "select",
+          #                          options: ["promotion", "magnet", "content"],
+          #                        },
+          #                      ],
+          #                  },
+          #                ],
+          #            }
           - {
               label: "Brands",
               name: "brands",

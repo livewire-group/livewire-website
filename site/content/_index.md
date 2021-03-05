@@ -15,23 +15,7 @@ intros:
     text: Our gaming and traditional marketing expertise impartially leads brand
       entry and strategy in the digital realm, delivering evergreen strategies
       that convert.
-services:
-  heading: What we do
-  text:
-    Our services encompass end to end brand services, including talent engagement,
-    programmatic and digital advertising, gaming and e-sports marketing, direct
-    publisher opportunities and more to deliver integrated strategies that deliver
-    market leading results.
-  services:
-    - title: Marketing
-      icon: promotion
-      url: /services/marketing
-    - title: Addressability
-      icon: magnet
-      url: /services/addressability
-    - title: Content
-      icon: content
-      url: /services/content
+
 brands:
   title: Who we work with
   logos:

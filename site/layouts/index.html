@@ -35,29 +35,15 @@
 	</div>
 {{ end }}
 
-{{ with .Params.services }}
 <div class="bg-primary text-black text-center py-12 px-4 lg:px-16">
 	<div class="max-w-4xl mx-auto">
-		<h2 class="text-4xl mb-8">{{ .heading }}</h2>
-		{{ if .text }}<p class="my-8 text-lg leading-relaxed">{{ .text }}</p>{{ end }}
-
-		{{ if .services }}
-			<ul class="flex flex-wrap justify-center mt-8 mb-4">
-				{{ range .services }}
-					<li class="flex-grow text-4xl mx-8 p-2">
-						<a href="{{ .url }}" class="block font-display no-underline">
-							<svg class="w-20 mx-auto fill-current" viewBox="0 0 32 32">
-								<use xlink:href="/img/sprites.svg#{{ .icon }}" />
-							</svg>
-							<div class="mt-4">{{ .title }}</div>
-						</a>
-					</li>
-				{{ end }}
-			</ul>
-		{{ end }}
+		<h2 class="text-4xl mb-8">What we do</h2>
+		<p class="my-8 text-lg leading-relaxed">
+			Our services encompass end to end brand services, including talent engagement, programmatic and digital advertising, gaming and e-sports marketing, direct publisher opportunities and more to deliver integrated strategies that deliver market leading results.
+		</p>
+		{{ partial "services-list-block" (where .Site.RegularPages "Section" "==" "services") }}
 	</div>
 </div>
-{{ end }}
 
 {{ partial "logo-cloud" .Params.brands }}
 

@@ -1,0 +1,7 @@
+<ul class="flex flex-wrap justify-center mt-8 mb-4">
+	{{ range . }}
+		<li class="flex-grow text-2xl lg:text-4xl mx-8 my-4 p-2">
+			{{ partial "service-list-item" . }}
+		</li>
+	{{ end }}
+</ul>
