@@ -2,6 +2,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import 'font-cy.pcss';
+
+@import 'livewire-logo.pcss';
 @import 'hamburger.pcss';
 
 @layer base {
@@ -10,7 +13,7 @@
 	}
 
 	body {
-		@apply font-sans;
+		@apply font-body;
 		@apply bg-black;
 		@apply text-white;
 		@apply text-base;
@@ -18,18 +21,46 @@
 	}
 
 	h1 {
+		@apply font-display;
+		@apply font-semibold;
 		@apply text-2xl;
 	}
 
 	h2 {
+		@apply font-display;
+		@apply font-semibold;
 		@apply text-xl;
 	}
 
 	h3 {
+		@apply font-display;
+		@apply font-semibold;
 		@apply text-lg;
+	}
+
+	h4,
+	h5,
+	h6 {
+		@apply font-display;
+		@apply font-semibold;
 	}
 
 	a {
 		@apply underline;
 	}
+}
+
+@layer utilities {
+	.small-caps {
+		font-variant-caps: small-caps;
+	}
+
+	.all-small-caps {
+		font-variant-caps: all-small-caps;
+	}
+}
+
+.home\:intros > div:nth-child(2n) {
+	@apply transform;
+	@apply md:translate-y-2/4;
 }

@@ -1,15 +1,18 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
 	purge: [],
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
+		fontFamily: {
+			display: ['Cy', 'Inter', ...defaultTheme.fontFamily.sans],
+			body: ['Inter', ...defaultTheme.fontFamily.sans],
+		},
 		extend: {
 			colors: {
 				primary: '#00fcb5',
-			},
-			fontFamily: {
-				sans: ['Inter', ...defaultTheme.fontFamily.sans],
+				gray: colors.trueGray,
 			},
 			typography: {
 				// DEFAULT: {

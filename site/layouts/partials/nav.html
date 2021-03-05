@@ -1,31 +1,35 @@
-<nav class="">
+<div class="mx-auto lg:max-w-7xl w-full">
+	<nav id="nav-menu" class="
+			font-display flex
+			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
+			lg:relative lg:left-auto lg:h-auto lg:w-auto lg:text-white lg:flex-row lg:items-top lg:text-lg lg:bg-none lg:px-2 lg:py-4
+			{{ if .Page.IsHome }}lg:justify-center{{ else }}lg:justify-start{{end}}
+	">
 
-	<!-- Logo -->
-{{/*	<a href="/" class="no-underline">*/}}
-{{/*		<img src="/img/logo.svg" alt="Livewire logo" class=""/>*/}}
-{{/*		<span class="text-4xl no-underline text-white">Livewire</span>*/}}
-{{/*	</a>*/}}
+		{{ if not .Page.IsHome }}
+			<p class="text-xl bg-primary text-black -ml-2 pl-2 pt-4 lg:bg-transparent lg:text-white lg:p-0 lg:mr-4">
+				<a href="/" class="no-underline hover:underline">
+					{{ partial "livewire-logo" }}
+				</a>
+			</p>
+		{{ end }}
 
-	<div class="p-8">
-		<p class="text-base font-semibold tracking-wide uppercase">
-			<a href="/" class="no-underline hover:underline text-gray-500">Livewire</a>
-		</p>
-		<a class="text-sm text-gray-400" href="mailto:hello@livewire.group">hello@livewire.group</a>
-	</div>
+		<!-- Primary Nav -->
+		<ul class="lg:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+					<a class="
+						block no-underline my-8 lg:my-0 lg:mx-2 border-b-2 border-transparent
+						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}border-primary group-hover:border-white{{ end }}
+						hover:border-primary
+					" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+			{{ end }}
+		</ul>
+	</nav>
 
 	<!-- Menu Button -->
-	<button id="nav-menu-button" class="fixed bottom-6 right-6 h-16 w-16 z-20 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger">
+	<button id="nav-menu-button" class="fixed bottom-6 right-6 h-16 w-16 z-20 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger lg:hidden">
 		<span class="cross"></span>
 		<span class="spline"></span>
 	</button>
-
-	<!-- Primary Nav -->
-	<ul id="nav-menu-list" class="fixed top-0 left-full h-full w-full z-10 flex flex-col items-center justify-center bg-black text-white text-2xl transition-transform transform -translate-x-0"
-	    role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
-		{{ if not (eq .File.Dir "/") }}<li><a href="/" class="block no-underline my-2" role="menuitem">Home</a></li>{{ end }}
-		<li><a href="/about" class="block no-underline my-2" role="menuitem">Who We Are</a></li>
-		<li><a href="/services" class="block no-underline my-2" role="menuitem">What We Do</a></li>
-		<li><a href="/news" class="block no-underline my-2" role="menuitem">News</a></li>
-		<li><a href="/contact" class="block no-underline my-2" role="menuitem">Contact</a></li>
-	</ul>
-</nav>
+</div>

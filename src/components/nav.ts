@@ -3,7 +3,7 @@
  */
 
 const BUTTON_ID = 'nav-menu-button';
-const MENU_ID = 'nav-menu-list';
+const MENU_ID = 'nav-menu';
 
 const OPEN_BUTTON = 'is-open';
 const OPEN_MENU = '-translate-x-full';
