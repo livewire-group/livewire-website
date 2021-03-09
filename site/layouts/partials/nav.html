@@ -1,20 +1,25 @@
-<div class="mx-auto lg:max-w-7xl w-full">
-	<p class="not-sr-only lg:hidden text-center bg-primary text-black pt-4">{{ partial "livewire-logo" }}</p>
+<div class="mx-auto lg:max-w-7xl w-full {{ if .Page.IsHome }}lg:absolute lg:left-0 lg:right-0{{end}}">
+	{{ if not .Page.IsHome }}
+		<p class="not-sr-only lg:hidden text-center bg-primary text-black pt-4">{{ partial "livewire-logo" }}</p>
+	{{ end }}
 
 	<nav id="nav-menu" class="
-			font-display flex
+			flex
 			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
-			lg:relative lg:left-auto lg:h-auto lg:w-auto lg:text-white lg:flex-row lg:items-top lg:text-lg lg:bg-none lg:px-2 lg:py-4
+			lg:relative lg:left-auto lg:h-auto lg:w-auto lg:text-white lg:flex-row lg:items-center lg:text-lg lg:bg-transparent lg:px-2 lg:py-1.5
 			{{ if .Page.IsHome }}lg:justify-center{{ else }}lg:justify-start{{end}}
 	">
 
 		{{ if not .Page.IsHome }}
-			<p class="text-xl bg-primary text-black -ml-2 pl-2 pt-4 md:ml-0 lg:bg-transparent lg:text-white lg:p-0 lg:mr-4">
-				<a href="/" class="no-underline hover:underline">
-					{{ partial "livewire-logo" }}
+			<div class="flex bg-primary -ml-4 md:ml-0">
+				<a href="/" class="no-underline hover:underline inline-flex">
+					<span class="inline-flex md:hidden">{{ partial "livewire-logo" }}</span>
+					<span class="hidden md:inline-flex transform translate-y-0.5">
+						{{ partial "livewire-logo" (dict "invert" true) }}
+					</span>
 				</a>
-			</p>
-		{{ end }}
+			</div>
+    {{end}}
 
 		<!-- Primary Nav -->
 		<ul class="lg:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">

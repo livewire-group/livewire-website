@@ -1,4 +1,14 @@
-<div class="my-6 p-8 bg-gray-800">
-  <h2 class="mb-4 font-bold">{{.heading}}</h2>
-  <p class="">{{.text}}</p>
+{{ $classes := "bg-white text-black" }}
+{{ $reverse := cond (modBool .index 2) false true }}
+
+{{ if .dark }}
+		{{ $classes = "bg-black text-white" }}
+{{ end }}
+
+<div class="{{ $classes }} py-24">
+	<div class="max-w-7xl mx-auto px-8">
+		<div class="max-w-3xl text-xl md:text-2xl lg:text-3xl {{ cond $reverse "text-right ml-auto" ""}}">
+			<p>{{ .text }}</p>
+		</div>
+	</div>
 </div>

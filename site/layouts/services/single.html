@@ -2,5 +2,22 @@
 
 {{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ .Content }}
+{{ range $index, $element := .Params.sections }}
+  {{ partial "short-text" (merge $element (dict "index" $index)) }}
+{{ end }}
+
+{{ with .Params.services }}
+<div class="bg-white text-black text-xl py-24">
+  <div class="max-w-4xl mx-auto">
+    {{ if .text }}<h2 class="mb-4">{{ .text }}</h2>{{ end }}
+    {{ if .list }}
+      {{ range .list }}
+        <li>{{ . }}</li>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{/*{{ .Content }}*/}}
 {{ end }}

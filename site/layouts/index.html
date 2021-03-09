@@ -1,26 +1,35 @@
 {{ define "main" }}
 
-
-<div class="">
-	<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-		<div class="text-center">
-			<h1 class="mt-1 text-5xl sm:text-6xl lg:text-7xl">
-				{{ partial "livewire-logo" }}
-			</h1>
-		</div>
-	</div>
+<div class="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5">
+	<h1 class="sr-only">
+		Livewire Group
+	</h1>
+	<video preload playsinline autoplay loop muted class="transform scale-150 md:scale-125 lg:scale-100">
+		<source src="https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4"/>
+		<img src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png" alt="Livewire"/>
+	</video>
 </div>
 
-<div class="bg-primary text-black font-display">
-	<div class="max-w-7xl mx-auto py-24 lg:py-36 px-4 sm:px-6 lg:px-8">
+<div
+	class="bg-white text-black relative"
+	style="
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-image:
+			url('https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286400/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_3_BlackWhite_riuxss.png');
+		background-size: 20vw;
+	"
+>
+	<div class="max-w-7xl mx-auto py-24 md:py-36 px-4 sm:px-6 lg:px-8">
 		<div class="text-center">
-			<h1 class="mt-1 text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">{{.Title}}</h1>
-        {{ if .Params }} <p class="max-w-xl mt-5 mx-auto text-2xl lg:text-3xl"> {{.Params.subtitle}}</p> {{ end }}
+			<h1 class="mt-1 font-display text-3xl md:text-4xl lg:text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">{{.Title}}</h1>
+			{{ if .Params.subtitle }} <p class="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl"> {{.Params.subtitle}}</p> {{ end }}
 		</div>
 	</div>
+	<img class="not-sr-only absolute right-0 bottom-0 md:bottom-7 w-1/4 md:w-40 lg:w-60 transform translate-y-1/2 rotate-90" src="https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286412/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_6_BlackWhite_irv8xa.png" />
 </div>
 
-{{/*{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "overline" .Params.overline) }}*/}}
+
 
 {{ if .Params.intros }}
 	<div class="max-w-4xl mx-auto py-8 md:py-12 lg:py-24 flex flex-wrap home:intros">

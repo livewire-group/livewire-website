@@ -1,22 +1,25 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+	{{ partial "hero-section" (dict "imageUrl" .Params.image "title" "Contact Us") }}
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+
+<div class="bg-white text-black">
+	<div class="max-w-4xl mx-auto">
 
 		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+		<div class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
+{{/*			style="*/}}
+{{/*				background-image: url('https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615286394/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_2_BlackWhite_dsubqy.png');*/}}
+{{/*				background-size: 20%;*/}}
+{{/*				background-repeat: no-repeat;*/}}
+{{/*				background-position: top right;*/}}
+{{/*			"*/}}
+		>
+			<div class="relative max-w-xl mx-auto">
+				{{ partial "contact-form" . }}
+			</div>
 		</div>
-
-		{{ partial "contact-form" . }}
 
 	</div>
 </div>

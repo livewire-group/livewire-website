@@ -6,13 +6,20 @@ module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		fontFamily: {
-			display: ['Cy', 'Inter', ...defaultTheme.fontFamily.sans],
-			body: ['Inter', ...defaultTheme.fontFamily.sans],
+			display: [
+				'Cy',
+				'"Avenir Medium"',
+				'Avenir',
+				...defaultTheme.fontFamily.sans,
+			],
+			headline: ['"Avenir Medium"', 'Avenir', ...defaultTheme.fontFamily.sans],
+			body: ['"Avenir Book"', 'Avenir', ...defaultTheme.fontFamily.sans],
 		},
 		extend: {
 			colors: {
 				primary: '#00fcb5',
 				gray: colors.trueGray,
+				green: colors.emerald,
 			},
 			typography: {
 				// DEFAULT: {

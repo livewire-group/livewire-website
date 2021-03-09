@@ -1,3 +1,7 @@
-<span class="livewire-logo">
-	<span class="small-caps">li</span>ve<span class="small-caps">wi</span>re
+<span class="inline-block w-32">
+	{{ $logo := "logo-black-mint.png" }}
+	{{ if .invert }}
+		{{ $logo = "logo-white-black.png" }}
+	{{ end }}
+	<img class="" src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615285680/vi/logo/{{ $logo }}" alt="Livewire" />
 </span>
