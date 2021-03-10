@@ -1,5 +1,5 @@
 ---
-title: The game changers in global marketing
+title: A Gametech, Entertainment and Marketing company
 subtitle: Reach the next generation of consumers
 image: /img/home-jumbotron.jpg
 blurbs:
@@ -8,7 +8,8 @@ blurbs:
       native consumers, authentically intertwining brands with culture to win
       the attention battle for brands.
   - heading: Why we exist
-    text: We are digital pioneers, fanatical about utilising deep data insights to
+    text:
+      We are digital pioneers, fanatical about utilising deep data insights to
       act as game changers for brands to authentically engage the consumers in
       the digital realm across the world.
   - heading: Why we are leaders

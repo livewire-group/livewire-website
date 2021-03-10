@@ -3,10 +3,9 @@
   {{ partial "head" . }}
   <body class="flex flex-col h-screen">
     {{ block "header" . }}
-      <div class="p-8">
-        <p class="text-base font-semibold text-gray-500 tracking-wide uppercase">Livewire</p>
-        <a class="text-sm text-green-200" href="mailto:hello@livewire.group">hello@livewire.group</a>
-      </div>
+      <p class="p-8 absolute z-10 text-center w-full">
+        <a class="text-sm text-green-200 bg-black" href="mailto:hello@livewire.group">hello@livewire.group</a>
+      </p>
 {{/*      {{ partial "nav" . }}*/}}
     {{end}}
 

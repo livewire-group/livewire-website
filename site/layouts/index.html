@@ -1,36 +1,46 @@
 {{ define "main" }}
 
+<div class="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5">
+	<h1 class="sr-only">
+		Livewire Group
+	</h1>
+		<video preload playsinline autoplay loop muted class="transform scale-150 md:scale-125 lg:scale-100">
+			<source src="https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4"/>
+			<img src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png" alt="Livewire"/>
+		</video>
+</div>
+
 {{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "overline" .Params.overline) }}
 
-		<div class="px-8 text-center">
-			<p class="mb-4 text-base font-semibold text-gray-500 tracking-wide uppercase">Launching</p>
-			<div class="text-lg text-gray-500">
-				<span id="lcdn-d" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">d</span>
-				<span id="lcdn-h" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">h</span>
-				<span id="lcdn-m" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">m</span>
-				<span id="lcdn-s" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">s</span>
-			</div>
-			<script>
-				const launch = new Date('2021-03-15T09:00:00.000+11:00');
-				setInterval(() => {
-					const diff = launch.valueOf() - new Date();
-					const secondsM = 1000;
-					const minutesM = secondsM * 60;
-					const hoursM = minutesM * 60;
-					const daysM = hoursM * 24;
+<div class="px-8 py-24 text-center">
+	<p class="mb-4 text-base font-semibold text-gray-500 tracking-wide uppercase">Launching</p>
+	<div class="text-lg text-gray-500">
+		<span id="lcdn-d" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">d</span>
+		<span id="lcdn-h" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">h</span>
+		<span id="lcdn-m" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">m</span>
+		<span id="lcdn-s" class="text-4xl text-green-200 font-mono font-semibold "></span><span class="ml-0.5 mr-2">s</span>
+	</div>
+	<script>
+		const launch = new Date('2021-03-16T09:00:00.000+11:00');
+		setInterval(() => {
+			const diff = launch.valueOf() - new Date();
+			const secondsM = 1000;
+			const minutesM = secondsM * 60;
+			const hoursM = minutesM * 60;
+			const daysM = hoursM * 24;
 
-					const days = Math.floor(diff / daysM);
-					const hours = Math.floor((diff % daysM) / hoursM);
-					const minutes = Math.floor((diff % hoursM) / minutesM);
-					const seconds = Math.floor((diff % minutesM) / secondsM);
+			const days = Math.floor(diff / daysM);
+			const hours = Math.floor((diff % daysM) / hoursM);
+			const minutes = Math.floor((diff % hoursM) / minutesM);
+			const seconds = Math.floor((diff % minutesM) / secondsM);
 
-					document.getElementById('lcdn-d').innerText = days.toString().padStart(2, '0');
-					document.getElementById('lcdn-h').innerText = hours.toString().padStart(2, '0');
-					document.getElementById('lcdn-m').innerText = minutes.toString().padStart(2, '0');
-					document.getElementById('lcdn-s').innerText = seconds.toString().padStart(2, '0');
-				}, 1000);
-			</script>
-		</div>
+			document.getElementById('lcdn-d').innerText = days.toString().padStart(2, '0');
+			document.getElementById('lcdn-h').innerText = hours.toString().padStart(2, '0');
+			document.getElementById('lcdn-m').innerText = minutes.toString().padStart(2, '0');
+			document.getElementById('lcdn-s').innerText = seconds.toString().padStart(2, '0');
+		}, 1000);
+	</script>
+</div>
 
 {{/*{{ if .Params.blurbs }}*/}}
 {{/*	<div class="">*/}}
