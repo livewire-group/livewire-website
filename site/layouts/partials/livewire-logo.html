@@ -1,7 +1,5 @@
 <span class="inline-block w-32">
-	{{ $logo := "logo-black-mint.png" }}
-	{{ if .invert }}
-		{{ $logo = "logo-white-black.png" }}
-	{{ end }}
-	<img class="" src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615285680/vi/logo/{{ $logo }}" alt="Livewire" />
+	<svg class="fill-current" viewBox="0 0 480 170">
+		<use xlink:href="/img/logo.svg#logo"></use>
+	</svg>
 </span>

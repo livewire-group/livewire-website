@@ -1,22 +1,19 @@
 <div class="mx-auto lg:max-w-7xl w-full {{ if .Page.IsHome }}lg:absolute lg:left-0 lg:right-0{{end}}">
 	{{ if not .Page.IsHome }}
-		<p class="not-sr-only lg:hidden text-center bg-primary text-black pt-4">{{ partial "livewire-logo" }}</p>
+		<p class="absolute w-full z-10 not-sr-only lg:hidden text-center text-black pt-4">{{ partial "livewire-logo" }}</p>
 	{{ end }}
 
 	<nav id="nav-menu" class="
 			flex
 			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
 			lg:relative lg:left-auto lg:h-auto lg:w-auto lg:text-white lg:flex-row lg:items-center lg:text-lg lg:bg-transparent lg:px-2 lg:py-1.5
-			{{ if .Page.IsHome }}lg:justify-center{{ else }}lg:justify-start{{end}}
+			{{ if .Page.IsHome }}lg:justify-center lg:top-8{{ else }}lg:justify-start{{end}}
 	">
 
 		{{ if not .Page.IsHome }}
-			<div class="flex bg-primary -ml-4 md:ml-0">
+			<div class="flex bg-primary text-black md:bg-transparent md:text-white text-xl md:text-base -ml-4 md:ml-0">
 				<a href="/" class="no-underline hover:underline inline-flex">
-					<span class="inline-flex md:hidden">{{ partial "livewire-logo" }}</span>
-					<span class="hidden md:inline-flex transform translate-y-0.5">
-						{{ partial "livewire-logo" (dict "invert" true) }}
-					</span>
+					<span class="inline-flex">{{ partial "livewire-logo" }}</span>
 				</a>
 			</div>
     {{end}}

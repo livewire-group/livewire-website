@@ -3,7 +3,7 @@
 {{ partial "hero-section" (dict "imageUrl" "/img/blog-index.jpg" "title" .Title "overline" (.Date.Format "Monday, Jan 2, 2006")) }}
 
 <div class="bg-white">
-	<div class="max-w-prose mx-auto py-12">
+	<div class="max-w-prose mx-auto py-12 px-8 md:px-0">
 		<div class="prose">
 			<p>{{ .Description }}</p>
 			{{ if .Params.image }}
