@@ -2,7 +2,13 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	purge: ['./site/layouts/**/*.html'],
+	purge: {
+		enabled: process.env.NODE_ENV === 'production',
+		content: ['./site/layouts/**/*.html'],
+		options: {
+			safelist: ['-translate-x-full', 'translate-x-5'],
+		},
+	},
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		colors: {
@@ -11,6 +17,7 @@ module.exports = {
 			green: colors.emerald,
 			black: colors.black,
 			white: colors.white,
+			transparent: 'transparent',
 		},
 		fontFamily: {
 			display: [
@@ -50,9 +57,7 @@ module.exports = {
 			},
 		},
 	},
-	corePlugins: {
-		float: false,
-	},
+	corePlugins: {},
 	variants: {
 		extend: {},
 	},
