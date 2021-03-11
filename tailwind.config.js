@@ -5,6 +5,13 @@ module.exports = {
 	purge: ['./site/layouts/**/*.html'],
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
+		colors: {
+			primary: '#00fcb5',
+			gray: colors.trueGray,
+			green: colors.emerald,
+			black: colors.black,
+			white: colors.white,
+		},
 		fontFamily: {
 			display: [
 				'Cy',
@@ -27,12 +34,13 @@ module.exports = {
 				...defaultTheme.fontFamily.sans,
 			],
 		},
+		screens: {
+			sm: '640px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+		},
 		extend: {
-			colors: {
-				primary: '#00fcb5',
-				gray: colors.trueGray,
-				green: colors.emerald,
-			},
 			typography: {
 				// DEFAULT: {
 				// 	css: {
@@ -41,6 +49,9 @@ module.exports = {
 				// }
 			},
 		},
+	},
+	corePlugins: {
+		float: false,
 	},
 	variants: {
 		extend: {},
