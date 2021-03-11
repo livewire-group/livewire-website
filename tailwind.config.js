@@ -12,8 +12,20 @@ module.exports = {
 				'Avenir',
 				...defaultTheme.fontFamily.sans,
 			],
-			headline: ['"Avenir Medium"', 'Avenir', ...defaultTheme.fontFamily.sans],
-			body: ['"Avenir Book"', 'Avenir', ...defaultTheme.fontFamily.sans],
+			headline: [
+				'"Avenir Medium"',
+				'"Avenir Next"',
+				'"Avenir Next LT Pro"',
+				'Avenir',
+				...defaultTheme.fontFamily.sans,
+			],
+			body: [
+				'"Avenir Book"',
+				'"Avenir Next"',
+				'"Avenir Next LT Pro"',
+				'Avenir',
+				...defaultTheme.fontFamily.sans,
+			],
 		},
 		extend: {
 			colors: {
