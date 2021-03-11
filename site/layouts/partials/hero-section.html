@@ -5,8 +5,9 @@
 			<div class="text-center">
 				{{ if .overline }} <p class="max-w-xl mt-5 mx-auto uppercase"> {{.overline}}</p> {{ end }}
 				<h1 class="mt-1 font-display text-3xl md:text-4xl text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">
-					<span class="bg-primary">{{.title}}</span>
+					{{.title}}
 				</h1>
+				{{ if .underline }} <p class="max-w-xl mt-5 mx-auto uppercase"> {{.underline}}</p> {{ end }}
 				{{ if .subtitle }} <p class="max-w-xl mt-5 mx-auto text-xl"> {{.subtitle}}</p> {{ end }}
 			</div>
 		</div>

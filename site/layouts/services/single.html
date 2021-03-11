@@ -20,4 +20,12 @@
 {{ end }}
 
 {{/*{{ .Content }}*/}}
+
+<div class="bg-primary text-black text-center py-12 px-4 lg:px-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-4xl mb-8">What we do</h2>
+    {{ partial "services-list-block" (where .Site.RegularPages "Section" "==" "services") }}
+  </div>
+</div>
 {{ end }}
+
