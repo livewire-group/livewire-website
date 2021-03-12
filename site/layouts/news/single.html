@@ -2,16 +2,18 @@
 
 {{ partial "hero-section" (dict "imageUrl" "/img/blog-index.jpg" "title" "News" "underline" (.Date.Format "Monday, Jan 2, 2006")) }}
 
-<div class="bg-white">
+<div class="bg-white text-black">
 	<div class="max-w-prose mx-auto py-12 px-8 md:px-0">
-		<div class="prose">
-			<h1>{{ .Title }}</h1>
-			<p>{{ .Description }}</p>
-			{{ if .Params.image }}
-				<img src="{{ .Params.image }}" alt="{{ .Title }}" />
-			{{ end }}
-			{{ .Content }}
-		</div>
+			<h1 class="text-3xl mb-5">{{ .Title }}</h1>
+			<div class="prose-lg mb-5">
+					{{ .Description | markdownify }}
+			</div>
+{{/*			{{ if .Params.image }}*/}}
+{{/*				<img src="{{ .Params.image }}" alt="{{ .Title }}" />*/}}
+{{/*			{{ end }}*/}}
+			<div class="prose">
+				{{ .Content }}
+			</div>
 	</div>
 </div>
 

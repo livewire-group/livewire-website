@@ -16,19 +16,48 @@ publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
+    label: "News Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Intro Blurb", name: "description", widget: "text" }
-      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Intro Blurb", name: "description", widget: "markdown" }
+      #      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+  #  - name: "services"
+  #    label: "Services"
+  #    folder: "site/content/services"
+  #    create: false
+  #    fields:
+  #      - { label: "Title", name: "title", widget: "string" }
+  #      - { label: "Link Title", name: "linktitle", widget: "string" }
+  #      - {
+  #          label: "Icon",
+  #          name: "icon",
+  #          widget: "select",
+  #          options: ["promotion", "magnet", "content"],
+  #        }
+  #      - {
+  #          label: "Sections",
+  #          name: "sections",
+  #          widget: "list",
+  #          fields: [{ label: "Text", name: "text", widget: "text" }],
+  #        }
+  #      - {
+  #          label: "Services",
+  #          name: "services",
+  #          widget: "list",
+  #          fields:
+  #            [
+  #              { label: "Text", name: "text", widget: "text" },
+  #              { label: "List", name: "list", widget: "list" },
+  #            ],
+  #        }
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/_index.md"
+      - file: "./site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -118,34 +147,6 @@ collections: # A list of collections the CMS should be able to edit
 #              - label: Text
 #                name: text
 #                widget: text
-#      - file: "site/content/services/_index.md"
-#        label: "Services Page"
-#        name: "services"
-#        fields:
-#          - { label: Title, name: title, widget: string }
-#          - { label: Image, name: image, widget: image }
-#          - { label: Heading, name: heading, widget: string }
-#          - { label: Description, name: description, widget: string }
-#          - {
-#              label: Intro,
-#              name: intro,
-#              widget: object,
-#              fields:
-#                [
-#                  { label: Heading, name: heading, widget: string },
-#                  { label: Description, name: description, widget: text },
-#                  {
-#                    label: Blurbs,
-#                    name: blurbs,
-#                    widget: list,
-#                    fields:
-#                      [
-#                        { label: Image, name: image, widget: image },
-#                        { label: Text, name: text, widget: text },
-#                      ],
-#                  },
-#                ],
-#            }
 #          - {
 #              label: Main,
 #              name: main,
