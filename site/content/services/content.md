@@ -1,6 +1,6 @@
 ---
-title: 'Evergreen Gaming Content'
-linktitle: 'Content'
+title: Evergreen Gaming Content
+linktitle: Content
 icon: 'content'
 
 sections:

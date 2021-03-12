@@ -10,7 +10,9 @@ const HeroSection = ({ overline, title, underline, subtitle }) => {
 							<p className="max-w-xl mt-5 mx-auto uppercase">{overline}</p>
 						)}
 						<h1 className="mt-1 font-display text-3xl md:text-4xl text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">
-							{title}
+							<span className="inline-block bg-primary bg-opacity-75 py-1.5 px-3">
+								{title}
+							</span>
 						</h1>
 						{underline && (
 							<p className="max-w-xl mt-5 mx-auto uppercase">{underline}</p>

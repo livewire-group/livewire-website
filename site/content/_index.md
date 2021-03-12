@@ -6,14 +6,9 @@ heroFallback: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_au
 
 intros:
   - heading: Who we are
-    text: Livewire exists to utilise gaming to integrate brands with digitally
-      native consumers, authentically intertwining brands with culture to win
-      the attention battle for brands.
+    text: We are digital pioneers, fanatical about using data insights to help brands engage with consumers through gaming.
   - heading: Why we exist
-    text:
-      We are digital pioneers, fanatical about utilising deep data insights to
-      act as game changers for brands to authentically engage the consumers in
-      the digital realm across the world.
+    text: We exist as a trusted partner to brands, helping navigate the evolving landscape of gaming marketing and content production.
   - heading: Why we are leaders
     text: Our gaming and traditional marketing expertise impartially leads brand
       entry and strategy in the digital realm, delivering evergreen strategies

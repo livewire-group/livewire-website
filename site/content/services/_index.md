@@ -7,4 +7,8 @@ menu:
     weight: 1
 ---
 
-Our services encompass end to end brand services, including talent engagement, programmatic and digital advertising, gaming and esports marketing, direct publisher opportunities and more to deliver integrated strategies that deliver market leading results
+Livewire connects brands to a generation of gamers utilising 3 key pillars.
+
+We are focused on delivering integrated gaming marketing strategies and campaigns by leveraging the gaming ecosystem.
+
+This includes talent engagement, programmatic and digital advertising, gaming and esports marketing, direct publisher opportunities and more to deliver market leading results.

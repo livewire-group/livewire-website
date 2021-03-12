@@ -6,3 +6,5 @@ menu:
   footer:
     weight: 30
 ---
+
+Content

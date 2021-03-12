@@ -7,8 +7,8 @@
 
 <div class="{{ $classes }} py-24">
 	<div class="max-w-7xl mx-auto px-8">
-		<div class="max-w-3xl text-xl md:text-2xl lg:text-3xl {{ cond $reverse "text-right ml-auto" ""}}">
-			<p>{{ .text }}</p>
+		<div class="max-w-3xl text-xl md:text-2xl lg:text-3xl prose-xl md:prose-2xl lg:prose-3 {{ cond $reverse "text-right ml-auto" ""}}">
+			{{ .text | markdownify }}
 		</div>
 	</div>
 </div>
