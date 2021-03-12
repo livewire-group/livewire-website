@@ -21,8 +21,7 @@
 		<!-- Primary Nav -->
 		<ul class="md:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
 			{{ $currentPage := . }}
-			{{ $menu := partial "reverse-slice.html" .Site.Menus.main }}
-			{{ range $menu }}
+			{{ range .Site.Menus.main }}
 					<a class="
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 border-transparent
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}border-primary group-hover:border-white{{ end }}
