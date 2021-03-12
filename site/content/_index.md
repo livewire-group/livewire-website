@@ -1,6 +1,9 @@
 ---
 title: The game changers in global marketing
 subtitle: Reach the next generation of consumers
+heroVideo: https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4
+heroFallback: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png
+
 intros:
   - heading: Who we are
     text: Livewire exists to utilise gaming to integrate brands with digitally

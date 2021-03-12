@@ -68,7 +68,18 @@ collections: # A list of collections the CMS should be able to edit
               widget: "string",
               required: false,
             }
-          - { label: "Image", name: "image", widget: "image", required: false }
+          - {
+              label: "Hero Video",
+              name: "heroVideo",
+              widget: "image",
+              required: false,
+            }
+          - {
+              label: "Hero Fallback",
+              name: "heroFallback",
+              widget: "image",
+              required: false,
+            }
           - {
               label: "Intros",
               name: "intros",
@@ -112,22 +123,27 @@ collections: # A list of collections the CMS should be able to edit
               fields:
                 [
                   { label: "Title", name: "title", widget: "string" },
-                  { label: "Logos", name: "logos", widget: "list", fields: [
+                  {
+                    label: "Logos",
+                    name: "logos",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Name", name: "name", widget: "string" },
                         {
                           label: "Logo",
                           name: "logo",
                           widget: "image",
                           required: false,
                         },
-                        { label: "Name", name: "name", widget: "string" },
-                        # TODO: Figure out how to link to pages
                         {
                           label: "Url",
                           name: "url",
                           widget: "string",
                           required: false,
                         },
-                      ] },
+                      ],
+                  },
                 ],
             }
 #      - file: "site/content/contact/_index.md"
