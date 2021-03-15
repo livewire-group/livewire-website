@@ -1,7 +1,7 @@
 ---
 title: 'GameTech and Marketing Expertise'
 linktitle: 'Marketing'
-icon: 'promotion'
+icon: 'promote'
 
 sections:
   - text: '

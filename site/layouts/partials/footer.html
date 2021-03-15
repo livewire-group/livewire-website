@@ -25,20 +25,21 @@
 			</ul>
 		</nav>
 
-		<div class="mt-8">
-			<p class="text-right text-sm text-gray-400">ABN 99 647 948 025</p>
-			<p class="text-right text-sm text-gray-400">
+		<div class="mt-8 text-right text-sm text-gray-400">
+			<p>ABN 99 647 948 025</p>
+			<p>
 				&copy; <span id="cpy-yr">2021</span> Livewire Group International Pty Ltd. All rights reserved.
 
 				{{/* Ensure copyright year is always up to date */}}
 				<script>document.getElementById('cpy-yr').innerText = new Date().getFullYear().toString();</script>
 			</p>
+			<p class="text-gray-600">
+				<small>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
+			</p>
 		</div>
 	</div>
 
 </footer>
-
-{{ partial "svg" . }}
 
 <script src="/app.js"></script>
 

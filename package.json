@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "xo",
+    "prestart": "npm run sprites",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site -vw",
     "start:webpack": "webpack serve --config webpack.dev.js --hot",
@@ -18,7 +19,9 @@
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
     "build:hugo": "hugo -d ../dist -s site -v",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
+    "prebuild:webpack": "npm run sprites",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+    "sprites": "node ./scripts/spriter.js"
   },
   "author": "Rhys Lloyd <justrhysism@gmail.com>",
   "license": "MIT",
@@ -62,6 +65,7 @@
     "rimraf": "^3.0.2",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
+    "svg-sprite": "^1.5.0",
     "terser-webpack-plugin": "^5.1.1",
     "typescript": "^4.1.5",
     "webpack": "^5.21.2",
