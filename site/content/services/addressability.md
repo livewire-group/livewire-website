@@ -14,6 +14,6 @@ services:
     - Pioneering programmatic marketing
     - Publisher partnerships and placements
     - Unique in and around game marketing
-    - Media buying and management
+    - Media management
     - Bespoke consultancy to deliver targeted results
 ---
