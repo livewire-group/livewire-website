@@ -1,7 +1,7 @@
 
-	<a href="{{ .RelPermalink }}" class="block text-center font-display no-underline">
+	<a href="{{ .RelPermalink }}" class="block text-center font-display no-underline group">
 		<svg class="w-12 md:w-16 lg:w-20 mx-auto fill-current" viewBox="0 0 32 32">
 			<use xlink:href="/img/sprites.svg#{{ .Params.icon }}" />
 		</svg>
-		<div class="mt-4 hover:underline">{{ .LinkTitle }}</div>
+		<div class="mt-4 group-hover:underline">{{ .LinkTitle }}</div>
 	</a>
