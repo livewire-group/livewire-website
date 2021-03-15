@@ -22,6 +22,35 @@
 		<ul class="md:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
+				{{ if .HasChildren }}
+					<li class="m-0 pl-0 md:relative nav-dropdown {{ if $currentPage.HasMenuCurrent "main" . }}{{ end }}">
+						<a class="
+						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
+						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+							border-primary group-hover:border-white
+						{{ else }}
+							border-transparent
+						{{ end }}
+					" href="#">
+							{{ .Pre }}
+							<span>{{ .Name }}</span>
+						</a>
+						<ul class="ml-2 md:absolute md:top-full md:-ml-4 md:pl-1 md:pl-1.5 md:py-2 md:bg-black md:bg-opacity-80 md:m-0 md:p-2 md:p-3 nav-dropdown-list">
+							{{ range .Children }}
+								<li class="m-0">
+									<a class="
+										no-underline block no-underline my-4 md:my-2 md:mx-2 border-b-2 hover:border-primary
+										{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+											border-primary group-hover:border-white
+										{{ else }}
+											border-transparent
+										{{ end }}
+										" href="{{ .URL }}">{{ .Name }}</a>
+								</li>
+							{{ end }}
+						</ul>
+					</li>
+				{{ else }}
 					<a class="
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
@@ -30,6 +59,7 @@
 							border-transparent
 						{{ end }}
 					" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				{{ end }}
 			{{ end }}
 		</ul>
 	</nav>

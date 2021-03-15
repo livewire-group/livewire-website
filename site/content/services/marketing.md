@@ -2,6 +2,10 @@
 title: 'GameTech and Marketing Expertise'
 linktitle: 'Marketing'
 icon: 'promote'
+menu:
+  main:
+    parent: 'What We Do'
+    weight: 1
 
 sections:
   - text: '

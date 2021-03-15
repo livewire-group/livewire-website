@@ -2,6 +2,10 @@
 title: 'Market Leading Digital Executions'
 linktitle: 'Addressability'
 icon: 'magnet'
+menu:
+  main:
+    parent: 'What We Do'
+    weight: 2
 
 sections:
   - text: 'In modern society, almost every person is a gamer, whether it its professional athletes playing games in their spare times to grandparents playing mobile games, gaming is a mainstay of modern day culture.'

@@ -2,6 +2,10 @@
 title: Evergreen Gaming Content
 linktitle: Content
 icon: 'video-player'
+menu:
+  main:
+    parent: 'What We Do'
+    weight: 3
 
 sections:
   - text: 'We understand brands are time poor and aim to enter new markets, though often do not have the time, understanding to master each emerging market and opportunity.'
