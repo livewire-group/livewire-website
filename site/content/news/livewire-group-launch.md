@@ -1,5 +1,5 @@
 ---
-title: Livewire Launch across APAC
+title: Livewire Launches across APAC
 publish: true
 date: 2021-03-01T13:50:04.402Z
 description: >-
