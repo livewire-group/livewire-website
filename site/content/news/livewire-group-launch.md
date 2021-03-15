@@ -1,7 +1,7 @@
 ---
 title: Livewire Launches across APAC
 publish: true
-date: 2021-03-01T13:50:04.402Z
+date: 2021-03-15T13:46:30.234Z
 description: >-
   Livewire, a new global company focused on Gametech, Entertainment and
   Marketing has launched across the APAC region.
