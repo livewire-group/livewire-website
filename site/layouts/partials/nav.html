@@ -23,9 +23,12 @@
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
 					<a class="
-						block no-underline my-8 md:my-0 md:mx-2 border-b-2 border-transparent
-						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}border-primary group-hover:border-white{{ end }}
-						hover:border-primary
+						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
+						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+							border-primary group-hover:border-white
+						{{ else }}
+							border-transparent
+						{{ end }}
 					" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 			{{ end }}
 		</ul>
