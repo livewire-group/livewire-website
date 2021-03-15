@@ -7,7 +7,7 @@ description: >-
   Marketing has launched across the APAC region.
 
 
-  Global programmatic marketing leader Indy Khabra and gaming expert Brad Manuel have combined their specialisms as the co-founders create Livewire, which will include an integrated and gaming focused marketing business.
+  Global programmatic marketing leader Indy Khabra and gaming expert Brad Manuel have combined their specialisms as the co-founders creating Livewire, which will include an integrated and gaming focused marketing business.
 ---
 ![](https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto,w_600/v1615286235/vi/social/Livewire_Social_Banner_Twitter_hwl37j.png)
 
