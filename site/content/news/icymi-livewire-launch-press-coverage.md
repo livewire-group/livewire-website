@@ -7,7 +7,7 @@ description: >-
   Gametech, Entertainment and Marketing.
 
 
-  We appreciate the great support from trade press and wanted to share the articles below in case you missed them.
+  We appreciate the great support from trade press and wanted to share the articles below from Mumbrella, Marketech APAC and Influencing below in case you missed them.
 
 
   ![](https://res.cloudinary.com/livewire-group/image/upload/v1616462028/Livewire_Headshot_pmkmxn.jpg)
