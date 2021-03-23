@@ -11,7 +11,7 @@ description: >-
 ---
 ![](https://res.cloudinary.com/livewire-group/image/upload/v1616462028/Livewire_Headshot_pmkmxn.jpg)
 
-A range of key trade press covered the launch, which we greatly appreciated, along with the support of our colleagues, clients and friends, enabling us to reach a significant audience on day one of our gaming focused business.
+A range of key trade press covered the launch, which we greatly appreciate, along with the support of our colleagues, clients and friends, enabling us to reach a significant audience on day one of our gaming focused business.
 
 We want to thank everyone for their support, introductions and the early opportunities to work with brands and agencies across APAC. A recap of the external coverage is below:
 
