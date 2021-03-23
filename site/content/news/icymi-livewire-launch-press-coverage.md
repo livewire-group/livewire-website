@@ -7,6 +7,9 @@ description: >-
   Gametech, Entertainment and Marketing.
 
 
+  We appreciate the great support from trade press and wanted to share the articles below in case you missed them.
+
+
   ![](https://res.cloudinary.com/livewire-group/image/upload/v1616462028/Livewire_Headshot_pmkmxn.jpg)
 ---
 A range of key trade press covered the launch, which we greatly appreciated, along with the support of our colleagues, clients and friends, enabling us to reach a significant audience on day one of our gaming focused business.
