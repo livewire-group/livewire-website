@@ -2,13 +2,12 @@
 title: "ICYMI: Livewire Launch Press Coverage"
 date: 2021-03-23T00:36:24.038Z
 description: >-
-  Last week [Livewire](https://livewire.group/) launched across APAC, with
-  Co-Founders and CEO's [Indy Khabra](https://www.linkedin.com/in/indykhabra/)
-  and [Brad Manuel](https://www.linkedin.com/in/bradjmanuel/) officially
-  announcing our business, focused on Gametech, Entertainment and Marketing.
+  Last week Livewire launched across APAC, with Co-Founders and CEO's Indy
+  Khabra and Brad Manuel officially announcing our business, focused on
+  Gametech, Entertainment and Marketing.
 
 
-  ![Brad Manuel (Left) and Indy Khabra (Right](https://res.cloudinary.com/livewire-group/image/upload/v1616462028/Livewire_Headshot_pmkmxn.jpg)
+  ![](https://res.cloudinary.com/livewire-group/image/upload/v1616462028/Livewire_Headshot_pmkmxn.jpg)
 ---
 A range of key trade press covered the launch, which we greatly appreciated, along with the support of our colleagues, clients and friends, enabling us to reach a significant audience on day one of our gaming focused business.
 
