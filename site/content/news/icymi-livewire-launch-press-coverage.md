@@ -19,4 +19,10 @@ Mumbrella: [Livewire launches new gametech marketing company](<[https://mumbrell
 
 Influencing: [Livewire set to spark gaming](<[https://influencing.com/au/story/livewire-set-to-spark-esports](https://influencing.com/au/story/livewire-set-to-spark-esports "https://influencing.com/au/story/livewire-set-to-spark-esports")>) [](https://influencing.com/au/story/livewire-set-to-spark-esports "https\://influencing.com/au/story/livewire-set-to-spark-esports")
 
-Marketech APAC: [New gametech company Livewire launches](<[https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc](https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc "https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc")>) [](https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc "https\://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc")
+Marketech APAC: [New gametech company Livewire launches](<[https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc](https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc "https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc")>) 
+
+CampaignAsia: [Movers and winners of the week](https://www.campaignasia.com/gallery/move-and-win-roundup-week-of-march-22-2021/468481)\
+\
+Consultancy: [Gaming marketing and strategy company Livewire launches](https://www.consultancy.com.au/news/3144/gaming-marketing-strategy-data-company-livewire-launches)
+
+[](https://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc "https\://www.linkedin.com/posts/marketech-apac_new-gametech-marketing-company-livewire-launches-activity-6777494182463447040-0UBc")
