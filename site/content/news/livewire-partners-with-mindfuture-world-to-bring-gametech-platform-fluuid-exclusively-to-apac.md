@@ -1,7 +1,7 @@
 ---
 title: Livewire Partners with Mindfuture World to bring Gametech platform Fluuid
   exclusively to APAC
-date: 2021-05-25T23:58:32.310Z
+date: 2021-05-26T00:01:25.134Z
 description: >-
   Global gaming marketing and gametech company Livewire has entered into an
   agreement with Mindfuture World, providing any expansion of reach into the
