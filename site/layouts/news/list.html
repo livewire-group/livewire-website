@@ -10,19 +10,19 @@
 		{{ range first 1 (.Paginator 6).Pages.ByPublishDate.Reverse }}
 			<a href="{{ .RelPermalink }}" class="group block no-underline md:flex items-center">
 				{{ if .Params.image }}
-					<img class="my-8 mx-auto flex-1 w-full md:mr-4" src="{{ .Params.image }}" alt="{{ .Title }}" />
+					<img class="mx-auto flex-1 w-full" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{ else }}
+					<img class="mx-auto flex-1 w-full" src="https://res.cloudinary.com/livewire-group/image/upload/c_fill,f_auto,g_center,h_480,q_auto,w_650/v1615286157/vi/Logo/Livewire_Pattern_Logo_BlackMint_A3_gatmmz.jpg" alt="{{ .Title }}" />
         {{ end }}
 
-				<div class="flex-1 w-full md:ml-4">
+				<div class="flex-1 w-full md:pl-8 mt-8 md:mt-0">
 					<h3 class="text-2xl font-semibold group-hover:underline">{{ .Title }}</h3>
-					<div class="mt-6">
-						<div class="text-sm">
-							<time datetime="{{ .Date.Format "2006-01-02" }}">
-                  {{ .Date.Format "Jan 2, 2006" }}
-							</time>
-							<span aria-hidden="true">&middot;</span>
-							<span>{{ .ReadingTime }} min read</span>
-						</div>
+					<div class="mt-6 text-sm">
+						<time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "Jan 2, 2006" }}
+						</time>
+						<span aria-hidden="true">&middot;</span>
+						<span>{{ .ReadingTime }} min read</span>
 					</div>
 				</div>
 			</a>
