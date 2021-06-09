@@ -8,9 +8,9 @@
 			<div class="prose-lg mb-5">
 					{{ .Description | markdownify }}
 			</div>
-{{/*			{{ if .Params.image }}*/}}
-{{/*				<img src="{{ .Params.image }}" alt="{{ .Title }}" />*/}}
-{{/*			{{ end }}*/}}
+			{{ if .Params.image }}
+				<img class="my-8 mx-auto" src="{{ .Params.image }}" alt="{{ .Title }}" />
+			{{ end }}
 			<div class="prose">
 				{{ .Content }}
 			</div>

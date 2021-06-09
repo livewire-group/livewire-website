@@ -2,14 +2,49 @@
 
 {{ partial "hero-section" (dict "imageUrl" "/img/news-index.jpg" "title" "News") }}
 
+{{ if eq .Paginator.PageNumber 1 }}
+<div class="bg-black text-white">
+	<div class="max-w-7xl mx-auto p-12 text-center md:text-left">
+		<h2 class="text-4xl mb-8 text-center">Latest News</h2>
+
+		{{ range first 1 (.Paginator 6).Pages.ByPublishDate.Reverse }}
+			<a href="{{ .RelPermalink }}" class="group block no-underline md:flex items-center">
+				{{ if .Params.image }}
+					<img class="my-8 mx-auto flex-1 w-full md:mr-4" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{ end }}
+
+				<div class="flex-1 w-full md:ml-4">
+					<h3 class="text-2xl font-semibold group-hover:underline">{{ .Title }}</h3>
+					<div class="mt-6">
+						<div class="text-sm">
+							<time datetime="{{ .Date.Format "2006-01-02" }}">
+                  {{ .Date.Format "Jan 2, 2006" }}
+							</time>
+							<span aria-hidden="true">&middot;</span>
+							<span>{{ .ReadingTime }} min read</span>
+						</div>
+					</div>
+				</div>
+			</a>
+		{{ end }}
+	</div>
+</div>
+{{ end }}
+
 <div class="bg-white text-black">
 	<div class="max-w-7xl mx-auto py-12">
-	<ul class="mb-24 grid gap-16 pt-12 md:grid-cols-2 lg:grid-cols-3 md:gap-x-12 md:gap-y-12">
-		{{ range (.Paginator 6).Pages.ByPublishDate.Reverse }}
-			<li class="">{{ .Render "li"}}</li>
-		{{ end }}
-	</ul>
-	{{ partial "pagination" . }}
+		<ul class="mb-24 grid gap-16 px-12 pt-12 md:grid-cols-2 lg:grid-cols-3 md:gap-x-12 md:gap-y-12">
+			{{ if eq .Paginator.PageNumber 1 }}
+				{{ range after 1 (.Paginator 6).Pages.ByPublishDate.Reverse }}
+					<li class="m-0 p-0">{{ .Render "li"}}</li>
+				{{ end }}
+			{{ else }}
+				{{ range (.Paginator 6).Pages.ByPublishDate.Reverse }}
+						<li class="m-0 p-0">{{ .Render "li"}}</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+		{{ partial "pagination" . }}
 	</div>
 </div>
 

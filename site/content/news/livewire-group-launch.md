@@ -2,6 +2,7 @@
 title: Livewire Launches across APAC
 publish: true
 date: 2021-03-15T13:46:30.234Z
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto,w_600/v1615286235/vi/social/Livewire_Social_Banner_Twitter_hwl37j.png
 description: >-
   Livewire, a new global company focused on Gametech, Entertainment and
   Marketing has launched across the APAC region.
@@ -9,7 +10,6 @@ description: >-
 
   Global programmatic marketing leader Indy Khabra and gaming expert Brad Manuel have combined their specialisms as the co-founders creating Livewire, which will include an integrated and gaming focused marketing business.
 ---
-![](https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto,w_600/v1615286235/vi/social/Livewire_Social_Banner_Twitter_hwl37j.png)
 
 Livewire will benefit from the global relationships and experience of its founders, with the pair previously working with the likes of Microsoft, Disney, American Express, L’Oreal, Universal Pictures, Epic Games, Samsung, Intel, McDonald's and a range of sporting organisations and bodies.
 
@@ -25,13 +25,13 @@ Manuel acknowledges that gaming is rapidly growing domestically and globally.
 
 Livewire has two additional unique focuses to position itself in the GameTech, Entertainment and Marketing ecosystem:
 
-#### *1) Focus on In-Game and Around Game Marketing*
+#### _1) Focus on In-Game and Around Game Marketing_
 
 Livewire will focus on adding value to the experience of gamers, authentically creating campaigns using a deep knowledge of gaming and internet culture to ensure that brands are able to reach consumers during their hobbies and passions, without fundamentally changing the gaming experience.
 
 These abilities will include adding brands and their products into a range of games both globally and domestically through partnerships with publishers and developers, creating best practice benchmarks that deliver results.
 
-#### *2) Programmatic Marketing in Gaming*
+#### _2) Programmatic Marketing in Gaming_
 
 Livewire with the use of gametech and audience data helps brands connect with consumers while they are leaning in and actively engaged in their passion points.
 
