@@ -1,15 +1,11 @@
 ---
 title: Livewire launches new audience and insights solutions
 date: 2021-08-23T23:12:17.307Z
-description: >-
-  Livewire, a gametech and gaming marketing company helping brands and marketers
-  gain entry into the most exciting sector within entertainment and media, is
-  pleased to announce a suite of new gametech solutions. Customers can now
-  access end to end planning, insights and measurement tools, activating unique
-  gaming audience segments in ANZ.
-
-
-  ![]()
+description: Livewire, a gametech and gaming marketing company helping brands
+  and marketers gain entry into the most exciting sector within entertainment
+  and media, is pleased to announce a suite of new gametech solutions. Customers
+  can now access end to end planning, insights and measurement tools, activating
+  unique gaming audience segments in ANZ.
 ---
 *“Gaming Audiences by Livewire''* leverages HYP’s combination of 2 million pre-set variables and advanced machine learning, giving Livewire customers access to (including but not limited) location, behavior, age, gender, income, retail expenditure and household type gaming and esports audience insights. From planning to targeting to measurement and analysis, these new capabilities help marketers and agencies better understand gaming and esports audience personas with 100% cookie free, privacy compliant and opt-in devices-only data.
 
