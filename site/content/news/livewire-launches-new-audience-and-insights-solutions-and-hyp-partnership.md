@@ -1,5 +1,5 @@
 ---
-title: Livewire launches new audience and insights solutions and HYP Partnership
+title: Livewire launches new audience and insights solutions
 date: 2021-08-23T14:57:37.475Z
 description: >-
   Livewire, a gametech and gaming marketing company helping brands and marketers
