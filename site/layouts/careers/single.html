@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ partial "hero-section" (dict "imageUrl" "/img/blog-index.jpg" "title" "Careers") }}
+
+<div class="bg-white text-black">
+	<div class="max-w-prose mx-auto py-12 px-8 md:px-0">
+			<h1 class="text-3xl mb-5">{{ .Title }}</h1>
+			<div class="prose-lg mb-5">
+				<p>{{ .Params.location }}{{ if and (.Params.location) (.Params.employment)}}&emsp;|&emsp;{{ end }}{{ .Params.employment }}</p>
+			</div>
+			<div class="prose">
+				{{ .Content }}
+			</div>
+	</div>
+</div>
+
+{{ end }}

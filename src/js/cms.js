@@ -7,6 +7,7 @@ import styles from '!css-loader!postcss-loader!../css/main.pcss';
 
 import HomePreview from './cms-preview-templates/HomePreview';
 import PostPreview from './cms-preview-templates/PostPreview';
+import CareerPreview from './cms-preview-templates/CareerPreview';
 // import ProductsPreview from './cms-preview-templates/products';
 // import ValuesPreview from './cms-preview-templates/values';
 // import ContactPreview from './cms-preview-templates/contact';
@@ -15,6 +16,7 @@ CMS.registerPreviewStyle(styles.toString(), { raw: true });
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('home', HomePreview);
 CMS.registerPreviewTemplate('news', PostPreview);
+CMS.registerPreviewTemplate('careers', CareerPreview);
 // CMS.registerPreviewTemplate('services', ProductsPreview);
 // CMS.registerPreviewTemplate('about', ValuesPreview);
 // CMS.registerPreviewTemplate('contact', ContactPreview);
