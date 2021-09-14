@@ -1,5 +1,5 @@
 ---
-title: 'Who We Are'
+title: 'About Livewire'
 menu:
   main:
     weight: 10
@@ -7,10 +7,10 @@ menu:
     weight: 10
 
 intros:
-  - heading: Who we are
-    text: We are digital pioneers, fanatical about using data insights to help brands engage with consumers through gaming.
-  - heading: Why we exist
-    text: We exist as a trusted partner to brands, helping navigate the evolving landscape of gaming marketing and content production.
-  - heading: Why we are leaders
-    text: Our gaming and traditional marketing expertise impartially leads brand entry and strategy in the digital realm, delivering evergreen strategies that convert.
+  - heading: Our Company
+    text: Since being founded in March 2021, Livewire has expanded rapidly, with office and staff across APAC and EMEA and a continually growing list of blue chip brands.
+  - heading: Our USP
+    text: We are a research and strategy first gaming company, that understands the ‘how’ of gaming marketing and gametech, not just the why.
+  - heading: Why Livewire
+    text: We’re passionate about evolving gaming marketing and developing pioneering gametech, enabling brands to engage global and regional gaming audiences.
 ---

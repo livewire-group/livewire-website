@@ -5,37 +5,40 @@
 'use strict';
 
 const glob = require('glob');
+const path = require('path');
+const mkdirp = require('mkdirp');
+const fs = require('fs');
+const SVGSpriter = require('svg-sprite');
 
-const SVGSpriter = require('svg-sprite'),
-	path = require('path'),
-	mkdirp = require('mkdirp'),
-	fs = require('fs'),
-	config = {
-		dest: '../site/static/img',
-		shape: {},
-		svg: {
-			xmlDeclaration: false,
-			doctypeDeclaration: false,
-			namespaceIDs: false,
-			dimensionAttributes: false,
-		},
-		mode: {
-			symbol: {
-				dest: '',
-				sprite: 'sprites.svg',
-			},
+const config = {
+	dest: path.resolve(__dirname, '../site/static/img'),
+	shape: {},
+	svg: {
+		xmlDeclaration: false,
+		doctypeDeclaration: false,
+		namespaceIDs: false,
+		dimensionAttributes: false,
+	},
+	mode: {
+		symbol: {
+			dest: '',
+			sprite: 'sprites.svg',
 		},
 	},
-	spriter = new SVGSpriter(config);
+};
+
+const spriter = new SVGSpriter(config);
 
 // Register some SVG files with the spriter
-glob.sync('../site/static/img/sprites/*.svg').forEach((file) => {
-	spriter.add(
-		path.resolve(file),
-		path.basename(file),
-		fs.readFileSync(path.resolve(file), { encoding: 'utf-8' })
-	);
-});
+glob
+	.sync(path.resolve(__dirname, '../site/static/img/sprites/*.svg'))
+	.forEach((file) => {
+		spriter.add(
+			path.resolve(file),
+			path.basename(file),
+			fs.readFileSync(path.resolve(file), { encoding: 'utf-8' })
+		);
+	});
 
 // Compile the sprite
 spriter.compile(function (error, result, cssData) {
