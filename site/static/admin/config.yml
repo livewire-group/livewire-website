@@ -146,6 +146,21 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
+
+  - name: "careers" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Job Post" # Used in the UI, ie.: "New Post"
+    folder: "site/content/careers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - {
+          label: "Employment",
+          name: "employment",
+          widget: "select",
+          options: ["Full Time", "Part Time"],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
 #      - file: "site/content/contact/_index.md"
 #        label: "Contact Page"
 #        name: "contact"

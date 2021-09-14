@@ -25,7 +25,9 @@ Clone this repository, and run `yarn` from the new folder to install all require
 
 Then start the development server with `yarn start`.
 
-If you're working on the CMS, you will need to use the Netlify CMS proxy server, open a terminal above the project (e.g. one directory up) and run `npx netlify-cms-proxy-server`
+If you're working on the CMS, you will need to use the Netlify CMS proxy server: `yarn proxy-server` — [http://localhost:3000/admin/](http://localhost:3000/admin/)
+
+> Important! Ensure the final `/` otherwise you'll be met with errors about not loading `config.yml`.
 
 ## Layouts
 
