@@ -1,3 +1,7 @@
+{{ define "head" }}
+	<meta property="og:description" content="{{ .Params.location }}{{ if and (.Params.location) (.Params.employment)}} | {{ end }}{{ .Params.employment }}">
+{{ end }}
+
 {{ define "main" }}
 
 {{ partial "hero-section" (dict "imageUrl" "/img/blog-index.jpg" "title" "Careers") }}
