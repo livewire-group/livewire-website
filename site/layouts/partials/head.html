@@ -28,18 +28,18 @@
 	<meta property="og:description" content="{{ .Page.Description }}">
 	<meta property="og:url" content="{{ .Page.RelPermalink }}">
 
-	{{ if eq .Section "news" }}
+	{{ if or (eq .Section "news") (eq .Section "careers") }}
 		{{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/c_fill,f_auto,g_center,h_192,q_auto,w_363/v1615286157/vi/Logo/Livewire_Pattern_Logo_BlackMint_A3_gatmmz.jpg" }}
 		{{ if .Params.image }}
 			{{ $.Scratch.Set "image" .Params.image }}
 		{{ end }}
-		<meta property="og:image" content="{{ .Params.image }}">
+		<meta property="og:image" content="{{ $.Scratch.Get "image" }}">
 		<meta name="publish_date" property="og:publish_date" content="{{ .Page.PublishDate }}">
 		<meta property="article:published_time" content="{{ .Page.PublishDate }}">
 		<meta property="article:modified_time" content="{{ .Page.Lastmod }}">
   {{ end }}
 
-  {{ if .IsHome }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {{ end }}
+	{{ if .IsHome }}
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{{ end }}
 </head>
