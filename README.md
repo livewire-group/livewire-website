@@ -43,7 +43,7 @@ The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano
 
 All SVG icons stored in `site/static/img/sprites` are automatically optimized with SVGO and concatenated into a single SVG sprite stored in a file called `sprites.svg`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
 
-```
+```svg
 <svg width="16px" height="16px" class="db">
   <use xlink:href="#SVG-ID"></use>
 </svg>

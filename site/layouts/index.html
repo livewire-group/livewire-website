@@ -1,53 +1,64 @@
 {{ define "main" }}
 
-<div class="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5">
-	<h1 class="sr-only">
-		Livewire Group
-	</h1>
-	<video preload playsinline autoplay loop muted class="transform scale-150 md:scale-125 lg:scale-100">
-		<source src="https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4"/>
-		<img src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png" alt="Livewire"/>
-	</video>
-</div>
+	<div
+		class="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5"
+	>
+		<h1 class="sr-only">Livewire Group</h1>
+		<video preload playsinline autoplay loop muted class="transform scale-150 md:scale-125 lg:scale-100">
+			<source
+				src="https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4"
+			/>
+			<img
+				src="https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png"
+				alt="Livewire"
+			/>
+		</video>
+	</div>
 
-<div class="bg-white text-black relative">
-	<div class="max-w-7xl mx-auto py-24 md:py-36 px-4 sm:px-6 lg:px-8">
-		<div class="text-center">
-			<h1 class="mt-1 font-display text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">{{.Title}}</h1>
-			{{ if .Params.subtitle }} <p class="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl"> {{.Params.subtitle}}</p> {{ end }}
+	<div class="bg-white text-black relative">
+		<div class="max-w-7xl mx-auto py-24 md:py-36 px-4 sm:px-6 lg:px-8">
+			<div class="text-center">
+				<h1 class="mt-1 font-display text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">{{ .Title }}</h1>
+				{{ if .Params.subtitle }}
+					<p class="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">{{ .Params.subtitle }}</p>
+
+				{{ end }}
+			</div>
 		</div>
 	</div>
-</div>
 
-{{ if .Params.intros }}
-	<div class="max-w-4xl mx-auto py-8 md:py-12 lg:py-24 flex flex-wrap home:intros">
-		{{ range .Params.intros }}
-			<div class="md:w-1/2">
+	{{ if .Params.intros }}
+		<div class="max-w-4xl mx-auto py-8 md:py-12 lg:py-24 flex flex-wrap home:intros">
+			{{ range .Params.intros }}
+				<div class="md:w-1/2">
 					<div class="p-8">
-						<h2 class="text-3xl mb-4">{{.heading}}</h2>
-						<p class="text-xl leading-relaxed">{{.text}}</p>
+						<h2 class="text-3xl mb-4">{{ .heading }}</h2>
+						<p class="text-xl leading-relaxed">{{ .text }}</p>
 					</div>
-			</div>
-		{{ end }}
+				</div>
+
+			{{ end }}
+		</div>
+
+	{{ end }}
+
+
+	<div class="bg-primary text-black text-center py-12 px-4 lg:px-16">
+		<div class="max-w-4xl mx-auto">
+			<h2 class="text-4xl mb-8">What we do</h2>
+			<p class="my-8 text-lg leading-relaxed">
+				Our services encompass end to end brand services, including talent engagement, programmatic and digital
+				advertising, gaming and esports marketing, direct publisher opportunities and more to deliver integrated
+				strategies that deliver market leading results.
+			</p>
+			{{ partial "services-list-block" (where .Site.RegularPages "Section" "==" "services") }}
+		</div>
 	</div>
-{{ end }}
 
-<div class="bg-primary text-black text-center py-12 px-4 lg:px-16">
-	<div class="max-w-4xl mx-auto">
-		<h2 class="text-4xl mb-8">What we do</h2>
-		<p class="my-8 text-lg leading-relaxed">
-			Our services encompass end to end brand services, including talent engagement, programmatic and digital advertising, gaming and esports marketing, direct publisher opportunities and more to deliver integrated strategies that deliver market leading results.
-		</p>
-		{{ partial "services-list-block" (where .Site.RegularPages "Section" "==" "services") }}
-	</div>
-</div>
+	{{ partial "logo-cloud" .Params.brands }}
 
-{{ partial "logo-cloud" .Params.brands }}
-
-{{/*{{ partial "2-up" .Params }}*/}}
-
-{{/*{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}*/}}
-
-{{/*{{ partial "blog" . }}*/}}
+	{{/* {{ partial "2-up" .Params }}*/}}
+	{{/* {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+	*/}} {{/* {{ partial "blog" . }}*/}}
 
 {{ end }}
