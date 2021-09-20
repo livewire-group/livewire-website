@@ -3,42 +3,45 @@
 	{{ partial "hero-section" (dict "imageUrl" .Params.image "title" "Contact Us") }}
 
 
-<div class="bg-white text-black">
-	<div class="max-w-4xl mx-auto">
+	<div class="bg-white text-black">
+		<div class="max-w-4xl mx-auto">
+			{{/* {{ .Content }}*/}}
 
-{{/*		{{ .Content }}*/}}
+			<div
+				class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
+				{{/* style=" */}}
+				{{/* background-image: url('https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615286394/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_2_BlackWhite_dsubqy.png'); */}}
+				{{/* background-size: 20%; */}}
+				{{/* background-repeat: no-repeat; */}}
+				{{/* background-position: top right; */}}
+				{{/* " */}}
+			>
+				<div class="relative max-w-xl mx-auto flex justify-around mb-16">
+					<a
+						href="https://www.linkedin.com/company/livewiregroupintl/"
+						class="no-underline"
+						title="Follow us on LinkedIn"
+					>
+						<svg class="inline-block w-8 md:w-12 mx-auto fill-current mr-0.5" viewBox="0 0 32 32">
+							<use xlink:href="/img/sprites.svg#linkedin" />
+						</svg>
 
-		<div class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
-{{/*			style="*/}}
-{{/*				background-image: url('https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615286394/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_2_BlackWhite_dsubqy.png');*/}}
-{{/*				background-size: 20%;*/}}
-{{/*				background-repeat: no-repeat;*/}}
-{{/*				background-position: top right;*/}}
-{{/*			"*/}}
-		>
-			<div class="relative max-w-xl mx-auto flex justify-around mb-16">
-				<a href="https://www.linkedin.com/company/livewiregroupintl/" class="no-underline" title="Follow us on LinkedIn">
-					<svg class="inline-block w-8 md:w-12 mx-auto fill-current mr-0.5" viewBox="0 0 32 32">
-						<use xlink:href="/img/sprites.svg#linkedin" />
-					</svg>
+						LinkedIn
+					</a>
+					<a href="https://twitter.com/Livewire_Group" class="no-underline" title="Follow us on Twitter">
+						<svg class="inline-block w-8 md:w-12 mx-auto fill-current mr-0.5" viewBox="0 0 32 32">
+							<use xlink:href="/img/sprites.svg#twitter" />
+						</svg>
 
-					LinkedIn
-				</a>
-				<a href="https://twitter.com/Livewire_Group" class="no-underline" title="Follow us on Twitter">
-					<svg class="inline-block w-8 md:w-12 mx-auto fill-current mr-0.5" viewBox="0 0 32 32">
-						<use xlink:href="/img/sprites.svg#twitter" />
-					</svg>
+						Twitter
+					</a>
+				</div>
 
-					Twitter
-				</a>
-			</div>
-
-			<div class="relative max-w-xl mx-auto">
-				{{ partial "contact-form" . }}
+				<div class="relative max-w-xl mx-auto">
+					{{ partial "contact-form" . }}
+				</div>
 			</div>
 		</div>
-
 	</div>
-</div>
 
 {{ end }}

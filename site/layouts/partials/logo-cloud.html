@@ -1,4 +1,3 @@
-
 <!-- Logo Cloud -->
 <div class="bg-white text-black">
 	<div class="max-w-7xl mx-auto pt-12 pb-16 lg:pt-16 lg:pb-24 px-4 sm:px-6 lg:px-8">
@@ -8,14 +7,32 @@
 		<div class="mt-12 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
 			{{ range .logos }}
 				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-					{{ if .url }}<a href="{{ .url }}">{{ end }}
-						{{ if .image }}
-							<img class="h-12" src="{{ .image }}" alt="{{ .name }}">
-						{{ else }}
-							<span class="font-display">{{ .name }}</span>
-						{{ end }}
-					{{ if .url }}</a>{{ end }}
+					{{ if .url }}
+						<a href="{{ .url }}">
+							{{ if .image }}
+								<img class="h-12" src="{{ .image }}" alt="{{ .name }}" />
+
+							{{ else }}
+								<span class="font-display">{{ .name }}</span>
+
+							{{ end }}
+						</a>
+
+					{{ else }}
+
+						<span>
+							{{ if .image }}
+								<img class="h-12" src="{{ .image }}" alt="{{ .name }}" />
+
+							{{ else }}
+								<span class="font-display">{{ .name }}</span>
+
+							{{ end }}
+						</span>
+
+					{{ end }}
 				</div>
+
 			{{ end }}
 		</div>
 	</div>

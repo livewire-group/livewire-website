@@ -1,22 +1,40 @@
-<div class="mx-auto md:max-w-7xl w-full {{ if .Page.IsHome }}md:absolute md:left-0 md:right-0{{end}}">
+<div
+	class="mx-auto md:max-w-7xl w-full {{ if .Page.IsHome }}
+		md:absolute md:left-0 md:right-0
+
+	{{ end }}"
+>
 	{{ if not .Page.IsHome }}
 		<p class="absolute w-full z-10 not-sr-only md:hidden text-center text-black pt-4">{{ partial "livewire-logo" }}</p>
+
 	{{ end }}
 
-	<nav id="nav-menu" class="
+
+	<nav
+		id="nav-menu"
+		class="
+			text-outline
 			flex
 			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
 			md:relative md:left-auto md:h-auto md:w-auto md:text-white md:flex-row md:items-center md:text-lg md:bg-transparent md:px-2 md:py-1.5
-			{{ if .Page.IsHome }}md:justify-center md:top-8{{ else }}md:justify-start{{end}}
-	">
+			{{ if .Page.IsHome }}
+			md:justify-center md:top-8
 
+		{{ else }}
+			md:justify-start
+
+		{{ end }}
+	"
+	>
 		{{ if not .Page.IsHome }}
 			<div class="flex bg-primary text-black md:bg-transparent md:text-white text-xl md:text-base -ml-4 md:ml-0">
 				<a href="/" class="no-underline hover:underline inline-flex">
 					<span class="inline-flex">{{ partial "livewire-logo" }}</span>
 				</a>
 			</div>
-    {{end}}
+
+		{{ end }}
+
 
 		<!-- Primary Nav -->
 		<ul class="md:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
@@ -24,48 +42,78 @@
 			{{ range .Site.Menus.main }}
 				{{ if .HasChildren }}
 					<li class="m-0 pl-0 md:relative nav-dropdown {{ if $currentPage.HasMenuCurrent "main" . }}{{ end }}">
-						<a class="
+						<a
+							class="
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-							border-primary group-hover:border-white
-						{{ else }}
-							border-transparent
-						{{ end }}
-					" href="{{ .URL }}">
+								border-primary group-hover:border-white
+
+							{{ else }}
+								border-transparent
+
+							{{ end }}
+					"
+							href="{{ .URL }}"
+						>
 							{{ .Pre }}
 							<span>{{ .Name }}</span>
 						</a>
-						<ul class="ml-2 md:absolute md:top-full md:-ml-4 md:pl-1 md:pl-1.5 md:py-2 md:bg-black md:bg-opacity-80 md:m-0 md:p-2 md:p-3 nav-dropdown-list">
+						<ul
+							class="ml-2 md:absolute md:top-full md:-ml-4 md:pl-1 md:pl-1.5 md:py-2 md:bg-black md:bg-opacity-80 md:m-0 md:p-2 md:p-3 nav-dropdown-list"
+						>
 							{{ range .Children }}
 								<li class="m-0">
-									<a class="
+									<a
+										class="
 										no-underline block no-underline my-4 md:my-2 md:mx-2 border-b-2 hover:border-primary
 										{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 											border-primary group-hover:border-white
+
 										{{ else }}
 											border-transparent
+
 										{{ end }}
-										" href="{{ .URL }}">{{ .Name }}</a>
+										"
+										href="{{ .URL }}"
+									>
+										{{ .Name }}
+									</a>
 								</li>
+
 							{{ end }}
 						</ul>
 					</li>
+
 				{{ else }}
-					<a class="
+					<a
+						class="
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 							border-primary group-hover:border-white
+
 						{{ else }}
 							border-transparent
+
 						{{ end }}
-					" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+					"
+						href="{{ .URL }}"
+						title="{{ .Title }}"
+					>
+						{{ .Name }}
+					</a>
+
 				{{ end }}
+
+
 			{{ end }}
 		</ul>
 	</nav>
 
 	<!-- Menu Button -->
-	<button id="nav-menu-button" class="fixed bottom-6 right-6 h-16 w-16 z-20 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger md:hidden">
+	<button
+		id="nav-menu-button"
+		class="fixed bottom-6 right-6 h-16 w-16 z-20 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger md:hidden"
+	>
 		<span class="cross"></span>
 		<span class="spline"></span>
 	</button>

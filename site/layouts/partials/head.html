@@ -1,45 +1,64 @@
+<title>{{ .Title }} | {{ $.Site.Title }}</title>
+
+{{ $stylesheet := .Site.Data.webpack.main }}
+{{ with $stylesheet.css }}
+	<link href="{{ relURL . }}" rel="stylesheet" />
+
+{{ end }}
 
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<base
+	href="{{ if getenv "CONTEXT" }}
+		{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}
 
-  {{ $stylesheet := .Site.Data.webpack.main }}
-  {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
-  {{ end }}
 
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+	{{ else }}
+		{{ $.Site.BaseURL }}
 
-	<link href="https://rsms.me/inter/inter.css" rel="stylesheet">
 
-	<!-- Favicons -->
-{{/*	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">*/}}
-{{/*	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">*/}}
-{{/*	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">*/}}
-{{/*	<link rel="manifest" href="/manifest.json">*/}}
-{{/*	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">*/}}
-{{/*	<meta name="theme-color" content="#fff">*/}}
-
-	<!-- Open Graph -->
-	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="{{ .Page.Title }} | {{ $.Site.Title }}">
-  {{ if .Page.Description }}<meta property="og:description" content="{{ .Page.Description }}">{{ end }}
-	<meta property="og:url" content="{{ .Page.RelPermalink }}">
-
-	{{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/c_fill,f_auto,g_center,h_192,q_auto,w_363/v1615286157/vi/Logo/Livewire_Pattern_Logo_BlackMint_A3_gatmmz.jpg" }}
-	{{ if .Params.image }}
-		{{ $.Scratch.Set "image" .Params.image }}
 	{{ end }}
-	<meta property="og:image" content="{{ $.Scratch.Get "image" }}">
+	"
+/>
 
-	{{ if or (eq .Section "news") (eq .Section "careers") }}
-		<meta name="publish_date" property="og:publish_date" content="{{ .Page.PublishDate }}">
-		<meta property="article:published_time" content="{{ .Page.PublishDate }}">
-		<meta property="article:modified_time" content="{{ .Page.Lastmod }}">
-  {{ end }}
+<link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
 
-	{{ if .IsHome }}
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-	{{ end }}
+<!-- Favicons -->
+{{/* <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"> */}}
+{{/* <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32"> */}}
+{{/* <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16"> */}}
+{{/* <link rel="manifest" href="/manifest.json"> */}}
+{{/* <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400"> */}}
+{{/* <meta name="theme-color" content="#fff"> */}}
+
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business" />
+<meta property="og:title" content="{{ .Page.Title }} | {{ $.Site.Title }}" />
+{{ if .Page.Description }}
+	<meta property="og:description" content="{{ .Page.Description }}" />
+
+{{ end }}
+<meta property="og:url" content="{{ .Page.RelPermalink }}" />
+
+{{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/v1615285680/vi/logo/logo-black-mint.png" }}
+{{ if .Params.image }}
+	{{ $.Scratch.Set "image" .Params.image }}
+
+
+{{ end }}
+<meta property="og:image" content="{{ $.Scratch.Get "image" }}" />
+
+{{ if or (eq .Section "news") (eq .Section "careers") }}
+	<meta name="publish_date" property="og:publish_date" content="{{ .Page.PublishDate }}" />
+	<meta property="article:published_time" content="{{ .Page.PublishDate }}" />
+	<meta property="article:modified_time" content="{{ .Page.Lastmod }}" />
+
+{{ end }}
+
+{{ if .IsHome }}
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+{{ end }}

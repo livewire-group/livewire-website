@@ -23,7 +23,13 @@ const PostPreview = ({ entry, widgetFor, getAsset }) => {
 							{employment}
 						</p>
 					</div>
-					<div className="prose">{widgetFor('body')}</div>
+					<div className="prose">
+						{widgetFor('body')}
+
+						<p>
+							Contact us: <a href="mailto:careers@livewire.group">careers@livewire.group</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</>

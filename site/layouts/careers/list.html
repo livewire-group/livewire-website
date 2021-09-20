@@ -1,24 +1,29 @@
 {{ define "main" }}
 
-{{ partial "hero-section" (dict "imageUrl" "/img/news-index.jpg" "title" "Careers") }}
+	{{ partial "hero-section" (dict "imageUrl" "/img/news-index.jpg" "title" "Careers") }}
 
-<div class="bg-white text-black">
-	<div class="max-w-7xl mx-auto py-12">
-		<h2 class="font-display text-3xl px-8 text-center">Join Us</h2>
 
-		{{ if len .Pages }}
-			<ul class="mb-24 grid gap-16 px-12 pt-12 md:grid-cols-2 lg:grid-cols-3 md:gap-x-12 md:gap-y-12">
-				{{ range (.Paginator 24).Pages.ByPublishDate.Reverse }}
-						<li class="m-0 p-0">{{ .Render "li"}}</li>
-				{{ end }}
-			</ul>
-			{{ partial "pagination" . }}
-		{{ else }}
-			<div class="p-12 text-center">
-				{{ .Content }}
-			</div>
-		{{ end }}
+	<div class="bg-white text-black">
+		<div class="max-w-7xl mx-auto py-12">
+			<h2 class="font-display text-3xl px-8 text-center">Join Us</h2>
+
+			{{ if len .Pages }}
+				<ul class="mb-24 grid gap-16 px-12 pt-12 md:grid-cols-2 lg:grid-cols-3 md:gap-x-12 md:gap-y-12">
+					{{ range (.Paginator 24).Pages.ByPublishDate.Reverse }}
+						<li class="m-0 p-0">{{ .Render "li" }}</li>
+
+					{{ end }}
+				</ul>
+				{{ partial "pagination" . }}
+
+
+			{{ else }}
+				<div class="p-12 text-center">
+					{{ .Content }}
+				</div>
+
+			{{ end }}
+		</div>
 	</div>
-</div>
 
 {{ end }}
