@@ -9,11 +9,23 @@
 
 
 <div class="{{ $classes }} py-24">
+	{{ if .title }}
+		<div class="max-w-7xl mx-auto px-8 mb-8">
+			<div
+				class="max-w-7xl text-xl md:text-xl lg:text-2xl prose-xl md:prose-2xl lg:prose-3 {{ cond $reverse "text-right ml-auto" "" }}"
+			>
+				<h2>{{ .title }}</h2>
+			</div>
+		</div>
+
+	{{ end }}
+
+
 	<div class="max-w-7xl mx-auto px-8">
 		<div
 			class="max-w-3xl text-xl md:text-2xl lg:text-3xl prose-xl md:prose-2xl lg:prose-3 {{ cond $reverse "text-right ml-auto" "" }}"
 		>
-			{{ .text | markdownify }}
+			<div>{{ .text | markdownify }}</div>
 		</div>
 	</div>
 </div>
