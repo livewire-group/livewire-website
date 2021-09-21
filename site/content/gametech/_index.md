@@ -12,7 +12,7 @@ sections:
       to create a unique global game advertising marketplace with access to over
       250 PC, console and mobile games"
     dark: true
-  - title: Gaming Audience by Livewire
+  - title: Gaming Audiences by Livewire
     text: "#### Livewire's gametech products include 24 gaming audience segments
       that are 100% cookie free from opt in devices, allowing location,
       demographic and behavioural data, available for activation across Amobee,
