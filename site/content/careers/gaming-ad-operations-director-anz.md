@@ -32,7 +32,7 @@ You will bring a passion for building stuff, a flair for growing relationships a
 
 **What you will bring**
 
-* A minimum of 10 years' experience and at least 3+ years building and managing an Ad Operations team in a digital environment.
+* A minimum of 5 years' experience and at least 3+ years building and managing an Ad Operations team in a digital environment.
 * A proven and respected industry Ad Operations lead with a strong digital pedigree.
 * Ability to clearly communicate complex and technical issues to variety of internal and external stakeholders.
 * Expert with leading ad servers and web analytics tools and strong industry knowledge of the Ad Operations environment.
