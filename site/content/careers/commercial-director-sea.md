@@ -33,7 +33,6 @@ You will bring a passion for sales, a flair for building relationships and will 
 **What you will bring**
 
 * 5+ years' experience establishing and/or leading a sales/digital sales team
-* Bachelors degree in Business, Marketing, Commerce, or equivalent
 * A proven history of selling pioneering marketing services and digital assets
 * The ability to work in a highly autonomous role balancing fun & performance
 * Clear and concise verbal and written skills (English)
