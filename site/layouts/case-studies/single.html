@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-	{{ partial "hero-section" (dict "imageUrl" "/img/blog-index.jpg" "title" "News" "underline" (.Date.Format "Monday, Jan 2, 2006")) }}
+	{{/* {{ $.Scratch.Set "image" "/img/blog-index.jpg" }}*/}} {{/* {{ if .Params.image }}*/}}
+	{{/* {{ $.Scratch.Set "image" .Params.image }}*/}} {{/* {{ end }}*/}}
+	{{ partial "hero-section" (dict "title" "Case Study") }}
 
 
 	<div class="bg-white text-black">
