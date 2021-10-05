@@ -17,6 +17,7 @@ CMS.registerPreviewStyle(styles.toString(), { raw: true });
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('home', HomePreview);
 CMS.registerPreviewTemplate('news', PostPreview);
+CMS.registerPreviewTemplate('case-studies', PostPreview);
 CMS.registerPreviewTemplate('careers', CareerPreview);
 CMS.registerPreviewTemplate('gaming-marketing', SectionsPreview);
 CMS.registerPreviewTemplate('gametech', SectionsPreview);
