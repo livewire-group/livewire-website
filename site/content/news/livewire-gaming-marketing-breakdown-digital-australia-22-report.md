@@ -12,9 +12,7 @@ image: https://res.cloudinary.com/livewire-group/image/upload/v1634805466/0_-_Fr
 ---
 ## **Gaming is A Key Part of Modern Day Culture**
 
-The [DA22](https://igea.net/2021/10/digital-australia-2022-da22-connected-by-games/) report shows more than 17m Australians (2/3 of our population) are connected with video games, with females representing 46% of the audience, males recorded at 53% and for the first time, reporting on non-binary players, which make up 1% of the audience. Marketers should particularly pay attention to the gender numbers above, highlighting opportunities to engage the Australian female audience through gaming.
-
- 
+The [DA22](https://igea.net/2021/10/digital-australia-2022-da22-connected-by-games/) report shows more than 17m Australians (2/3 of our population) are connected with video games, with females representing 46% of the audience, males recorded at 53% and for the first time, reporting on non-binary players, which make up 1% of the audience. Marketers should particularly pay attention to the gender numbers above, highlighting opportunities to engage the Australian female audience through gaming marketing channels.
 
 The report reminds marketers that gaming is a powerful active medium when compared to passive traditional media forms, delivering engagement with the younger demographics who have high disposable income and are forming their long-term brand relationships, this must be done with a detailed strategy, not in a fragmented approach.
 
@@ -44,4 +42,4 @@ With in-game marketing opportunities continuing to rise across Australia, it is 
 
 ![](https://res.cloudinary.com/livewire-group/image/upload/v1634805464/5_-_Gaming_Device_by_bdfpln.png "DA22: Types of Game Devices Australian Players Play")
 
-If you are interested in learning how to authentically engage the Australian gaming audience through custom, targeted gaming marketing and gametech, please contact us at hello@livewire.group or livewire.group
+If you are interested in learning how to authentically engage the Australian gaming audience through custom, targeted gaming marketing and gametech, please contact us at [hello@livewire.group](mailto:hello@livewire.group) or[ livewire.group](livewire.group)
