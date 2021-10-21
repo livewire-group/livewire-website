@@ -2,12 +2,12 @@
 title: "Livewire Gaming Marketing Breakdown: Digital Australia 22 Report"
 date: 2021-10-21T08:16:14.973Z
 description: >-
-  Earlier this week the biennial Digital Australia 22 Report was released, the
+  Earlier this week the biennial Digital Australia 2022 Report was released, the
   1,200 household and 3,152 individual survey revealed key information relevant
-  to marketers considering marketing to  the gaming audience. 
+  to marketers considering marketing to the Australian gaming audience. 
 
 
-  Like any extrapolated report, we need to be aware that the numbers are guidelines, rather than concrete representations of audience, with the results predictably show significant growth predict during a two-year COVID stint that changed the world and its habits!
+  Like any extrapolated report, we need to be aware that the numbers are guidelines, rather than concrete representations of audience, with the results showing significant growth during a two-year COVID stint that changed the world and its habits!
 image: https://res.cloudinary.com/livewire-group/image/upload/v1634805466/0_-_Front_Cover_zybghw.png
 ---
 ## **Gaming is A Key Part of Modern Day Culture**
