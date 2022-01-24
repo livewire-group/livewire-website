@@ -1,6 +1,6 @@
 ---
 title: Livewire announces two key ANZ new hires
-date: 2022-01-24T08:06:33.990Z
+date: 2022-01-24T15:06:00.000Z
 description: "Global Gaming Marketing & Gametech company Livewire hires two
   senior staff to start 2022, withVal Morgan Digital National Sales Director,
   Adam Fischer, and Mediacom Creative Systems Director, Chris Johnston, both
@@ -13,7 +13,9 @@ On joining Livewire Fischer said, “I couldn’t be more excited to join Livewi
 
 After 11 years at Mediacom, Johnston becomes the Head of Gaming Strategy, ANZ and will work on a growing list of non-endemic brands investing in the gaming ecosystem and their gaming marketing strategies. He has held roles that combined strategic, content, media, and partnerships experience nationally. As Mediacom Creative Systems Director, Johnston has worked across clients such as Adidas, Mars, Dell, Alienware, NBC Universal and Hasbro among many others.
 
-Johnston said,“I am incredibly excited to be joining the team at Livewire as Head of Gaming Strategy, ANZ. The opportunity to combine multiple passions of mine to a business and industry that is seeing incredible momentum is equal parts thrilling and the right kind of challenging. I look forward to driving the continued success of Livewire and the growth of its clients in the world of gaming.”
+![](https://res.cloudinary.com/livewire-group/image/upload/v1633381762/technology-circuits-map-world_r3qble.jpg)
+
+Johnston said, “I am incredibly excited to be joining the team at Livewire as Head of Gaming Strategy, ANZ. The opportunity to combine multiple passions of mine to a business and industry that is seeing incredible momentum is equal parts thrilling and the right kind of challenging. I look forward to driving the continued success of Livewire and the growth of its clients in the world of gaming.”
 
 Livewire Co-Founders Indy Khabra and Brad Manuel said the hires were indicative of the demand the business is experiencing both in Australia and globally after expanding into EMEA and APAC.
 
