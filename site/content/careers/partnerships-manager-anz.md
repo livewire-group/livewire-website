@@ -5,15 +5,11 @@ employment: Full Time
 ---
 [Livewire](https://livewire.group/) is leading the way for brands to talk to the next generation of consumers through their passion of gaming, utilising all aspects of gaming marketing and gametech.
 
- 
-
 We are focused on making a positive global impact on the video game ecosystem by leading the creation and adoption of new gaming marketing and gametech technologies with our clients.
-
- 
 
 We are a research and strategy first gaming company, full of ideas and energy and continuing to grow to as a leader in global gaming marketing.
 
- 
+
 
 **Your opportunity**
 
@@ -24,15 +20,13 @@ As our Partnerships Manager (ANZ), you will be an integral part of the Commercia
 \
 You will be proactive in market, identifying opportunities for growth and optimising revenue.  Being a natural people person, you will also foster a positive, productive, and long-lasting relationship with clients.
 
-  
+
 
 **Where you will shine**
 
 
 
 You will be a vital part of the Livewire team, with your ability to continually learn and adapt in the fast-paced gaming marketing and gametech environment, while being loved by our clients for your ability to always be present, and providing best in market responses to briefs. Your day to day will include:
-
- 
 
 * Prospecting, pitching and presenting the broad, and constantly growing suite of products to new and existing clients (both online and IRL)
 * Ensure positive client experiences by delivering best in market solutions, and taking pride in your record-breaking response times to clients
@@ -44,7 +38,7 @@ You will be a vital part of the Livewire team, with your ability to continually 
 
 **What you will bring**
 
- 
+
 
 * A passion for media/gaming/entertainment with a comprehensive understanding of the media landscape
 * Strong existing relationships with media agency and brand contacts
@@ -60,7 +54,7 @@ You will be a vital part of the Livewire team, with your ability to continually 
 * Your energetic and team first attitude
 * Experience working in gaming verticals is preferable but not necessary (publishers, platforms, influencers, content and social)
 
- 
+
 
 **How you can apply**
 
@@ -72,9 +66,11 @@ Your subject should be – YOUR NEW PARTNERSHIPS MANAGER, ANZ, announcing your a
 
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that is diverse, accepting applicants of all ages, races, religions, disabilities, gender identifications or sexual orientations. If you require additional preparations to support a positive interview experience, please let us know.
 
- 
+
 
 **What we offer you**
+
+
 
 * An attractive salary, including base, super and holidays
 * The ability to work remotely (we’ll invest in setting up your remote office)
