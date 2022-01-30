@@ -1,6 +1,6 @@
 ---
 title: Gaming Ad Operations Director, ANZ
-location: Australia (WFH)
+location: Australia
 employment: Full Time
 ---
 **Gaming Ad Operations Director, ANZ**
