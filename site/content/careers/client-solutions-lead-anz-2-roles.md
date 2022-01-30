@@ -1,6 +1,6 @@
 ---
 title: Client Solutions Lead, ANZ (2 roles)
-location: Australia
+location: Australia (WFH)
 employment: Full Time
 ---
 [Livewire](https://livewire.group/) is leading the way for brands to talk to the next generation of consumers through their passion of gaming, utilising all aspects of gaming marketing and gametech.
