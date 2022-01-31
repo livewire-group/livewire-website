@@ -54,9 +54,9 @@ You will bring a passion for building stuff, a flair for growing relationships a
 
 We’re not here to waste your time writing a novel, we want to see how your brain works!
 
-Please send a Cover Letter (1 page max), Resume (1 page max) and Case Study (1 page max) highlighting a sale you are most proud of, the steps you took to execute it, what you loved, what you learned and what you would do different to [careers@livewire.group](mailto:careers@livewire.group),
+Please send a Cover Letter (1 page max), and Resume (1 page max) to [careers@livewire.group](mailto:careers@livewire.group) by
 
-Your subject should be – YOUR NEW DIGITAL AD OPERATIONS DIRECTOR, ANZ 
+Your subject should be – YOUR NEW DIGITAL AD OPERATIONS DIRECTOR, announcing your arrival to our team before Friday the 18th of February 2022 (5pm AEST)
 
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that is diverse, accepting applicants of all ages, races, religions, disabilities, gender identifications or sexual orientations. If you require additional preparations to support a positive interview experience, please let us know.
 
