@@ -4,3 +4,5 @@ data/webpack.json
 /npm-debug.log
 yarn-error.log
 static/img/sprites.svg
+data/webpack.json
+.hugo_build.lock
