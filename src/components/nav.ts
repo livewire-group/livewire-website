@@ -9,14 +9,14 @@ const OPEN_BUTTON = 'is-open';
 const OPEN_MENU = '-translate-x-full';
 
 export const initNav = () => {
-	const buttonEl = document.getElementById(BUTTON_ID);
-	const menuEl = document.getElementById(MENU_ID);
-	if (!buttonEl || !menuEl) return;
+	const buttonElement = document.querySelector(`#${BUTTON_ID}`);
+	const menuElement = document.querySelector(`#${MENU_ID}`);
+	if (!buttonElement || !menuElement) return;
 
 	const toggleMenu = () => {
-		buttonEl.classList.toggle(OPEN_BUTTON);
-		menuEl.classList.toggle(OPEN_MENU);
+		buttonElement.classList.toggle(OPEN_BUTTON);
+		menuElement.classList.toggle(OPEN_MENU);
 	};
 
-	buttonEl.addEventListener('click', toggleMenu);
+	buttonElement.addEventListener('click', toggleMenu);
 };

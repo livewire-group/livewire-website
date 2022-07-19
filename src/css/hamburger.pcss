@@ -11,16 +11,15 @@
 	&::before,
 	&::after {
 		@apply bg-black;
-		content: '';
-		position: absolute;
-		z-index: 11;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 1.7em;
-		height: 0.2em;
 		border-radius: 1em;
-		transition: transform var(--actual-speed) ease-in-out,
-			opacity 0s ease-in-out;
+		content: '';
+		height: 0.2em;
+		left: 50%;
+		position: absolute;
+		transform: translateX(-50%);
+		transition: transform var(--actual-speed) ease-in-out, opacity 0s ease-in-out;
+		width: 1.7em;
+		z-index: 11;
 	}
 }
 
@@ -40,11 +39,11 @@
 	}
 
 	.is-open & {
-		opacity: 0;
+		opacity: 0%;
 
 		&::before,
 		&::after {
-			transform: translate(-50%, 0em);
+			transform: translate(-50%, 0);
 		}
 
 		&,
@@ -56,12 +55,12 @@
 }
 
 .cross {
-	opacity: 0;
 	background: transparent;
+	opacity: 0%;
 	transition-delay: var(--actual-speed), var(--actual-speed);
 
 	.is-open & {
-		opacity: 1;
+		opacity: 100%;
 
 		&::before {
 			transform: translateX(-50%) rotate(45deg);
