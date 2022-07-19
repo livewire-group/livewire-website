@@ -1,0 +1,14 @@
+{
+  "main": {
+    "css": "/main.css",
+    "js": "/main.js"
+  },
+  "cms": {
+    "js": "/cms.js"
+  },
+  "": {
+    "woff": "/assets/fonts/54e91b312ad0f326fec2.woff",
+    "woff2": "/assets/fonts/56f994115939fb2dba77.woff2",
+    "html": "/admin/index.html"
+  }
+}

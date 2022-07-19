@@ -1,27 +1,26 @@
 <title>{{ .Title }} | {{ $.Site.Title }}</title>
 
-{{ $stylesheet := .Site.Data.webpack.main }}
+{{ $stylesheet := $.Site.Data.webpack.main }}
 {{ with $stylesheet.css }}
 	<link href="{{ relURL . }}" rel="stylesheet" />
-
 {{ end }}
 
 
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<base
-	href="{{ if getenv "CONTEXT" }}
-		{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}
+{{/*<base*/}}
+{{/*	href="{{ if getenv "CONTEXT" }}*/}}
+{{/*		{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}*/}}
 
 
-	{{ else }}
-		{{ $.Site.BaseURL }}
+{{/*	{{ else }}*/}}
+{{/*		{{ $.Site.BaseURL }}*/}}
 
 
-	{{ end }}
-	"
-/>
+{{/*	{{ end }}*/}}
+{{/*	"*/}}
+{{/*/>*/}}
 
 <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
 
