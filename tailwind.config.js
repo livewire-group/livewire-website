@@ -2,8 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	content: ['./layouts/**/*.html'],
-	safelist: ['-translate-x-full', 'translate-x-5'],
+	content: ['./layouts/**/*.html', './src/**/*.ts'],
 	darkMode: 'class', // Or 'media' or 'class'
 	theme: {
 		colors: {

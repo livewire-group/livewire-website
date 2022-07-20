@@ -1,12 +1,10 @@
 <div
 	class="mx-auto md:max-w-7xl w-full {{ if .Page.IsHome }}
 		md:absolute md:left-0 md:right-0
-
 	{{ end }}"
 >
 	{{ if not .Page.IsHome }}
-		<p class="absolute w-full z-10 not-sr-only md:hidden text-center text-black pt-4">{{ partial "livewire-logo" }}</p>
-
+		<p class="absolute w-full z-10 not-sr-only md:hidden text-center text-white pt-4">{{ partial "livewire-logo" }}</p>
 	{{ end }}
 
 
@@ -19,10 +17,8 @@
 			md:relative md:left-auto md:h-auto md:w-auto md:text-white md:flex-row md:items-center md:text-lg md:bg-transparent md:px-2 md:py-1.5
 			{{ if .Page.IsHome }}
 			md:justify-center md:top-8
-
 		{{ else }}
 			md:justify-start
-
 		{{ end }}
 	"
 	>
@@ -32,7 +28,6 @@
 					<span class="inline-flex">{{ partial "livewire-logo" }}</span>
 				</a>
 			</div>
-
 		{{ end }}
 
 
@@ -47,10 +42,8 @@
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 								border-primary group-hover:border-white
-
 							{{ else }}
 								border-transparent
-
 							{{ end }}
 					"
 							href="{{ .URL }}"
@@ -68,10 +61,8 @@
 										no-underline block no-underline my-4 md:my-2 md:mx-2 border-b-2 hover:border-primary
 										{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 											border-primary group-hover:border-white
-
 										{{ else }}
 											border-transparent
-
 										{{ end }}
 										"
 										href="{{ .URL }}"
@@ -79,21 +70,17 @@
 										{{ .Name }}
 									</a>
 								</li>
-
 							{{ end }}
 						</ul>
 					</li>
-
 				{{ else }}
 					<a
 						class="
 						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 							border-primary group-hover:border-white
-
 						{{ else }}
 							border-transparent
-
 						{{ end }}
 					"
 						href="{{ .URL }}"
@@ -101,9 +88,7 @@
 					>
 						{{ .Name }}
 					</a>
-
 				{{ end }}
-
 
 			{{ end }}
 		</ul>
