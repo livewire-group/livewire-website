@@ -1,21 +1,18 @@
 <div class="relative overflow-hidden">
-	<div class="bg-primary text-black bg-hero-section">
+	<div class="bg-primary text-black">
 		<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:py-36">
 			<div class="text-center">
 				{{ if .overline }}
 					<p class="max-w-xl mt-5 mx-auto uppercase">{{ .overline }}</p>
-
 				{{ end }}
 				<h1 class="mt-1 font-display text-3xl md:text-4xl text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">
 					<span class="inline-block bg-primary/75 py-1.5 px-3">{{ .title }}</span>
 				</h1>
 				{{ if .underline }}
 					<p class="max-w-xl mt-5 mx-auto uppercase">{{ .underline }}</p>
-
 				{{ end }}
 				{{ if .subtitle }}
 					<p class="max-w-xl mt-5 mx-auto text-xl">{{ .subtitle }}</p>
-
 				{{ end }}
 			</div>
 		</div>

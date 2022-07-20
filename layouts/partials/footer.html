@@ -1,24 +1,14 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <footer class="p-8 pt-12">
 	<div class="relative mx-auto lg:max-w-7xl md:flex flex-wrap justify-between">
-		{{/* <img alt="glitch" class="not-sr-only absolute -right-8 lg:right-12 -top-16 w-32 md:w-36 lg:w-44" src="https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286387/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_4_BlackWhite_mlcji2.png" /> */}}
 		<nav id="footer-menu" class="flex font-display text-white flex-row justify-start text-lg bg-none mb-8">
-			<div class="relative text-xl bg-primary text-black -ml-2 pl-2 overflow-hidden">
-				<img
-					alt="glitch image"
-					class="not-sr-only absolute left-0 bottom-0 w-full"
-					src="https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286328/vi/pattern/BlackMint/Fragment/Livewire_Pattern_Fragment_2_BlackMint_jt47j1.png"
-				/>
+			<div class="relative text-xl bg-primary text-black -ml-2 overflow-hidden">
 				<div class="relative inline-block bg-primary/50 z-10">
 					{{ if not .Page.IsHome }}
 						<a href="/" class="no-underline hover:underline">
 							{{ partial "livewire-logo" }}
 						</a>
-
 					{{ else }}
 						{{ partial "livewire-logo" }}
-
-
 					{{ end }}
 				</div>
 			</div>
@@ -30,14 +20,12 @@
 					<a
 						class="block no-underline hover:underline my-0 mx-2 {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 							active
-
 						{{ end }}"
 						href="{{ .URL }}"
 						title="{{ .Title }}"
 					>
 						{{ .Name }}
 					</a>
-
 				{{ end }}
 			</ul>
 		</nav>
@@ -96,7 +84,7 @@
 					Livewire Group International Pty Ltd. All rights reserved.
 					{{/* Ensure copyright year is always up to date */}}
 					<script>
-						document.getElementById('cpy-yr').innerText = new Date().getFullYear().toString();
+						document.querySelector('#cpy-yr').textContent = new Date().getFullYear().toString();
 					</script>
 				</p>
 				<p class="text-gray-600">
