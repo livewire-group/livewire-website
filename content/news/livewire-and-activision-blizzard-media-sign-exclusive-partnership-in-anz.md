@@ -5,7 +5,7 @@ description: The exclusive partnership between Activision Blizzard Media and
   Livewire provides brands and marketers the ability to engage ANZ’s largest
   mobile gaming audiences, through blended in-game ads and custom creative
   executions.
-image: https://res.cloudinary.com/livewire-group/image/upload/v1651618912/MicrosoftTeams-image_j0lj6w.png
+image: https://res.cloudinary.com/livewire-group/image/upload/w_600,q_auto,f_auto/v1651618912/MicrosoftTeams-image_j0lj6w.png
 ---
 [Activision Blizzard Media](http://www.activisionblizzardmedia.com/) and [Livewire ](https://livewire.group/)have signed an exclusive partnership to enable brands to authentically engage the mobile gaming audience across ANZ. The daily average play time for mobile games within ANZ is 20 minutes per day, a testament to the consistency and attention of the mobile gaming audience.
 
