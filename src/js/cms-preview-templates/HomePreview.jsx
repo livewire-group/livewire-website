@@ -1,10 +1,6 @@
 import React from 'react';
-import LogoCloud from './components/LogoCloud.jsx';
 
-const HomePreview = ({ entry, getAsset, ...rest }) => {
-	const heroVideo = getAsset(entry.getIn(['data', 'heroVideo']));
-	const heroFallback = getAsset(entry.getIn(['data', 'heroFallback']));
-
+const HomePreview = ({ entry }) => {
 	const title = entry.getIn(['data', 'title']);
 	const subtitle = entry.getIn(['data', 'subtitle']);
 	const intros = entry.getIn(['data', 'intros']);
@@ -13,47 +9,58 @@ const HomePreview = ({ entry, getAsset, ...rest }) => {
 
 	return (
 		<div>
-			<div className="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5">
-				<h1 className="sr-only">Livewire Group</h1>
-				{heroVideo ? (
-					<video
-						preload="true"
-						playsInline
-						autoPlay
-						loop
-						muted
-						className="transform scale-150 md:scale-125 lg:scale-100"
-					>
-						<source src={heroVideo} />
-						{heroFallback && <img src={heroFallback} alt="Livewire" />}
-					</video>
-				) : (
-					heroFallback && <img src={heroFallback} alt="Livewire" />
-				)}
+			<div className="hero-banner hero-banner--large">
+				<picture>
+					<source
+						srcSet="
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_500,w_480/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg,
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_1000,w_960/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg 1.5x
+						"
+						media="(max-width: 480px)"
+					/>
+					<source
+						srcSet="
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_500,w_768/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg,
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_1000,w_1500/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg 1.5x
+						"
+						media="(max-width: 768px)"
+					/>
+					<source
+						srcSet="
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_500,w_1024/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg,
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_1000,w_2100/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg 1.5x
+						"
+						media="(max-width: 1024px)"
+					/>
+					<source
+						srcSet="
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_1000,w_1920/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg,
+							https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco,h_1000,w_2560/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg 1.5x
+						"
+						media="(max-width: 1280px)"
+					/>
+					<img
+						className="absolute inset-0 h-full w-full object-cover"
+						src="https://res.cloudinary.com/livewire-group/image/upload/c_crop,dpr_auto,f_auto,g_center,q_auto:eco/v1658282252/website/banners/hero-banner-large-bg_it94q2.jpg"
+						alt="Livewire banner background"
+					/>
+				</picture>
+				<h1 className="relative px-4 z-10 text-white w-full max-w-[24rem] sm:max-w-full sm:w-[24rem] md:w-[28rem] lg:w-[32rem]">
+					<span className="inline-block w-full min-w-[8rem]">
+						<svg className="fill-current" viewBox="0 0 480 170">
+							<use href="/img/logo.svg#logo"></use>
+						</svg>
+					</span>
+				</h1>
 			</div>
 
-			<div
-				className="bg-white text-black relative"
-				style={{
-					backgroundRepeat: 'no-repeat',
-					backgroundPosition: 'top left',
-					backgroundImage:
-						"url('https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286400/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_3_BlackWhite_riuxss.png')",
-					backgroundSize: '20vw',
-				}}
-			>
+			<div className="bg-white text-black relative">
 				<div className="max-w-7xl mx-auto py-24 md:py-36 px-4 sm:px-6 lg:px-8">
 					<div className="text-center">
-						<h1 className="mt-1 font-display text-3xl md:text-4xl lg:text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">
-							{title}
-						</h1>
+						<h1 className="mt-1 font-display text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">{title}</h1>
 						{subtitle && <p className="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">{subtitle}</p>}
 					</div>
 				</div>
-				<img
-					className="not-sr-only absolute right-0 bottom-0 md:bottom-7 w-1/4 md:w-40 lg:w-60 transform translate-y-1/2 rotate-90"
-					src="https://res.cloudinary.com/livewire-group/image/upload/q_auto,f_auto/v1615286412/vi/pattern/BlackWhite/Fragment/Livewire_Pattern_Fragment_6_BlackWhite_irv8xa.png"
-				/>
 			</div>
 
 			{Boolean(intros?.size) && (
@@ -71,7 +78,7 @@ const HomePreview = ({ entry, getAsset, ...rest }) => {
 
 			<div className="bg-primary text-black text-center py-12 px-4 lg:px-16">
 				<div className="max-w-4xl mx-auto">
-					<h2 className="text-4xl mb-8">What we do</h2>
+					<h2 className="text-4xl mb-8">Gaming Marketing & Gametech</h2>
 					<p className="my-8 text-lg leading-relaxed">
 						Our services encompass end to end brand services, including talent engagement, programmatic and digital
 						advertising, gaming and esports marketing, direct publisher opportunities and more to deliver integrated
@@ -80,8 +87,6 @@ const HomePreview = ({ entry, getAsset, ...rest }) => {
 					{/* {{ partial "services-list-block"(where.Site.RegularPages "Section" "==" "services")}} */}
 				</div>
 			</div>
-
-			<LogoCloud title={brands.get('text')} logos={brands.get('logos')} />
 		</div>
 	);
 };

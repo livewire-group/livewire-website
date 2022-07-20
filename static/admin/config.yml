@@ -63,8 +63,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-          - { label: "Hero Video", name: "heroVideo", widget: "image", required: false }
-          - { label: "Hero Fallback", name: "heroFallback", widget: "image", required: false }
           - {
               label: "Intros",
               name: "intros",
