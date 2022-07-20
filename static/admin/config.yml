@@ -17,7 +17,7 @@ publish_mode: editorial_workflow
 collections: # A list of collections the CMS should be able to edit
   - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/news" # The path to the folder where the documents are stored
+    folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string" }
@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Body", name: "body", widget: "markdown" }
   #  - name: "services"
   #    label: "Services"
-  #    folder: "site/content/services"
+  #    folder: "content/services"
   #    create: false
   #    fields:
   #      - { label: "Title", name: "title", widget: "string" }
@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "./site/content/_index.md"
+      - file: "./content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -122,7 +122,7 @@ collections: # A list of collections the CMS should be able to edit
                 ],
             }
 
-      - file: "site/content/gaming-marketing/_index.md"
+      - file: "content/gaming-marketing/_index.md"
         label: "Gaming Marketing"
         name: "gaming-marketing"
         fields:
@@ -136,7 +136,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Text, name: text, widget: markdown }
               - { label: Dark, name: dark, widget: boolean }
 
-      - file: "site/content/gametech/_index.md"
+      - file: "content/gametech/_index.md"
         label: "Gametech"
         name: "gametech"
         fields:
@@ -152,14 +152,14 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "careers" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Job Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/careers" # The path to the folder where the documents are stored
+    folder: "content/careers" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Employment", name: "employment", widget: "select", options: ["Full Time", "Part Time"] }
       - { label: "Body", name: "body", widget: "markdown" }
-#      - file: "site/content/contact/_index.md"
+#      - file: "content/contact/_index.md"
 #        label: "Contact Page"
 #        name: "contact"
 #        fields:
@@ -253,7 +253,7 @@ collections: # A list of collections the CMS should be able to edit
 #                  },
 #                ],
 #            }
-#      - file: "site/content/values/_index.md"
+#      - file: "content/values/_index.md"
 #        label: "Values Page"
 #        name: "values"
 #        fields:
