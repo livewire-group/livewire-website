@@ -1,4 +1,8 @@
-<title>{{ .Title }} | {{ $.Site.Title }}</title>
+{{ if .IsHome }}
+	<title>{{ $.Site.Title }}</title>
+{{ else }}
+	<title>{{ .Title }} | {{ $.Site.Title }}</title>
+{{ end }}
 
 {{ $stylesheet := $.Site.Data.webpack.main }}
 {{ with $stylesheet.css }}
@@ -9,18 +13,13 @@
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-{{/*<base*/}}
-{{/*	href="{{ if getenv "CONTEXT" }}*/}}
-{{/*		{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}*/}}
+{{/* <base */}}
+{{/* href="{{ if getenv "CONTEXT" }}*/}}
+{{/* {{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}*/}} {{/* {{ else }}*/}}
+{{/* {{ $.Site.BaseURL }}*/}} {{/* {{ end }}*/}}
+{{/* " */}}
+{{/* /> */}}
 
-
-{{/*	{{ else }}*/}}
-{{/*		{{ $.Site.BaseURL }}*/}}
-
-
-{{/*	{{ end }}*/}}
-{{/*	"*/}}
-{{/*/>*/}}
 
 <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
 
@@ -38,15 +37,12 @@
 <meta property="og:title" content="{{ .Page.Title }} | {{ $.Site.Title }}" />
 {{ if .Page.Description }}
 	<meta property="og:description" content="{{ .Page.Description }}" />
-
 {{ end }}
 <meta property="og:url" content="{{ .Page.RelPermalink }}" />
 
 {{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/b_auto,c_pad,h_627,w_1200/v1615285680/vi/logo/logo-black-mint.png" }}
 {{ if .Params.image }}
 	{{ $.Scratch.Set "image" .Params.image }}
-
-
 {{ end }}
 <meta property="og:image" content="{{ $.Scratch.Get "image" }}" />
 
@@ -54,10 +50,8 @@
 	<meta name="publish_date" property="og:publish_date" content="{{ .Page.PublishDate }}" />
 	<meta property="article:published_time" content="{{ .Page.PublishDate }}" />
 	<meta property="article:modified_time" content="{{ .Page.Lastmod }}" />
-
 {{ end }}
 
 {{ if .IsHome }}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
 {{ end }}
