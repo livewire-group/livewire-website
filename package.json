@@ -29,7 +29,7 @@
     "lint:eslint": "eslint .",
     "lint:styles": "stylelint **/*.{css,pcss,html}",
     "format": "run-s --continue-on-error format:stylelint format:prettier",
-    "format:stylelint": "stylelint --fix --cache **/*.{css,pcss}",
+    "format:stylelint": "stylelint --fix --cache --allow-empty-input **/*.{css,pcss,html}",
     "format:prettier": "prettier --write --cache --ignore-unknown --no-error-on-unmatched-pattern **/*.{js,jsx,ts,tsx,html,md,css,pcss,json,toml}"
   },
   "author": "Rhys Lloyd <justrhysism@gmail.com>",
@@ -123,12 +123,12 @@
       "prettier --write"
     ],
     "*.{css,pcss}": [
-      "stylelint --cache --fix",
+      "stylelint --cache --fix --allow-empty-input",
       "prettier --write"
     ],
     "*.html": [
       "eslint --cache --fix",
-      "stylelint --cache --fix",
+      "stylelint --cache --fix --allow-empty-input",
       "prettier --write"
     ],
     "*.json": "prettier --write"

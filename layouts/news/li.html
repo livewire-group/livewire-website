@@ -2,12 +2,10 @@
 	{{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/c_fill,f_auto,g_center,h_192,q_auto,w_363/v1615286157/vi/Logo/Livewire_Pattern_Logo_BlackMint_A3_gatmmz.jpg" }}
 	{{ if .Params.image }}
 		{{ $.Scratch.Set "image" .Params.image }}
-
-
 	{{ end }}
 	<div
 		class="flex h-48 items-center overflow-hidden bg-gray-100 bg-contain bg-no-repeat bg-center"
-		style="background-image: url({{ $.Scratch.Get "image" }})"
+		style="background-image: url('{{ $.Scratch.Get "image" }}')"
 	>
 		{{/* {{ if .Params.image }}*/}} {{/* <img class="m-auto" src="{{ .Params.image }}" alt="{{ .Title }}" />*/}}
 		{{/* {{ else }}*/}}
