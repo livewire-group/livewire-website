@@ -10,7 +10,7 @@ description: "Global In-Game Audio ad technology company AudioMob (who recently
   artists Ed Sheeran and Nas alongside brands like Intel, Jeep and KitKat who
   all saw relative metric achievements of more than 1000% while accessing over
   40,000 games through its Audio Ad Platform.  "
-image: https://res.cloudinary.com/livewire-group/image/upload/v1637708679/AudioMob_Visual_rbgy9b.png
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto:best,w_580/v1637708679/AudioMob_Visual_rbgy9b.png
 ---
 [Livewire ](https://livewire.group/)is a leader in marketing and strategy across the gaming ecosystem and with this deal, launches [AudioMob](https://audiomob.com/)’s In-Game Audio ads to APAC brands, with an opportunity to reach players in a non-intrusive way within the game’s environment. According to research from AudioMob, 61 per cent of 18 to 24-year-olds listen to music whilst playing video games. That figure changes to 49 per cent for 24 to 34-year-olds and 44 per cent for 35 to 44-year-olds. 
 

@@ -7,7 +7,7 @@ description: Global gaming marketing and gametech company Livewire has
   in APAC 6 months ago, Livewire has created a reputation for its unique
   approach to gaming marketing, creating partnerships across APAC and EMEA,
   while winning a range of significant clients in ANZ.
-image: https://res.cloudinary.com/livewire-group/image/upload/v1633381762/technology-circuits-map-world_r3qble.jpg
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:eco,w_580/v1633381762/technology-circuits-map-world_r3qble.jpg
 ---
 *Over 50% of Europe’s population ages 16–64 plays video games. The **total revenue for Europe's games industry was £23.3 billion** according to a report by the Interactive Software Federation of Europe and the European Games Developer Federation. The Middle East is the fastest growing online gaming population, with the mobile gaming segment alone projected to reach $4.4 billion by 2022, more than triple its growth from the $1.06 billion posted in 2016.*
 

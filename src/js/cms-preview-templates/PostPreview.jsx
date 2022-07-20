@@ -7,7 +7,7 @@ const PostPreview = ({ entry, widgetFor, getAsset }) => {
 	const image = getAsset(entry.getIn(['data', 'image']));
 	const title = entry.getIn(['data', 'title']);
 	const description = entry.getIn(['data', 'description']) || '';
-	const dateString = format(entry.getIn(['data', 'date']), 'ddd, MMM D, YYYY');
+	const dateString = format(entry.getIn(['data', 'date']), 'EEE, MMM d, yyyy');
 	const heroProperties = {
 		title: 'News',
 		underline: dateString,

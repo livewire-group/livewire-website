@@ -12,7 +12,7 @@ description: >-
 
 
   Livewire creates integrated gaming marketing strategies, using their experience with gaming publishers, content creators, digital platforms, and emerging technology to design campaigns and deliver solutions that add value. The partnership with Anzu, known for its award-winning in-game advertising solutions, allow advertisers to run non-disruptive ads within many of Roblox’s most popular titles.
-image: https://res.cloudinary.com/livewire-group/image/upload/v1642601526/Anzu_and_Livewire_announcement_banner_xmiwxu.jpg
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto:good,w_580/v1642601526/Anzu_and_Livewire_announcement_banner_xmiwxu.jpg
 ---
 In-game advertising platform Anzu has signed an exclusive partnership with global gaming marketing and gametech company Livewire, helping APAC advertisers reach Roblox players via blended in-game ad placements.
 Livewire creates integrated gaming marketing strategies, using their experience with gaming publishers, content creators, digital platforms, and emerging technology to design campaigns and deliver solutions that add value. The partnership with Anzu, known for its award-winning in-game advertising solutions, allow advertisers to run non-disruptive ads within many of Roblox’s most popular titles.

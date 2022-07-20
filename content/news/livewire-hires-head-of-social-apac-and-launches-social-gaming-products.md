@@ -10,7 +10,7 @@ description: >-
 
 
   A specialist in Social Media Marketing, Online Advertising and Project Management he's delivered multiple cross market campaigns that have helped engage fans locally and abroad, whilst delivering measurable brand growth. He previous was the Social Strategy lead at Dentsu agency Carat working on brands including Woolworths, Mastercard, David Jones and Microsoft. 
-image: https://res.cloudinary.com/livewire-group/image/upload/v1644933504/Xander_xrplzu.png
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:good/v1644933504/Xander_xrplzu.png
 ---
 Xander’s priorities will include launching Livewire’s social offering, adding new services to the gametech companies set of brand solutions connecting the gaming ecosystem and audience for marketers.
 
