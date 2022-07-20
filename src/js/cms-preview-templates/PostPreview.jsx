@@ -1,20 +1,21 @@
 import React from 'react';
 import format from 'date-fns/format';
-import HeroSection from './components/HeroSection.jsx';
+
+import HeroBanner from './components/HeroBanner.jsx';
 
 const PostPreview = ({ entry, widgetFor, getAsset }) => {
 	const image = getAsset(entry.getIn(['data', 'image']));
 	const title = entry.getIn(['data', 'title']);
 	const description = entry.getIn(['data', 'description']) || '';
 	const dateString = format(entry.getIn(['data', 'date']), 'ddd, MMM D, YYYY');
-	const heroProps = {
+	const heroProperties = {
 		title: 'News',
 		underline: dateString,
 	};
 
 	return (
 		<>
-			<HeroSection {...heroProps} />
+			<HeroBanner {...heroProperties} />
 			<div className="bg-white text-black">
 				<div className="max-w-prose mx-auto py-12 px-8 md:px-0">
 					<h1 className="text-3xl mb-5">{title}</h1>

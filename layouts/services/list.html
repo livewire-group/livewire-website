@@ -1,6 +1,5 @@
 {{ define "main" }}
-
-	{{ partial "hero-section" (dict "imageUrl" "/img/news-index.jpg" "title" "What we do") }}
+	{{ partial "hero-banner" (dict "imageUrl" "/img/news-index.jpg" "title" "What we do") }}
 
 
 	<div class="bg-black text-white">
@@ -19,10 +18,8 @@
 					<li class="flex-grow text-xl md:text-2xl lg:text-4xl mx-8 my-4 p-2">
 						{{ .Render "li" }}
 					</li>
-
 				{{ end }}
 			</ul>
 		</div>
 	</div>
-
 {{ end }}

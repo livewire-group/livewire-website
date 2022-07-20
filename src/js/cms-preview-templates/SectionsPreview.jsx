@@ -1,16 +1,17 @@
 import React from 'react';
+
+import HeroBanner from './components/HeroBanner.jsx';
 import LogoCloud from './components/LogoCloud.jsx';
-import HeroSection from './components/HeroSection.jsx';
 
 const HomePreview = ({ entry, widgetsFor }) => {
 	const title = entry.getIn(['data', 'title']);
-	const heroProps = {
+	const heroProperties = {
 		title,
 	};
 
 	return (
 		<>
-			<HeroSection {...heroProps} />
+			<HeroBanner {...heroProperties} />
 
 			{widgetsFor('sections').map((section, index) => {
 				const title = section.getIn(['data', 'title']);

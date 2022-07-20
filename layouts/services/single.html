@@ -1,11 +1,8 @@
 {{ define "main" }}
-
-	{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title) }}
+	{{ partial "hero-banner" (dict "imageUrl" .Params.image "title" .Title) }}
 
 	{{ range $index, $element := .Params.sections }}
 		{{ partial "short-text" (merge $element (dict "index" $index)) }}
-
-
 	{{ end }}
 
 	{{ with .Params.services }}
@@ -13,19 +10,15 @@
 			<div class="max-w-4xl mx-auto px-8">
 				{{ if .text }}
 					<h2 class="mb-4">{{ .text }}</h2>
-
 				{{ end }}
 				{{ if .list }}
 					{{ range .list }}
 						<li>{{ . }}</li>
-
 					{{ end }}
-
 
 				{{ end }}
 			</div>
 		</div>
-
 	{{ end }}
 
 	{{/* {{ .Content }}*/}}
@@ -36,5 +29,4 @@
 			{{ partial "services-list-block" (where .Site.RegularPages "Section" "==" "services") }}
 		</div>
 	</div>
-
 {{ end }}

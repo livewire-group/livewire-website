@@ -1,18 +1,19 @@
 import React from 'react';
-import format from 'date-fns/format';
-import HeroSection from './components/HeroSection.jsx';
 
-const PostPreview = ({ entry, widgetFor, getAsset }) => {
+import HeroBanner from './components/HeroBanner.jsx';
+
+const PostPreview = ({ entry, widgetFor }) => {
 	const title = entry.getIn(['data', 'title']);
 	const location = entry.getIn(['data', 'location']);
 	const employment = entry.getIn(['data', 'employment']);
+	// eslint-disable-next-line unicorn/prevent-abbreviations
 	const heroProps = {
 		title: 'Careers',
 	};
 
 	return (
 		<>
-			<HeroSection {...heroProps} />
+			<HeroBanner {...heroProps} />
 			<div className="bg-white text-black">
 				<div className="max-w-prose mx-auto py-12 px-8 md:px-0">
 					<h1 className="text-3xl mb-5">{title}</h1>
