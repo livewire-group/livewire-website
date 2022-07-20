@@ -1,10 +1,9 @@
 {{ define "main" }}
-
 	<div
 		class="aspect aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-10 xl:aspect-h-5"
 	>
 		<h1 class="sr-only">Livewire Group</h1>
-		<video preload playsinline autoplay loop muted class="transform scale-150 md:scale-125 lg:scale-100">
+		<video preload playsinline autoplay loop muted class="scale-150 md:scale-125 lg:scale-100">
 			<source
 				src="https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4"
 			/>
@@ -21,7 +20,6 @@
 				<h1 class="mt-1 font-display text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">{{ .Title }}</h1>
 				{{ if .Params.subtitle }}
 					<p class="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">{{ .Params.subtitle }}</p>
-
 				{{ end }}
 			</div>
 		</div>
@@ -36,10 +34,8 @@
 						<p class="text-xl leading-relaxed">{{ .text }}</p>
 					</div>
 				</div>
-
 			{{ end }}
 		</div>
-
 	{{ end }}
 
 
@@ -58,5 +54,4 @@
 	{{/* {{ partial "logo-cloud" .Params.brands }}*/}} {{/* {{ partial "2-up" .Params }}*/}}
 	{{/* {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 	*/}} {{/* {{ partial "blog" . }}*/}}
-
 {{ end }}

@@ -1,12 +1,16 @@
+/**
+ * PostCSS Config
+ */
+
 module.exports = {
-	plugins: {
-		'postcss-import': {},
-		tailwindcss: {},
-		'postcss-nested': {},
-		'postcss-preset-env': {
-			browsers: 'last 2 versions',
-		},
-		'postcss-custom-media': {},
-		autoprefixer: {},
-	},
+	parser: 'postcss-scss',
+	plugins: [
+		require('postcss-import'),
+		require('tailwindcss/nesting'),
+		require('tailwindcss'),
+		require('postcss-flexbugs-fixes'),
+		require('postcss-preset-env')({
+			features: {'nesting-rules': false},
+		}),
+	],
 };

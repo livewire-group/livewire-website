@@ -3,17 +3,17 @@ import CMS from 'netlify-cms-app';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 
 // Import main site styles as a string to inject into the CMS preview pane
-import styles from '!css-loader!postcss-loader!../css/main.pcss';
 
-import HomePreview from './cms-preview-templates/HomePreview';
-import PostPreview from './cms-preview-templates/PostPreview';
-import CareerPreview from './cms-preview-templates/CareerPreview';
-import SectionsPreview from './cms-preview-templates/SectionsPreview';
-// import ProductsPreview from './cms-preview-templates/products';
+import HomePreview from './cms-preview-templates/HomePreview.jsx';
+import PostPreview from './cms-preview-templates/PostPreview.jsx';
+import CareerPreview from './cms-preview-templates/CareerPreview.jsx';
+import SectionsPreview from './cms-preview-templates/SectionsPreview.jsx';
+import styles from '!css-loader!postcss-loader!../css/main.pcss';
+// Import ProductsPreview from './cms-preview-templates/products';
 // import ValuesPreview from './cms-preview-templates/values';
 // import ContactPreview from './cms-preview-templates/contact';
 
-CMS.registerPreviewStyle(styles.toString(), { raw: true });
+CMS.registerPreviewStyle(styles.toString(), {raw: true});
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('home', HomePreview);
 CMS.registerPreviewTemplate('news', PostPreview);

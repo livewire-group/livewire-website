@@ -1,16 +1,17 @@
 [build.environment]
-  YARN_VERSION = "1.12.1"
-  NPM_VERSION = "6.4.1"
+YARN_VERSION = "3.2.1"
+NPM_VERSION = "6.4.1"
 
 [build]
-  command = "yarn build"
-  publish = "dist"
+command = "yarn build"
+publish = "dist"
 
 [context.deploy-preview]
-  command = "yarn build:preview"
+command = "yarn build:preview"
 
 [[headers]]
-  for = "*.avif"
-  [headers.values]
-    Content-Type = "image/avif"
-    Content-Disposition = "inline"
+for = "*.avif"
+
+[headers.values]
+Content-Type = "image/avif"
+Content-Disposition = "inline"

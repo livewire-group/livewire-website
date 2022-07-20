@@ -1,6 +1,6 @@
 import React from 'react';
-import LogoCloud from './components/LogoCloud';
-import HeroSection from './components/HeroSection';
+import LogoCloud from './components/LogoCloud.jsx';
+import HeroSection from './components/HeroSection.jsx';
 
 const HomePreview = ({ entry, widgetsFor }) => {
 	const title = entry.getIn(['data', 'title']);

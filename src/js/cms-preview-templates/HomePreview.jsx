@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoCloud from './components/LogoCloud';
+import LogoCloud from './components/LogoCloud.jsx';
 
 const HomePreview = ({ entry, getAsset, ...rest }) => {
 	const heroVideo = getAsset(entry.getIn(['data', 'heroVideo']));
@@ -47,11 +47,7 @@ const HomePreview = ({ entry, getAsset, ...rest }) => {
 						<h1 className="mt-1 font-display text-3xl md:text-4xl lg:text-5xl sm:text-6xl sm:tracking-tight lg:text-7xl">
 							{title}
 						</h1>
-						{subtitle && (
-							<p className="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">
-								{subtitle}
-							</p>
-						)}
+						{subtitle && <p className="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">{subtitle}</p>}
 					</div>
 				</div>
 				<img
@@ -77,12 +73,11 @@ const HomePreview = ({ entry, getAsset, ...rest }) => {
 				<div className="max-w-4xl mx-auto">
 					<h2 className="text-4xl mb-8">What we do</h2>
 					<p className="my-8 text-lg leading-relaxed">
-						Our services encompass end to end brand services, including talent
-						engagement, programmatic and digital advertising, gaming and esports
-						marketing, direct publisher opportunities and more to deliver
-						integrated strategies that deliver market leading results.
+						Our services encompass end to end brand services, including talent engagement, programmatic and digital
+						advertising, gaming and esports marketing, direct publisher opportunities and more to deliver integrated
+						strategies that deliver market leading results.
 					</p>
-					{/*{{ partial "services-list-block"(where.Site.RegularPages "Section" "==" "services")}}*/}
+					{/* {{ partial "services-list-block"(where.Site.RegularPages "Section" "==" "services")}} */}
 				</div>
 			</div>
 

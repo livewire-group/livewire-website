@@ -1,6 +1,6 @@
 import React from 'react';
 import format from 'date-fns/format';
-import HeroSection from './components/HeroSection';
+import HeroSection from './components/HeroSection.jsx';
 
 const PostPreview = ({ entry, widgetFor, getAsset }) => {
 	const image = getAsset(entry.getIn(['data', 'image']));

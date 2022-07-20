@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Content Manager</title>
+		<title>Content Manager</title>
 
-  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
-<body>
-  <script src="<%= htmlWebpackPlugin.files.js.find(f => f.includes('cms')) %>"></script>
-</body>
+		<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	</head>
+	<body>
+		<script src="<%= htmlWebpackPlugin.files.js.find(f => f.includes('cms')) %>"></script>
+	</body>
 </html>

@@ -4,75 +4,95 @@
 
 @keyframes glitch-1 {
 	0% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	9.99% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	10% {
-		opacity: 1;
+		opacity: 100%;
 	}
+
 	11% {
-		opacity: 1;
+		opacity: 100%;
 	}
+
 	11.01% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	11.99% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	12% {
-		opacity: 1;
+		opacity: 100%;
 	}
+
 	19.9% {
 		transform: translate(0, 0);
 	}
+
 	20% {
 		transform: translate(-20%, 20%);
 	}
+
 	22% {
-		opacity: 1;
+		opacity: 100%;
 	}
+
 	22.01% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	23.99% {
-		opacity: 0;
+		opacity: 0%;
 	}
+
 	24% {
-		opacity: 1;
+		opacity: 100%;
 		transform: translate(-20%, 20%);
 	}
+
 	27.99% {
-		opacity: 1;
+		opacity: 100%;
 		transform: rotate(0deg) translate(-20%, 20%);
 	}
+
 	28% {
-		opacity: 1;
+		opacity: 100%;
 		transform: rotate(90deg) translate(10%, 0);
 	}
+
 	50% {
-		opacity: 1;
+		opacity: 100%;
 		transform: rotate(90deg) translate(10%, 0);
 	}
+
 	50.01% {
-		opacity: 1;
+		opacity: 100%;
 		transform: rotate(0deg) translate(0, 0);
 	}
+
 	70% {
-		opacity: 1;
+		opacity: 100%;
 		transform: scale(1);
 	}
+
 	70.01% {
-		opacity: 1;
+		opacity: 100%;
 		transform: scale(1.5);
 	}
+
 	73% {
-		opacity: 1;
+		opacity: 100%;
 		transform: scale(1.5);
 	}
+
 	73.01% {
-		opacity: 1;
+		opacity: 100%;
 		transform: scale(1);
 	}
 }
@@ -84,6 +104,7 @@
 .glitch-slow {
 	--glitch-animate-speed: 20s;
 }
+
 .glitch-fast {
 	--glitch-animate-speed: 5s;
 }
@@ -93,6 +114,5 @@
 }
 
 .glitch {
-	background: blue;
 	animation: var(--glitch-animation) var(--glitch-animate-speed) linear infinite;
 }

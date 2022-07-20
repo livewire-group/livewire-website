@@ -1,5 +1,6 @@
+const process = require('node:process');
+const path = require('node:path');
 const { merge } = require('webpack-merge');
-const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -16,10 +17,9 @@ module.exports = merge(common, {
 
 	devServer: {
 		port: process.env.PORT || 3000,
-		contentBase: path.join(process.cwd(), './dist'),
-		watchContentBase: true,
-		quiet: false,
-		open: true,
+		static: {
+			directory: path.join(process.cwd(), './dist'),
+		},
 		historyApiFallback: {
 			rewrites: [{ from: /./, to: '404.html' }],
 		},
@@ -27,11 +27,7 @@ module.exports = merge(common, {
 
 	plugins: [
 		new CleanWebpackPlugin({
-			cleanOnceBeforeBuildPatterns: [
-				'dist/**/*.js',
-				'dist/**/*.css',
-				'site/data/webpack.json',
-			],
+			cleanOnceBeforeBuildPatterns: ['dist/**/*.js', 'dist/**/*.css', 'data/webpack.json'],
 		}),
 
 		new MiniCssExtractPlugin({

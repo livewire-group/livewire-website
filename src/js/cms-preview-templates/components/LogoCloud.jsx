@@ -20,10 +20,7 @@ const LogoCloud = ({ title, logos }) => (
 						<span className="font-display">{name}</span>
 					);
 					return (
-						<div
-							key={index}
-							className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
-						>
+						<div key={index} className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
 							{url ? <a href={url}>{L}</a> : L}
 						</div>
 					);

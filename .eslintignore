@@ -1,0 +1,7 @@
+node_modules/*
+
+# Ignore MDX until we've been able to configure it properly
+**/*.mdx
+
+# Ignore generated files
+**/*.typegen.ts
