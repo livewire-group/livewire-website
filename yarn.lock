@@ -9495,6 +9495,7 @@ __metadata:
     react-dom: ^16.14.0
     rimraf: ^3.0.2
     stylelint: ^14.9.1
+    stylelint-config-html: ^1.1.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended-vue: ^1.4.0
     stylelint-config-sass-guidelines: ^9.0.1
@@ -15875,7 +15876,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-html@npm:>=1.0.0":
+"stylelint-config-html@npm:>=1.0.0, stylelint-config-html@npm:^1.1.0":
   version: 1.1.0
   resolution: "stylelint-config-html@npm:1.1.0"
   peerDependencies:

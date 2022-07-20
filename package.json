@@ -27,7 +27,7 @@
     "prepare": "husky install",
     "lint": "run-p --continue-on-error 'lint:*'",
     "lint:eslint": "eslint .",
-    "lint:styles": "stylelint **/*.{css,pcss}",
+    "lint:styles": "stylelint **/*.{css,pcss,html}",
     "format": "run-s --continue-on-error format:stylelint format:prettier",
     "format:stylelint": "stylelint --fix --cache **/*.{css,pcss}",
     "format:prettier": "prettier --write --cache --ignore-unknown --no-error-on-unmatched-pattern **/*.{js,jsx,ts,tsx,html,md,css,pcss,json,toml}"
@@ -91,6 +91,7 @@
     "react-dom": "^16.14.0",
     "rimraf": "^3.0.2",
     "stylelint": "^14.9.1",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
