@@ -4,7 +4,9 @@
 	{{ end }}"
 >
 	{{ if not .Page.IsHome }}
-		<p class="absolute w-full z-10 not-sr-only md:hidden text-center text-white pt-4">{{ partial "livewire-logo" }}</p>
+		<div class="absolute w-full z-10 not-sr-only md:hidden text-center text-white pt-4">
+			<p class="w-36 mx-auto">{{ partial "livewire-logo" }}</p>
+		</div>
 	{{ end }}
 
 
