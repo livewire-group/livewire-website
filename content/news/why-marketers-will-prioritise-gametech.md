@@ -4,7 +4,7 @@ date: 2021-09-29T12:10:14.275Z
 description: With player growth rates from 2020 to 2021 already impressive
   (+5.4%), Livewire Co-Founder & CEO Indy Khabra discusses the role Gametech
   plays and how Livewire is helping brands enter the gaming & esports ecosystem
-image: https://res.cloudinary.com/livewire-group/image/upload/v1629730973/Data_jsadci.jpg
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:eco,w_580/v1629730973/Data_jsadci.jpg
 ---
 For generations, gaming has been a cherished pastime across cultures and geographies. It took on a new life with the advent of the console and the internet, becoming more accessible and affordable. We’re now experiencing the next surge in gaming with the industry nearly doubling over the last five years, largely due to a combination of increasing internet access and speed, the proliferation of 5G, and increasing sophistication in hardware and mobile devices. 
 

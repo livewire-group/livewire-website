@@ -9,7 +9,7 @@ description: It has been widely recognised that game-based marketing is a
   opportunity has exponentially matured in a compressed amount of time.  As
   programmatic becomes more fully integrated into the channel more and more
   brands are taking advantage of the next advertising gold rush.
-image: https://res.cloudinary.com/livewire-group/image/upload/v1632918175/cyberpunk-1024x461.jpg_wv8pyn.webp
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:eco,w_580/v1632918175/cyberpunk-1024x461.jpg_wv8pyn.webp
 ---
 **Keeping up with shifts in the Attention Economy**
 

@@ -8,8 +8,8 @@ description: >-
   esport players or work in gaming and esports.
 
 
-  If this isn’t a generation your deeply engaged with, let me put this anecdotally straight for you. When I worked in professional sport, my friends loved that I worked in sports and wanted to know every detail about the behind the scenes (and a little about gaming!).  By comparison, my younger siblings and older friends children often didn’t care about sport, they commonly didn’t support teams, have favourite players, merchandise, attend games or know what was happening in sporting leagues. 
-image: https://res.cloudinary.com/livewire-group/image/upload/v1632917099/Image_1_-_New_Zoo_Report_ijyckq.png
+  If this isn’t a generation your deeply engaged with, let me put this anecdotally straight for you. When I worked in professional sport, my friends loved that I worked in sports and wanted to know every detail about the behind the scenes (and a little about gaming!).  By comparison, my younger siblings and older friends children often didn’t care about sport, they commonly didn’t support teams, have favourite players, merchandise, attend games or know what was happening in sporting leagues.
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:eco,w_580/v1632917099/Image_1_-_New_Zoo_Report_ijyckq.png
 ---
 What they are passionate about is gaming and esports, they have favourite influencers they watched on YouTube, Facebook Gaming and Twitch, dances they learnt from their heroes on TikTok and Instagram, know their favourite esports stars stats and live in a fast-paced digital culture, that has lessened (and often removed) the need for traditional TV and radio from their lives.
 

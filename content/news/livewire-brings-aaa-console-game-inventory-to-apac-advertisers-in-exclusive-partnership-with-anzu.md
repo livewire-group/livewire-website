@@ -6,7 +6,7 @@ description: The world’s most advanced in-game advertising platform Anzu has
   expanded its exclusive partnership with leading global gametech and gaming
   marketing company Livewire to help more APAC advertisers reach players within
   some of the most popular AAA console titles via non-disruptive in-game ads.
-image: https://res.cloudinary.com/livewire-group/image/upload/v1647473088/Anzu_and_Livewire_announcement_banner_iq4mq9.jpg
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto:eco,w_580/v1647473088/Anzu_and_Livewire_announcement_banner_iq4mq9.jpg
 ---
 *APAC advertisers can now run their banner and video ads within AAA console games exclusively via [Livewire](https://livewire.group/), thanks to a partnership with [Anzu.io](https://www.anzu.io/)*
 

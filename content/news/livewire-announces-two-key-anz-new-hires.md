@@ -5,7 +5,7 @@ description: "Global Gaming Marketing & Gametech company Livewire hires two
   senior staff to start 2022, withVal Morgan Digital National Sales Director,
   Adam Fischer, and Mediacom Creative Systems Director, Chris Johnston, both
   joining the business next month. "
-image: https://res.cloudinary.com/livewire-group/image/upload/v1643011656/Fish_x_CJ_g6rdd1.png
+image: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto:eco/v1643011656/Fish_x_CJ_g6rdd1.png
 ---
 Fischer will join Livewire as the National Commercial Director, ANZ departing Val Morgan Digital where he was hired to build and lead the digital sales team. He was an important part of the success of Fandom in Australia and led the launch and growth of new publishing brands; The Latch, POPSUGAR & Thrillist and their local editions. Before joining Val Morgan, Fischer was the Group Head of Sales at Ziff Davis for 6 years working across global digital brands including IGN, Mashable and PCMag.
 

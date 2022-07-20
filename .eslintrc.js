@@ -243,7 +243,7 @@ module.exports = {
 
 		// React Components
 		{
-			files: ['**/*.tsx'],
+			files: ['**/*.{jsx,tsx}'],
 			rules: {
 				'unicorn/filename-case': [
 					'error',
