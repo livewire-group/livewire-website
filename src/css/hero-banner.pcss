@@ -4,14 +4,14 @@
 
 @layer components {
 	.hero-banner {
-		@apply relative flex justify-center items-center w-full h-[15vh] min-h-[240px] text-white;
-		background-image: linear-gradient(hsl(169deg 98% 54% / 10%) 1px, transparent 1px),
+		@apply relative flex justify-center items-center w-full h-[20vh] min-h-[240px] text-white;
+		background-image: linear-gradient(hsl(169deg 98% 54% / 5%) 1px, transparent 1px),
 			radial-gradient(circle, rgb(1 83 78) 0%, rgb(3 11 22 / 100%) 65%);
 		background-repeat: repeat, no-repeat;
 		background-size: 100% 9px, cover;
 
 		&--large {
-			@apply h-[30vh] min-h-[500px];
+			@apply h-[500px] max-h-[70vh];
 			background-image: linear-gradient(hsl(169deg 98% 54% / 5%) 1px, transparent 1px),
 				radial-gradient(circle, rgb(2 161 152 / 100%) 0%, rgb(3 11 22 / 100%) 65%);
 		}
