@@ -3,7 +3,7 @@ backend:
 
 local_backend: true
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
+media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 media_library:
@@ -72,7 +72,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "./content/_index.md"
+      - file: "content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -137,23 +137,9 @@ collections: # A list of collections the CMS should be able to edit
                 ],
             }
 
-      - file: "content/gaming-marketing/_index.md"
-        label: "Gaming Marketing"
-        name: "gaming-marketing"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: "Link Title", name: linktitle, widget: string }
-          - label: "Sections"
-            name: sections
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-              - { label: Dark, name: dark, widget: boolean }
-
-      - file: "content/gametech/_index.md"
-        label: "Gametech"
-        name: "gametech"
+      - file: "content/solutions/_index.md"
+        label: "Our Solutions"
+        name: "solutions"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: "Link Title", name: linktitle, widget: string }
