@@ -8,9 +8,14 @@ public_folder: "img"
 
 media_library:
   name: "cloudinary"
+  output_filename_only: false
   config:
     cloud_name: "livewire-group"
     api_key: "996367731921186"
+    default_transformations:
+      - - fetch_format: auto # Needs to be an object in and array (i.e. `- -`) because netlify CMS code expecting it
+          quality: auto
+          crop: scale
 
 publish_mode: editorial_workflow
 
@@ -23,7 +28,17 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Intro Blurb", name: "description", widget: "text" }
-      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto # Needs to be an object in and array (i.e. `- -`) because netlify CMS code expecting it
+                  width: 580
+                  quality: auto
+                  crop: scale
       - { label: "Body", name: "body", widget: "markdown" }
   #  - name: "services"
   #    label: "Services"

@@ -20,8 +20,8 @@ const PostPreview = ({ entry, widgetFor, getAsset }) => {
 				<div className="max-w-prose mx-auto py-12 px-8 md:px-0">
 					<h1 className="text-3xl mb-5">{title}</h1>
 					<div className="prose-lg mb-5">
-						{description.split('\n\n').map((p) => (
-							<p>{p}</p>
+						{description.split('\n\n').map((p, index) => (
+							<p key={index}>{p}</p>
 						))}
 					</div>
 					<img className="my-8 mx-auto" src={image} />
