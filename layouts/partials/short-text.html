@@ -3,28 +3,21 @@
 
 {{ if .dark }}
 	{{ $classes = "bg-black text-white" }}
-
-
 {{ end }}
 
 
-<div class="{{ $classes }} py-24">
+<div class="{{ $classes }} md:py-12 py-20">
 	{{ if .title }}
 		<div class="max-w-7xl mx-auto px-8 mb-8">
-			<div
-				class="max-w-7xl text-xl md:text-xl lg:text-2xl prose-xl md:prose-2xl lg:prose-3 {{ cond $reverse "text-right ml-auto" "" }}"
-			>
-				<h2>{{ .title }}</h2>
+			<div class="max-w-7xl  {{ cond $reverse "text-right ml-auto" "" }}">
+				<h2 class="text-2xl md:text-3xl lg:text-4xl">{{ .title }}</h2>
 			</div>
 		</div>
-
 	{{ end }}
 
 
 	<div class="max-w-7xl mx-auto px-8">
-		<div
-			class="max-w-3xl text-xl md:text-2xl lg:text-3xl prose-xl md:prose-2xl lg:prose-3 {{ cond $reverse "text-right ml-auto" "" }}"
-		>
+		<div class="max-w-3xl text-lg md:text-xl lg:text-2xl {{ cond $reverse "text-right ml-auto" "" }}">
 			<div>{{ .text | markdownify }}</div>
 		</div>
 	</div>
