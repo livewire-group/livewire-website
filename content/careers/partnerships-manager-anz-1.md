@@ -1,5 +1,5 @@
 ---
-title: Partnerships Manager, ANZ
+title: Partnerships Manager, ANZ (Melb)
 location: Melbourne, Australia (WFH)
 employment: Full Time
 ---
