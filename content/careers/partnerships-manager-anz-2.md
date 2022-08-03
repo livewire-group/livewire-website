@@ -1,5 +1,5 @@
 ---
-title: Partnerships Manager, ANZ
+title: Partnerships Manager, ANZ (Syd)
 location: Sydney, Australia (WFH)
 employment: Full Time
 ---
