@@ -147,7 +147,18 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Text, name: text, widget: markdown }
-              - { label: Dark, name: dark, widget: boolean }
+              - - label: "Image"
+                  name: "image"
+                  widget: "image"
+                  required: false
+                  media_library:
+                    config:
+                      default_transformations:
+                        - - fetch_format: auto # Needs to be an object in and array (i.e. `- -`) because netlify CMS code expecting it
+                            width: 500
+                            quality: auto
+                            crop: scale
+              - { label: "Image Alt", name: imageAlt, widget: string }
 
   - name: "careers" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Job Post" # Used in the UI, ie.: "New Post"

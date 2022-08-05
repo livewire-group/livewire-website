@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language.Lang }}" class="dark">
+<html lang="{{ $.Site.Language.Lang }}">
 	<head>
 		{{ partial "head" . }}
 		{{ block "head" . }}{{ end }}
@@ -7,8 +7,6 @@
 	<body class="flex flex-col h-screen">
 		{{ block "header" . }}
 			{{ partial "nav" . }}
-
-
 		{{ end }}
 
 
@@ -18,16 +16,13 @@
 
 		{{ block "footer" . }}
 			{{ partial "footer" . }}
-
-
 		{{ end }}
 
 		{{ $script := .Site.Data.webpack.main }}
 		{{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-
+			<script src="{{ relURL . }}"></script>
 		{{ end }}
 
-{{/*		<script src="/app.js"></script>*/}}
+		{{/* <script src="/app.js"></script> */}}
 	</body>
 </html>

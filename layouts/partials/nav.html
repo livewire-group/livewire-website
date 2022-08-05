@@ -4,7 +4,7 @@
 	{{ end }}"
 >
 	{{ if not .Page.IsHome }}
-		<div class="absolute w-full z-10 not-sr-only md:hidden text-center text-white pt-4">
+		<div class="absolute w-full z-10 not-sr-only md:hidden text-center pt-4">
 			<p class="w-36 mx-auto">{{ partial "livewire-logo" }}</p>
 		</div>
 	{{ end }}
@@ -13,20 +13,19 @@
 	<nav
 		id="nav-menu"
 		class="
-			text-outline
-			flex
-			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-white text-2xl transition-transform transform -translate-x-0 bg-black
-			md:relative md:left-auto md:h-auto md:w-auto md:text-white md:flex-row md:items-center md:text-lg md:bg-transparent md:px-2 md:py-1.5
+			flex font-display
+			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-2xl transition-transform transform -translate-x-0 bg-white
+			md:relative md:left-auto md:h-auto md:w-auto md:flex-row md:items-center md:text-base md:bg-white md:px-2 md:py-5
 			{{ if .Page.IsHome }}
-			md:justify-center md:top-8
+			md:justify-center md:top-8 md:bg-transparent text-outline text-white
 		{{ else }}
 			md:justify-start
 		{{ end }}
 	"
 	>
 		{{ if not .Page.IsHome }}
-			<div class="flex bg-primary text-black md:bg-transparent md:text-white text-xl md:text-base -ml-4 md:ml-0">
-				<a href="/" class="no-underline hover:underline inline-flex">
+			<div class="flex text-primary md:bg-transparent md:w-48 text-xl md:text-base -ml-4 md:ml-0">
+				<a href="/" class="no-underline hover:underline inline-flex w-48 md:w-32 ">
 					<span class="inline-flex">{{ partial "livewire-logo" }}</span>
 				</a>
 			</div>
@@ -34,20 +33,28 @@
 
 
 		<!-- Primary Nav -->
-		<ul class="md:contents group" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+		<ul
+			class="group grow w-full flex {{ if not .Page.IsHome }}
+				justify-around
+			{{ else }}
+				justify-center
+			{{ end }}"
+			role="menu"
+			aria-orientation="vertical"
+			aria-labelledby="main-menu"
+		>
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
 				{{ if .HasChildren }}
 					<li class="m-0 pl-0 md:relative nav-dropdown {{ if $currentPage.HasMenuCurrent "main" . }}{{ end }}">
 						<a
-							class="
-						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
-						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+							class="block no-underline my-8 md:my-0 md:mx-2 md:p-2 border-b-2 hover:border-primary
+								{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 								border-primary group-hover:border-white
 							{{ else }}
 								border-transparent
 							{{ end }}
-					"
+							"
 							href="{{ .URL }}"
 						>
 							{{ .Pre }}
@@ -59,8 +66,7 @@
 							{{ range .Children }}
 								<li class="m-0">
 									<a
-										class="
-										no-underline block no-underline my-4 md:my-2 md:mx-2 border-b-2 hover:border-primary
+										class="no-underline block no-underline my-4 md:my-2 md:p-2 md:mx-2 border-b-2 hover:border-primary
 										{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 											border-primary group-hover:border-white
 										{{ else }}
@@ -68,6 +74,7 @@
 										{{ end }}
 										"
 										href="{{ .URL }}"
+										role="menuitem"
 									>
 										{{ .Name }}
 									</a>
@@ -77,8 +84,7 @@
 					</li>
 				{{ else }}
 					<a
-						class="
-						block no-underline my-8 md:my-0 md:mx-2 border-b-2 hover:border-primary
+						class="block no-underline my-8 md:my-0 md:mx-2 md:p-2 border-b-2 hover:border-primary
 						{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
 							border-primary group-hover:border-white
 						{{ else }}
@@ -87,11 +93,11 @@
 					"
 						href="{{ .URL }}"
 						title="{{ .Title }}"
+						role="menuitem"
 					>
 						{{ .Name }}
 					</a>
 				{{ end }}
-
 			{{ end }}
 		</ul>
 	</nav>
