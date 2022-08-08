@@ -3,18 +3,16 @@
 
 <div class="md:py-12 py-20 {{ cond $reverse "bg-alternate" "" }}">
 	<div class="flex flex-col items-center md:flex-row max-w-7xl mx-auto {{ cond $reverse "md:flex-row-reverse" "" }}">
-		<div class="w-56 md:w-2/5 mb-8 md:mb-0">
+		<div class="w-56 md:w-2/5">
 			{{ if .image }}
-				<img src="{{ .image }}" alt="{{ .imageAlt }}" />
+				<img src="{{ .image }}" alt="{{ .imageAlt }}" class="mb-8 md:mb-0" />
 			{{ end }}
 		</div>
 
 		<div class="w-full md:w-3/5">
 			{{ if .title }}
 				<div class="px-8 mb-8">
-					<div class="{{ cond $reverse "" "" }}">
-						<h2 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary uppercase">{{ .title }}</h2>
-					</div>
+					<h2 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary uppercase">{{ .title }}</h2>
 				</div>
 			{{ end }}
 
