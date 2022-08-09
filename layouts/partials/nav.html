@@ -13,28 +13,32 @@
 	<nav
 		id="nav-menu"
 		class="
-			flex font-display
+			flex flex-col font-display
 			fixed top-0 left-full h-full w-full z-10 pl-12 pb-28 pt-8 flex-col justify-center text-2xl transition-transform transform -translate-x-0 bg-white
-			md:relative md:left-auto md:h-auto md:w-auto md:flex-row md:items-center md:text-base md:bg-white md:px-2 md:py-5
+			z-20
+			md:flex-row md:relative md:left-auto md:h-auto md:w-auto md:flex-row md:items-center md:text-base md:bg-white md:px-2 md:py-5
 			{{ if .Page.IsHome }}
-			md:justify-center md:top-8 md:bg-transparent text-outline text-white
+			md:justify-center md:top-8 md:bg-transparent md:text-outline md:text-white
 		{{ else }}
 			md:justify-start
 		{{ end }}
 	"
 	>
-		{{ if not .Page.IsHome }}
-			<div class="flex text-primary md:bg-transparent md:w-48 text-xl md:text-base -ml-4 md:ml-0">
-				<a href="/" class="no-underline hover:underline inline-flex w-48 md:w-32 ">
-					<span class="inline-flex">{{ partial "livewire-logo" }}</span>
-				</a>
-			</div>
-		{{ end }}
-
+		<div
+			class="
+			{{ if .Page.IsHome }}
+				md:hidden
+			{{ end }}
+			flex text-primary md:bg-transparent md:w-48 text-xl md:text-base -ml-4 md:ml-0"
+		>
+			<a href="/" class="no-underline hover:underline inline-flex w-48 md:w-32 ">
+				<span class="inline-flex">{{ partial "livewire-logo" }}</span>
+			</a>
+		</div>
 
 		<!-- Primary Nav -->
 		<ul
-			class="group grow w-full flex {{ if not .Page.IsHome }}
+			class="group md:grow md:w-full md:flex {{ if not .Page.IsHome }}
 				justify-around
 			{{ else }}
 				justify-center
@@ -105,7 +109,7 @@
 	<!-- Menu Button -->
 	<button
 		id="nav-menu-button"
-		class="fixed bottom-6 right-6 h-16 w-16 z-20 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger md:hidden"
+		class="fixed bottom-6 right-6 h-16 w-16 z-30 rounded-full bg-primary flex items-center justify-center shadow-lg hamburger md:hidden"
 	>
 		<span class="cross"></span>
 		<span class="spline"></span>
