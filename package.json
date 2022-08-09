@@ -12,7 +12,7 @@
     "start": "run-p 'start:*'",
     "start:hugo": "hugo -d ./dist -vw",
     "start:webpack": "webpack serve --config webpack.development.js --hot",
-    "proxy-server": "npx netlify-cms-proxy-server",
+    "start:proxy-server": "npx netlify-cms-proxy-server",
     "preview": "run-p 'preview:*'",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
