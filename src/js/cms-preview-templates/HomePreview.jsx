@@ -1,8 +1,8 @@
 import React from 'react';
 
 const HomePreview = ({ entry }) => {
-	const title = entry.getIn(['data', 'title']);
-	const subtitle = entry.getIn(['data', 'subtitle']);
+	const statement = entry.getIn(['data', 'statement']);
+	const statementSub = entry.getIn(['data', 'statementSub']);
 	const intros = entry.getIn(['data', 'intros']);
 	const brands = entry.getIn(['data', 'brands']);
 	console.log('brands', brands);
@@ -57,8 +57,10 @@ const HomePreview = ({ entry }) => {
 			<div className="bg-white text-black relative">
 				<div className="max-w-7xl mx-auto py-24 md:py-36 px-4 sm:px-6 lg:px-8">
 					<div className="text-center">
-						<h1 className="mt-1 font-display text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">{title}</h1>
-						{subtitle && <p className="max-w-xl mt-5 mx-auto text-lg md:text-xl lg:text-2xl lg:text-3xl">{subtitle}</p>}
+						<h1 className="mt-1 font-display font-bold text-5xl md:text-6xl lg:text-7xl sm:tracking-tight">
+							{statement}
+						</h1>
+						{statementSub && <p className="max-w-xl mt-5 mx-auto text-2xl md:text-2xl lg:text-3xl">{statementSub}</p>}
 					</div>
 				</div>
 			</div>

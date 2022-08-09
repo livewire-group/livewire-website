@@ -1,64 +1,64 @@
 ---
-title: The game changers in global marketing
-subtitle: Reach the next generation of consumers
-heroVideo: https://res.cloudinary.com/livewire-group/video/upload/f_auto,q_auto:eco,vc_auto/v1615292833/vi/logo/logo-animation.mp4
-heroFallback: https://res.cloudinary.com/livewire-group/image/upload/f_auto,q_auto/v1615295966/vi/logo/logo-animation-fallback.png
-
+title: Livewire
+statement: We create experiences that connect brands to the gaming audience
+statementSub: Reach the next generation of consumers
+browserTitle: Livewire | Gaming Marketing & GameTech Leaders
 intros:
   - heading: Who we are
-    text: We are digital pioneers, fanatical about using data insights to help brands engage with consumers through gaming.
+    text: We are digital pioneers, fanatical about using data insights to help
+      brands engage with consumers through gaming.
   - heading: Why we exist
-    text: We exist as a trusted partner to brands, helping navigate the evolving landscape of gaming marketing and content production.
+    text: We exist as a trusted partner to brands, helping navigate the evolving
+      landscape of gaming marketing and content production.
   - heading: Why we are leaders
     text: Our gaming and traditional marketing expertise impartially leads brand
       entry and strategy in the digital realm, delivering evergreen strategies
       that convert.
-
 brands:
   title: Who we work with
   logos:
     - name: Microsoft
-      logo:
-      url:
+      logo: null
+      url: null
     - name: L’Oreal
-      logo:
+      logo: null
     - name: Red Bull
-      logo:
-      url:
+      logo: null
+      url: null
     - name: American Express
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Disney
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Universal Pictures
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Burberry
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Jaguar
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Denstu
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Publicis
-      logo:
-      url:
+      logo: null
+      url: null
     - name: WPP
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Epic Games
-      logo:
-      url:
+      logo: null
+      url: null
     - name: EA (Electronic Arts)
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Activision
-      logo:
-      url:
+      logo: null
+      url: null
     - name: Blizzard
-      logo:
-      url:
+      logo: null
+      url: null
 ---
