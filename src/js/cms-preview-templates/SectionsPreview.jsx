@@ -23,30 +23,29 @@ const HomePreview = ({ entry, widgetsFor }) => {
 					<div className={'py-12 ' + (reverse ? 'bg-alternate' : '')}>
 						<div
 							className={
-								'flex flex-col items-center md:flex-row max-w-7xl mx-auto ' + (reverse ? 'md:flex-row-reverse' : '')
+								'flex flex-col px-8 justify-between items-center md:flex-row max-w-7xl mx-auto ' +
+								(reverse ? 'md:flex-row-reverse' : '')
 							}
 						>
-							<div className="w-56 md:w-2/5">
+							<div className="w-56 md:w-4/12">
 								{image && <img src={image} alt={imageAlt} className="mb-8 md:mb-0" />}
 							</div>
 
-							<div className="w-full md:w-3/5">
+							<div className="w-full md:w-7/12">
 								{title && (
-									<div className="px-8 mb-8">
+									<div className="mb-8">
 										<h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary uppercase">{title}</h2>
 									</div>
 								)}
 
-								<div className="px-8">
-									<div
-										className={
-											'text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed ' + reverse
-												? 'ml-auto'
-												: ''
-										}
-									>
-										<div>{section.getIn(['widgets', 'text'])}</div>
-									</div>
+								<div
+									className={
+										'text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed ' + reverse
+											? 'ml-auto'
+											: ''
+									}
+								>
+									<div>{section.getIn(['widgets', 'text'])}</div>
 								</div>
 							</div>
 						</div>

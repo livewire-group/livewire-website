@@ -1,28 +1,28 @@
 {{ $reverse := cond (modBool .index 2) false true }}
 
 
-<div class="md:py-12 py-20 {{ cond $reverse "bg-alternate" "" }}">
-	<div class="flex flex-col items-center md:flex-row max-w-7xl mx-auto {{ cond $reverse "md:flex-row-reverse" "" }}">
-		<div class="w-56 md:w-2/5">
+<div class="py-12 {{ cond $reverse "bg-alternate" "" }}">
+	<div
+		class="flex flex-col px-8 justify-between items-center md:flex-row max-w-7xl mx-auto {{ cond $reverse "md:flex-row-reverse" "" }}"
+	>
+		<div class="w-56 md:w-4/12">
 			{{ if .image }}
 				<img src="{{ .image }}" alt="{{ .imageAlt }}" class="mb-8 md:mb-0" />
 			{{ end }}
 		</div>
 
-		<div class="w-full md:w-3/5">
+		<div class="w-full md:w-7/12">
 			{{ if .title }}
-				<div class="px-8 mb-8">
+				<div class="mb-8">
 					<h2 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary uppercase">{{ .title }}</h2>
 				</div>
 			{{ end }}
 
 
-			<div class="px-8">
-				<div
-					class="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed {{ cond $reverse "ml-auto" "" }}"
-				>
-					<div>{{ .text | markdownify }}</div>
-				</div>
+			<div
+				class="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed {{ cond $reverse "ml-auto" "" }}"
+			>
+				<div>{{ .text | markdownify }}</div>
 			</div>
 		</div>
 	</div>
