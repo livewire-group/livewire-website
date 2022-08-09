@@ -77,7 +77,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+          - { label: "Statement", name: "statement", widget: "string" }
+          - { label: "Statement Sub", name: "statementSub", widget: "string", required: false }
+          - { label: "Browser Title", name: "browserTitle", widget: "string", required: false }
           - {
               label: "Intros",
               name: "intros",
@@ -88,32 +90,6 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-          #          - {
-          #              label: "Services",
-          #              name: "services",
-          #              widget: "object",
-          #              fields:
-          #                [
-          #                  { label: "Heading", name: "heading", widget: "string" },
-          #                  { label: "Text", name: "text", widget: "text" },
-          #                  {
-          #                    label: "Services",
-          #                    name: "services",
-          #                    widget: "list",
-          #                    fields:
-          #                      [
-          #                        { label: "Title", name: "title", widget: "string" },
-          #                        { label: "Url", name: "url", widget: "string" },
-          #                        {
-          #                          label: "Icon",
-          #                          name: "icon",
-          #                          widget: "select",
-          #                          options: ["promotion", "magnet", "content"],
-          #                        },
-          #                      ],
-          #                  },
-          #                ],
-          #            }
           - {
               label: "Brands",
               name: "brands",
@@ -140,12 +116,13 @@ collections: # A list of collections the CMS should be able to edit
         name: "solutions"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: "Browser Title", name: "browserTitle", widget: "string", required: false }
           - { label: "Link Title", name: linktitle, widget: string }
           - label: "Sections"
             name: sections
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
+              - { label: Title, name: title, widget: string, required: false }
               - { label: Text, name: text, widget: markdown }
               - label: "Image"
                 name: "image"
@@ -168,110 +145,130 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Employment", name: "employment", widget: "select", options: ["Full Time", "Part Time"] }
       - { label: "Body", name: "body", widget: "markdown" }
-#      - file: "content/contact/_index.md"
-#        label: "Contact Page"
-#        name: "contact"
-#        fields:
-#          - { label: Title, name: title, widget: string }
-#          - { label: Logo, name: logo, widget: image }
-#          - { label: Body, name: body, widget: markdown }
-#          - label: Contact Entries
-#            name: contact_entries
-#            widget: list
-#            fields:
-#              - label: Heading
-#                name: heading
-#                widget: string
-#              - label: Text
-#                name: text
-#                widget: text
-#          - {
-#              label: Main,
-#              name: main,
-#              widget: object,
-#              fields:
-#                [
-#                  { label: Heading, name: heading, widget: string },
-#                  { label: Description, name: description, widget: text },
-#                  {
-#                    label: Image1,
-#                    name: image1,
-#                    widget: object,
-#                    fields:
-#                      [
-#                        { label: Image, name: image, widget: image },
-#                        { label: Alt, name: alt, widget: string },
-#                      ],
-#                  },
-#                  {
-#                    label: Image2,
-#                    name: image2,
-#                    widget: object,
-#                    fields:
-#                      [
-#                        { label: Image, name: image, widget: image },
-#                        { label: Alt, name: alt, widget: string },
-#                      ],
-#                  },
-#                  {
-#                    label: Image3,
-#                    name: image3,
-#                    widget: object,
-#                    fields:
-#                      [
-#                        { label: Image, name: image, widget: image },
-#                        { label: Alt, name: alt, widget: string },
-#                      ],
-#                  },
-#                ],
-#            }
-#          - {
-#              label: Testimonials,
-#              name: testimonials,
-#              widget: list,
-#              fields:
-#                [
-#                  { label: Quote, name: quote, widget: string },
-#                  { label: Author, name: author, widget: string },
-#                ],
-#            }
-#          - { label: Full_image, name: full_image, widget: image }
-#          - {
-#              label: Pricing,
-#              name: pricing,
-#              widget: object,
-#              fields:
-#                [
-#                  { label: Heading, name: heading, widget: string },
-#                  { label: Description, name: description, widget: string },
-#                  {
-#                    label: Plans,
-#                    name: plans,
-#                    widget: list,
-#                    fields:
-#                      [
-#                        { label: Plan, name: plan, widget: string },
-#                        { label: Price, name: price, widget: string },
-#                        {
-#                          label: Description,
-#                          name: description,
-#                          widget: string,
-#                        },
-#                        { label: Items, name: items, widget: list },
-#                      ],
-#                  },
-#                ],
-#            }
-#      - file: "content/values/_index.md"
-#        label: "Values Page"
-#        name: "values"
-#        fields:
-#          - { label: Title, name: title, widget: string }
-#          - { label: Image, name: image, widget: image }
-#          - label: Values
-#            name: values
-#            widget: list
-#            fields:
-#              - { label: Heading, name: heading, widget: string }
-#              - { label: Text, name: text, widget: text }
-#              - { label: Image, name: imageUrl, widget: image }
+  #      - file: "content/contact/_index.md"
+  #        label: "Contact Page"
+  #        name: "contact"
+  #        fields:
+  #          - { label: Title, name: title, widget: string }
+  #          - { label: Logo, name: logo, widget: image }
+  #          - { label: Body, name: body, widget: markdown }
+  #          - label: Contact Entries
+  #            name: contact_entries
+  #            widget: list
+  #            fields:
+  #              - label: Heading
+  #                name: heading
+  #                widget: string
+  #              - label: Text
+  #                name: text
+  #                widget: text
+  #          - {
+  #              label: Main,
+  #              name: main,
+  #              widget: object,
+  #              fields:
+  #                [
+  #                  { label: Heading, name: heading, widget: string },
+  #                  { label: Description, name: description, widget: text },
+  #                  {
+  #                    label: Image1,
+  #                    name: image1,
+  #                    widget: object,
+  #                    fields:
+  #                      [
+  #                        { label: Image, name: image, widget: image },
+  #                        { label: Alt, name: alt, widget: string },
+  #                      ],
+  #                  },
+  #                  {
+  #                    label: Image2,
+  #                    name: image2,
+  #                    widget: object,
+  #                    fields:
+  #                      [
+  #                        { label: Image, name: image, widget: image },
+  #                        { label: Alt, name: alt, widget: string },
+  #                      ],
+  #                  },
+  #                  {
+  #                    label: Image3,
+  #                    name: image3,
+  #                    widget: object,
+  #                    fields:
+  #                      [
+  #                        { label: Image, name: image, widget: image },
+  #                        { label: Alt, name: alt, widget: string },
+  #                      ],
+  #                  },
+  #                ],
+  #            }
+  #          - {
+  #              label: Testimonials,
+  #              name: testimonials,
+  #              widget: list,
+  #              fields:
+  #                [
+  #                  { label: Quote, name: quote, widget: string },
+  #                  { label: Author, name: author, widget: string },
+  #                ],
+  #            }
+  #          - { label: Full_image, name: full_image, widget: image }
+  #          - {
+  #              label: Pricing,
+  #              name: pricing,
+  #              widget: object,
+  #              fields:
+  #                [
+  #                  { label: Heading, name: heading, widget: string },
+  #                  { label: Description, name: description, widget: string },
+  #                  {
+  #                    label: Plans,
+  #                    name: plans,
+  #                    widget: list,
+  #                    fields:
+  #                      [
+  #                        { label: Plan, name: plan, widget: string },
+  #                        { label: Price, name: price, widget: string },
+  #                        {
+  #                          label: Description,
+  #                          name: description,
+  #                          widget: string,
+  #                        },
+  #                        { label: Items, name: items, widget: list },
+  #                      ],
+  #                  },
+  #                ],
+  #            }
+  #      - file: "content/values/_index.md"
+  #        label: "Values Page"
+  #        name: "values"
+  #        fields:
+  #          - { label: Title, name: title, widget: string }
+  #          - { label: Image, name: image, widget: image }
+  #          - label: Values
+  #            name: values
+  #            widget: list
+  #            fields:
+  #              - { label: Heading, name: heading, widget: string }
+  #              - { label: Text, name: text, widget: text }
+  #              - { label: Image, name: imageUrl, widget: image }
+  - name: "configs"
+    label: "Config"
+    files:
+      - name: "params"
+        label: "Site Parameters"
+        file: "config/_default/params.toml"
+        fields:
+          - label: "Open Graph Image"
+            name: "openGraphImage"
+            widget: "image"
+            required: false
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto # Needs to be an object in and array (i.e. `- -`) because netlify CMS code expecting it
+                      height: 627
+                      width: 1200
+                      quality: auto
+                      crop: pad
+                      background: auto
