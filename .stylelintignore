@@ -1,0 +1,4 @@
+dist/**/*
+
+# Due to the use of `$.Scratch.Get "image"` it thinks the double-quotes are closing the attribute
+layouts/news/li.html

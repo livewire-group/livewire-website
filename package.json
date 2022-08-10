@@ -12,7 +12,7 @@
     "start": "run-p 'start:*'",
     "start:hugo": "hugo -d ./dist -vw",
     "start:webpack": "webpack serve --config webpack.development.js --hot",
-    "proxy-server": "npx netlify-cms-proxy-server",
+    "start:proxy-server": "npx netlify-cms-proxy-server",
     "preview": "run-p 'preview:*'",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
@@ -27,9 +27,9 @@
     "prepare": "husky install",
     "lint": "run-p --continue-on-error 'lint:*'",
     "lint:eslint": "eslint .",
-    "lint:styles": "stylelint **/*.{css,pcss}",
+    "lint:styles": "stylelint **/*.{css,pcss,html}",
     "format": "run-s --continue-on-error format:stylelint format:prettier",
-    "format:stylelint": "stylelint --fix --cache **/*.{css,pcss}",
+    "format:stylelint": "stylelint --fix --cache --allow-empty-input **/*.{css,pcss,html}",
     "format:prettier": "prettier --write --cache --ignore-unknown --no-error-on-unmatched-pattern **/*.{js,jsx,ts,tsx,html,md,css,pcss,json,toml}"
   },
   "author": "Rhys Lloyd <justrhysism@gmail.com>",
@@ -78,6 +78,7 @@
     "plugin-error": "^2.0.0",
     "postcss": "^8.4.14",
     "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-html": "^1.5.0",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^7.0.1",
     "postcss-nested": "^5.0.6",
@@ -90,6 +91,7 @@
     "react-dom": "^16.14.0",
     "rimraf": "^3.0.2",
     "stylelint": "^14.9.1",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
@@ -121,12 +123,12 @@
       "prettier --write"
     ],
     "*.{css,pcss}": [
-      "stylelint --cache --fix",
+      "stylelint --cache --fix --allow-empty-input",
       "prettier --write"
     ],
     "*.html": [
       "eslint --cache --fix",
-      "stylelint --cache --fix",
+      "stylelint --cache --fix --allow-empty-input",
       "prettier --write"
     ],
     "*.json": "prettier --write"

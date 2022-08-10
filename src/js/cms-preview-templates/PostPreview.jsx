@@ -1,7 +1,7 @@
 import React from 'react';
 import format from 'date-fns/format';
 
-import HeroSection from './components/HeroSection.jsx';
+import HeroBanner from './components/HeroBanner.jsx';
 
 const PostPreview = ({ entry, widgetFor, getAsset }) => {
 	const image = getAsset(entry.getIn(['data', 'image']));
@@ -15,7 +15,7 @@ const PostPreview = ({ entry, widgetFor, getAsset }) => {
 
 	return (
 		<>
-			<HeroSection {...heroProperties} />
+			<HeroBanner {...heroProperties} />
 			<div className="bg-white text-black">
 				<div className="max-w-prose mx-auto py-12 px-8 md:px-0">
 					<h1 className="text-3xl mb-5">{title}</h1>

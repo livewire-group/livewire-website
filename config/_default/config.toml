@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-AU"
 languageLang = "en"
-title = "Livewire Group"
+title = "Livewire"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration

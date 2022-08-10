@@ -1,12 +1,12 @@
 {{ define "main" }}
-	{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title) }}
+	{{ partial "hero-banner" (dict "imageUrl" .Params.image "title" .Title) }}
 
 	{{ range $index, $element := .Params.sections }}
 		{{ partial "short-text" (merge $element (dict "index" $index)) }}
 	{{ end }}
 
 	{{ if .Content }}
-		<div class="max-w-4xl mx-auto py-8 md:py-12 lg:py-24 bg-white">
+		<div class="max-w-4xl mx-auto py-8 md:py-12 lg:py-24">
 			{{ .Content }}
 		</div>
 	{{ end }}

@@ -1,24 +1,29 @@
-{{ $classes := "bg-white text-black" }}
 {{ $reverse := cond (modBool .index 2) false true }}
 
-{{ if .dark }}
-	{{ $classes = "bg-black text-white" }}
-{{ end }}
 
-
-<div class="{{ $classes }} md:py-12 py-20">
-	{{ if .title }}
-		<div class="max-w-7xl mx-auto px-8 mb-8">
-			<div class="max-w-7xl  {{ cond $reverse "text-right ml-auto" "" }}">
-				<h2 class="text-2xl md:text-3xl lg:text-4xl">{{ .title }}</h2>
-			</div>
+<div class="py-12 {{ cond $reverse "bg-alternate" "" }}">
+	<div
+		class="flex flex-col px-8 justify-between items-center md:flex-row max-w-7xl mx-auto {{ cond $reverse "md:flex-row-reverse" "" }}"
+	>
+		<div class="w-56 md:w-4/12">
+			{{ if .image }}
+				<img src="{{ .image }}" alt="{{ .imageAlt }}" class="mb-8 md:mb-0" />
+			{{ end }}
 		</div>
-	{{ end }}
+
+		<div class="w-full md:w-7/12">
+			{{ if .title }}
+				<div class="mb-8">
+					<h2 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary uppercase">{{ .title }}</h2>
+				</div>
+			{{ end }}
 
 
-	<div class="max-w-7xl mx-auto px-8">
-		<div class="max-w-3xl text-lg md:text-xl lg:text-2xl {{ cond $reverse "text-right ml-auto" "" }}">
-			<div>{{ .text | markdownify }}</div>
+			<div
+				class="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed {{ cond $reverse "ml-auto" "" }}"
+			>
+				<div>{{ .text | markdownify }}</div>
+			</div>
 		</div>
 	</div>
 </div>

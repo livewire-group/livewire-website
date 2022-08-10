@@ -2,12 +2,12 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	content: ['./layouts/**/*.html'],
-	safelist: ['-translate-x-full', 'translate-x-5'],
+	content: ['./layouts/**/*.html', './src/**/*.ts'],
 	darkMode: 'class', // Or 'media' or 'class'
 	theme: {
 		colors: {
-			primary: '#00fcb5',
+			primary: '#03bb9c',
+			alternate: '#eff8f5',
 			gray: colors.neutral,
 			green: colors.emerald,
 			black: colors.black,
@@ -16,9 +16,23 @@ module.exports = {
 			transparent: 'transparent',
 		},
 		fontFamily: {
-			display: ['Cy', '"Avenir Medium"', 'Avenir', ...defaultTheme.fontFamily.sans],
-			headline: ['"Avenir Medium"', '"Avenir Next"', '"Avenir Next LT Pro"', 'Avenir', ...defaultTheme.fontFamily.sans],
-			body: ['"Avenir Book"', '"Avenir Next"', '"Avenir Next LT Pro"', 'Avenir', ...defaultTheme.fontFamily.sans],
+			display: ['Chakra Petch', '"Avenir Medium"', 'Avenir', ...defaultTheme.fontFamily.sans],
+			headline: [
+				'Chakra Petch',
+				'"Avenir Medium"',
+				'"Avenir Next"',
+				'"Avenir Next LT Pro"',
+				'Avenir',
+				...defaultTheme.fontFamily.sans,
+			],
+			body: [
+				'Chakra Petch',
+				'"Avenir Book"',
+				'"Avenir Next"',
+				'"Avenir Next LT Pro"',
+				'Avenir',
+				...defaultTheme.fontFamily.sans,
+			],
 		},
 		screens: {
 			sm: '640px',

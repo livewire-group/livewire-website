@@ -1,5 +1,5 @@
 {{ define "main" }}
-	{{ partial "hero-section" (dict "imageUrl" .Params.image "title" .Title) }}
+	{{ partial "hero-banner" (dict "imageUrl" .Params.image "title" .Title) }}
 
 	{{ if .Params.intros }}
 		<div class="bg-white text-black ">

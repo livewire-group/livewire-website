@@ -7,6 +7,7 @@ module.exports = {
 	reportInvalidScopeDisables: true,
 	reportNeedlessDisables: true,
 	extends: [
+		'stylelint-config-html',
 		'stylelint-config-standard',
 		'stylelint-config-sass-guidelines',
 		'stylelint-config-recommended',

@@ -7990,7 +7990,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^8.0.1":
+"htmlparser2@npm:^8.0.0, htmlparser2@npm:^8.0.1":
   version: 8.0.1
   resolution: "htmlparser2@npm:8.0.1"
   dependencies:
@@ -9089,6 +9089,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-tokens@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "js-tokens@npm:8.0.0"
+  checksum: 7a069cf43d93bd5f0e047f975fcc7fcdf6176378d2ebff45020ed4360e031d013f5ed55e0a26cf9694537af9bb04f06aa6c200077f26bf7cb0f59102b46d0e56
+  languageName: node
+  linkType: hard
+
 "js-types@npm:^1.0.0":
   version: 1.0.0
   resolution: "js-types@npm:1.0.0"
@@ -9475,6 +9482,7 @@ __metadata:
     plugin-error: ^2.0.0
     postcss: ^8.4.14
     postcss-flexbugs-fixes: ^5.0.2
+    postcss-html: ^1.5.0
     postcss-import: ^14.1.0
     postcss-loader: ^7.0.1
     postcss-nested: ^5.0.6
@@ -9487,6 +9495,7 @@ __metadata:
     react-dom: ^16.14.0
     rimraf: ^3.0.2
     stylelint: ^14.9.1
+    stylelint-config-html: ^1.1.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended-vue: ^1.4.0
     stylelint-config-sass-guidelines: ^9.0.1
@@ -12554,6 +12563,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-html@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "postcss-html@npm:1.5.0"
+  dependencies:
+    htmlparser2: ^8.0.0
+    js-tokens: ^8.0.0
+    postcss: ^8.4.0
+    postcss-safe-parser: ^6.0.0
+  checksum: 33c2b7aeaed0f245e34ba80f6e2094d064b73e4087554991ea53556c4ef1a0f1633ef23265369265c959c282b4ec45e6485135177e75f8ff3a62f9704793410d
+  languageName: node
+  linkType: hard
+
 "postcss-image-set-function@npm:^4.0.6":
   version: 4.0.7
   resolution: "postcss-image-set-function@npm:4.0.7"
@@ -13172,7 +13193,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.11, postcss@npm:^8.4.13, postcss@npm:^8.4.14, postcss@npm:^8.4.7":
+"postcss@npm:^8.3.11, postcss@npm:^8.4.0, postcss@npm:^8.4.13, postcss@npm:^8.4.14, postcss@npm:^8.4.7":
   version: 8.4.14
   resolution: "postcss@npm:8.4.14"
   dependencies:
@@ -15855,7 +15876,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-html@npm:>=1.0.0":
+"stylelint-config-html@npm:>=1.0.0, stylelint-config-html@npm:^1.1.0":
   version: 1.1.0
   resolution: "stylelint-config-html@npm:1.1.0"
   peerDependencies:

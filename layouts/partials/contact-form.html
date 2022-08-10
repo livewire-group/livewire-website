@@ -110,45 +110,30 @@
 						By selecting this, you agree to the
 						<a href="#" class="font-medium text-gray-700 underline">Privacy Policy</a>
 						.
-						{{/* and */}}
-						{{/* <a href="#" class="font-medium text-gray-700 underline">Cookie Policy</a>. */}}
 					</p>
-					{{/* <input type="checkbox" class="invisible" id="privacy-agree" name="privacy-agree" value="privacy-agree" required /> */}}
-					{{/* <p class="text-base text-black">Please agree to our privacy policy before submitting.</p> */}}
-					{{/* <style> */}}
-					{{/* #privacy-agree + p { */}}
-					{{/* visibility: hidden; */}}
-					{{/* } */}}
-
-					{{/* #privacy-agree:invalid + p { */}}
-					{{/* visibility: visible; */}}
-					{{/* } */}}
-					{{/* </style> */}}
 				</div>
 				<script>
 					(() => {
 						const PRESSED = 'aria-pressed';
 						const BG_ON = 'bg-primary';
 						const TGL_ON = 'translate-x-5';
-						const btn = document.getElementById('privacy-button');
-						const toggle = btn.querySelector('span[aria-hidden]');
-						// const box = document.getElementById('privacy-agree');
+						const button = document.querySelector('#privacy-button');
+						const toggle = button.querySelector('span[aria-hidden]');
 
-						btn.addEventListener('click', () => {
+						button.addEventListener('click', () => {
 							let isPressed = false;
 							try {
-								isPressed = JSON.parse(btn.getAttribute(PRESSED));
+								isPressed = JSON.parse(button.getAttribute(PRESSED));
 							} catch {}
+
 							if (isPressed) {
-								btn.setAttribute(PRESSED, 'false');
-								btn.classList.remove(BG_ON);
+								button.setAttribute(PRESSED, 'false');
+								button.classList.remove(BG_ON);
 								toggle.classList.remove(TGL_ON);
-								// box.removeAttribute('checked');
 							} else {
-								btn.setAttribute(PRESSED, 'true');
-								btn.classList.add(BG_ON);
+								button.setAttribute(PRESSED, 'true');
+								button.classList.add(BG_ON);
 								toggle.classList.add(TGL_ON);
-								// box.setAttribute('checked', 'checked');
 							}
 						});
 					})();

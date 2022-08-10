@@ -1,9 +1,11 @@
-{{ if .IsHome }}
-	<title>{{ $.Site.Title }} | Gaming Marketing & GameTech Leaders</title>
+{{ if .Params.BrowserTitle }}
+	{{ $.Scratch.Set "title" .Params.BrowserTitle }}
 {{ else }}
-	<title>{{ .Title }} | {{ $.Site.Title }}</title>
+	{{ $.Scratch.Set "title" .Params.BrowserTitle }}
 {{ end }}
 
+
+<title>{{ $.Scratch.Get "title" }}</title>
 {{ $stylesheet := $.Site.Data.webpack.main }}
 {{ with $stylesheet.css }}
 	<link href="{{ relURL . }}" rel="stylesheet" />
@@ -13,13 +15,11 @@
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-{{/* <base */}}
-{{/* href="{{ if getenv "CONTEXT" }}*/}}
-{{/* {{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}*/}} {{/* {{ else }}*/}}
-{{/* {{ $.Site.BaseURL }}*/}} {{/* {{ end }}*/}}
-{{/* " */}}
-{{/* /> */}}
 
+{{/* Charkra Font */}}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;600&display=swap" rel="stylesheet" />
 
 <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
 
@@ -34,13 +34,13 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="business.business" />
-<meta property="og:title" content="{{ .Page.Title }} | {{ $.Site.Title }}" />
+<meta property="og:title" content="{{ $.Scratch.Get "title" }}" />
 {{ if .Page.Description }}
 	<meta property="og:description" content="{{ .Page.Description }}" />
 {{ end }}
 <meta property="og:url" content="{{ .Page.RelPermalink }}" />
 
-{{ $.Scratch.Set "image" "https://res.cloudinary.com/livewire-group/image/upload/b_auto,c_pad,h_627,w_1200/v1615285680/vi/logo/logo-black-mint.png" }}
+{{ $.Scratch.Set "image" .Site.Params.OpenGraphImage }}
 {{ if .Params.image }}
 	{{ $.Scratch.Set "image" .Params.image }}
 {{ end }}
