@@ -8,7 +8,7 @@ description: >-
 
 
   At 16 months old, the company has seen early success, having grown to four live markets, with newly opened offices in Mumbai and Singapore complementing existing locations in London and Australia.
-image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1664146519/OPTION_2_-_AFR_Raise_Announcement_Horizontal_faytp1.jpg
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1664156909/OPTION-3---AFR-Raise-Announcement-_Square_lfr4vr.jpg
 ---
 Its exponential growth has resulted in new client wins including [](https://livewire.group/news/livewire-appointed-by-uber-eats-as-it-makes-move-towards-gaming/) [Uber Eats](https://livewire.group/news/livewire-appointed-by-uber-eats-as-it-makes-move-towards-gaming/) on a major research and insights program to inform their gaming strategy, as well as Foxtel Group’s [](https://livewire.group/news/binge-x-livewire-team-up-to-bring-house-of-the-dragon-to-the-au-gaming-audience/) [Binge](https://livewire.group/news/binge-x-livewire-team-up-to-bring-house-of-the-dragon-to-the-au-gaming-audience/), and Warner Music Australia.
 
