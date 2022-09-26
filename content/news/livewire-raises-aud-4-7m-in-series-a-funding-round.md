@@ -1,10 +1,10 @@
 ---
-title: Livewire raises AUD$4.7M in Series A funding round
+title: Livewire raises $4.7M AUD in Series A funding round
 date: 2022-09-25T22:46:36.538Z
 description: >-
   Livewire, the Australian founded gametech company that develops integrated
   gaming marketing solutions for advertisers, has today announced it has
-  successfully raised AUD$4.7M in a Series A funding round.
+  successfully raised $4.7M AUD in a Series A funding round.
 
 
   At 16 months old, the company has seen early success, having grown to four live markets, with newly opened offices in Mumbai and Singapore complementing existing locations in London and Australia.
