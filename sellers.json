@@ -1,0 +1,20 @@
+{
+  "contact_email": "hello@livewire.group",
+  "version": "1.0",
+  "sellers": [{
+    "seller_id": "1",
+    "name": "Adverty AB",
+    "domain": "adverty.com",
+    "seller_type": "INTERMEDIARY"
+  }, {
+    "seller_id": "2",
+    "name": "Anzu Virtual Reality Ltd",
+    "domain": "anzu.io",
+    "seller_type": "INTERMEDIARY"
+  }, {
+    "seller_id": "3",
+    "name": "King.com Ltd",
+    "domain": "king.com",
+    "seller_type": "PUBLISHER"
+  }]
+}
