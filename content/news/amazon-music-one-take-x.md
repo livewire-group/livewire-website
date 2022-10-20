@@ -1,16 +1,14 @@
 ---
-title: "Amazon Music: One Take x Livewire"
+title: "Livewire x Amazon Music UK: One Take"
 date: 2022-10-20T05:20:39.069Z
 description: >-
   A very exciting day for Livewire. We are so pleased to have worked with Amazon
-  Music on One Take featuring Fortnite, their brand new music-inspired gaming
+  Music UK on One Take featuring Fortnite, their brand new music-inspired gaming
   experience.  
 
 
 
-  This campaign perfectly embodies our ethos at Livewire: to create original, memorable brand experiences that provide value to the gaming audience and deliver brand outcomes.  
-
-   
+  This UK centric campaign perfectly embodies our ethos at Livewire: to create original, memorable brand experiences that provide value to the gaming audience and deliver brand outcomes.  
 image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1666244128/AMU-Static_lku9qr.png
 ---
 Check out the [teaser on YouTube here!](https://www.youtube.com/watch?v=2ABiU_D24pQ)
