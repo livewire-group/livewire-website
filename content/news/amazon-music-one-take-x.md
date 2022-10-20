@@ -3,7 +3,7 @@ title: "Amazon Music: One Take x Livewire"
 date: 2022-10-20T05:20:39.069Z
 description: >-
   A very exciting day for Livewire. We are so pleased to have worked with Amazon
-  Music on One Take featuring Fortnite , their brand new music-inspired gaming
+  Music on One Take featuring Fortnite, their brand new music-inspired gaming
   experience.  
 
 
