@@ -9,7 +9,7 @@ description: Australian-founded gaming marketing and gametech company, Livewire
   Financial Officer (CFO), Michelle Sheehan.
 image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1669070857/Sarah_and_Lionel_nqyavv.jpg
 ---
-These new roles will support Livewire’s rapid expansion into new markets following its launch in Australia, South East Asia, DACH (Germany, Austria, Switzerland), North America and India, following a $4.7M Series A funding raise and the announcement of brand partnerships including with Uber Eats, Amazon Music UK, NBL League on its landmark deal with the NBA 2K League and Dell’s Alienware Arena Series. 
+These new roles will support [Livewire](https://www.linkedin.com/company/71637881/admin/)’s rapid expansion into new markets following its launch in Australia, South East Asia, DACH (Germany, Austria, Switzerland), North America and India, following a $4.7M Series A funding raise and the announcement of brand partnerships including with Uber Eats, Amazon Music UK, NBL League on its landmark deal with the NBA 2K League and Dell’s Alienware Arena Series. 
 
 [Lionel Sim](https://www.linkedin.com/in/lionelshen/) has 15 years’ experience working with high growth startups across the US, APAC and Europe, as well as the world’s leading technology companies including roles leading global commercial go to market strategies, global partnerships and marketing teams for Apple, Tencent and TikTok. As global CCO, Lionel  will be responsible for all commercial partnerships globally, including revenue and client services, identifying and expanding strategic commercial capabilities across key markets and developing innovative and bespoke client solutions.  
 
