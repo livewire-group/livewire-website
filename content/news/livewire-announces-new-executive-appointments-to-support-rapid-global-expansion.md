@@ -1,6 +1,6 @@
 ---
-title: "Livewire announces new executive appointments to support rapid global
-  expansion "
+title: Livewire, global gaming marketing & gametech scale-up announces new
+  executive appointments to support rapid global expansion
 date: 2022-11-21T22:53:13.266Z
 description: Australian-founded gaming marketing and gametech company, Livewire
   has appointed its new senior executive team to lead its global operations
