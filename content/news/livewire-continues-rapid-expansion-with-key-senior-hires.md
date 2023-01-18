@@ -1,5 +1,5 @@
 ---
-title: Livewire continues rapid expansion with key senior hires
+title: Livewire Continues Rapid Expansion with Key Senior Hires
 date: 2023-01-05T03:06:14.948Z
 description: Livewire, a global gametech scale-up, appoints former senior
   executives from Snap Inc., Zip Co and Edelman to drive rapid expansion.
