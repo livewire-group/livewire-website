@@ -15,7 +15,7 @@ Most recently APAC Head of Creative Strategy for Snap Inc. Gareth is a celebrate
 
 With 15 years’ experience working with global brands on their strategic and creative directions, Gareth’s appointment marks an exciting new frontier for Livewire’s creative offering. 
 
-*Connect with Gareth on [LinkedIn](*www.linkedin.com/in/gleeding/*):* 
+*Connect with Gareth on [LinkedIn](https://www.linkedin.com/in/gleeding/)!*
 
 **Tell us about your career background and how you ended up at Livewire.** 
 
