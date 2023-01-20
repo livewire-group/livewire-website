@@ -5,7 +5,7 @@ description: To solidify its position as the leading gaming ecosystem expert and
   trusted partner to brands and agencies across the globe,  Livewire has a
   strong focus on building an empowering and supportive workplace to attract and
   retain the best talent in the industry.
-image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1660753118/LinkedIn-Header_xzbvlk.png
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1674082082/Gareth_Leeding_Livewire_Chief_Innovation_Officer_okxzyz.jpg
 ---
 <!--StartFragment-->
 
