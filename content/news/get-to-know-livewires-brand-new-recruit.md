@@ -1,5 +1,5 @@
 ---
-title: Get to know Livewire's brand new recruit
+title: Get to know Livewire's New Recruit!
 date: 2023-01-20T00:24:40.910Z
 description: To solidify its position as the leading gaming ecosystem expert and
   trusted partner to brands and agencies across the globe,  Livewire has a
