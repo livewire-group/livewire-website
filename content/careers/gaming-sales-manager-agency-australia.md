@@ -677,11 +677,11 @@ We are focused on making a **positive global impact** on the video game ecosyste
 
 **What’s my new career opportunity?**
 
-As ou very first Gaming Sales Manager – Agency, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across a designated portfolio of agencies, while super servicing and growing our existing agency clients.r
+As our very first Gaming Sales Manager – Agency, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for **bringing on new business** across a designated portfolio of agencies, while **super servicing and growing** our existing agency clients.
 
-Your energy for the gaming industry, spark for sales and effortless ability to engage cold contacts and build relationships will enable you to level up quickly.  With a system-driven and organised mentality, you’ll know how to ensure all your contacts are proactively engaged and communicated with regularly.   
+Your **energy for the gaming industry, spark for sales** and **effortless ability to engage** cold contacts and **build relationships** will enable you to level up quickly.  With a system-driven and organised mentality, you’ll know how to ensure all your contacts are proactively engaged and communicated with regularly.   
 
-This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully connect global gaming audiences with brands in an authentic way. 
+This is a **once in a generation role**, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully connect global gaming audiences with brands in an authentic way. 
 
  **What will I be doing?**
 
