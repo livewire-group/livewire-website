@@ -5,22 +5,22 @@ employment: Full Time
 ---
 <!--StartFragment-->
 
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -59,9 +59,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -640,9 +640,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,15 +661,13 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 How would it feel to play your part and make an impact at the very start of the global gaming marketing revolution? How would you like to connect with some of the world’s most renowned brands and help bring their world to life through the power of gaming? Could you leverage your network and become their very own iconic sales Super Hero? 🦸‍♀️🦸‍♂️ 
 
 If this sounds like you, keep scrolling! 👇
-
-
 
 **Who is Livewire?** 
 
@@ -679,8 +677,6 @@ We’re leading the way for global brands such as **UberEats, Amazon, Warner Mus
 
 We are focused on making a **positive global impact** on the video game ecosystem by leading the creation and adoption of new gaming marketing and gametech technologies with our clients. 
 
-
-
 **What’s my new career opportunity?**
 
 As the very first Gaming Sales Manager - Brand Direct, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across priority verticals, while super servicing and growing our existing direct clients. 
@@ -689,9 +685,7 @@ Using your extensive network, you will have the opportunity to drive revenue by 
 
 Your spark for sales and effortless ability to engage cold contacts and build relationships will enable you to level up quickly.  With a system-driven and organised mentality, you’ll know how to ensure all your contacts are proactively engaged and communicated with regularly.  
 
-This is a **once in a generation role**, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully energetic global gaming audiences with brands in an authentic way. 
-
- 
+This is a **once in a generation role**, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully connect global gaming brands with gaming audiences in an authentic way.
 
  **What will I be doing?**
 
@@ -705,8 +699,6 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 * Using thoughtful and innovative sales techniques, from strategy to concepts and from brief to pitch 
 * Having a constantly curious mentality about gaming marketing and gametech.
 
-
-
 **How will I be set up for success?**
 
 * Evidence of success selling direct to brands across Beauty & Fashion, CPG or Tech & Telco sectors 
@@ -716,17 +708,15 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 * Experience using Salesforce (or similar) 
 * The ability to work in a highly autonomous role balancing fun & performance. 
 
-                                                      
-
 **How can I stand out even more?** 
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -765,9 +755,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1346,9 +1336,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1367,7 +1357,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -1385,21 +1375,13 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 * 💻 Top of the range equipment  
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
-
-
 **How can I get in touch to show I’m interested?**
 
 **Drop us a note to [careers@livewire.group](mailto:careers@livewire.group)** and our talent team will be in touch as soon as we’ve overthrown this Final Boss! 🎮 
 
- 
-
 Feel free to complement your application with supporting information on your sales successes and why you’d want to be a part of our journey. 
 
- 
-
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you need any [additional](<>) support for your application experience, please let us know. 
-
- 
 
 **We look forward to hearing from you. Let’s play!** 
 
