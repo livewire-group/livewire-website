@@ -1,26 +1,26 @@
 ---
-title: Gaming Sales Manager - Brand Direct (Melbourne)
+title: Gaming Sales Manager - Brand Direct (Victoria, Australia)
 location: Melbourne, Victoria (Fully Remote)
 employment: Full Time
 ---
 <!--StartFragment-->
 
-<!--\\\[if !mso]>
+<!--\\\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -59,9 +59,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -640,9 +640,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -679,7 +679,7 @@ We are focused on making a **positive global impact** on the video game ecosyste
 
 **What’s my new career opportunity?**
 
-As the very first Gaming Sales Manager - Brand Direct, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across priority verticals, while super servicing and growing our existing direct clients. 
+As the very first Gaming Sales Manager - Brand Direct for our Melbourne portfolio, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across priority verticals, while super servicing and growing our existing direct clients. 
 
 Using your extensive network, you will have the opportunity to drive revenue by building and managing strategic partnerships within Beauty & Fashion, CPG or Tech & Telco industries. 
 
@@ -689,7 +689,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
  **What will I be doing?**
 
-* Building relationships with Director, VP and C-level marketing executives and key marketing decision makers with direct partner organisations 
+* Building relationships with Director, VP and C-level marketing executives and key marketing decision makers with direct partner organisations in the Victoria territory
 * Setting strategy for vertical and prioritizing approach for opportunities within your business world 
 * Maintaining long-term relationships and driving for upsell for future campaigns 
 * Hitting the ground running, leveraging existing relationships within the Beauty & Fashion, CPG or Tech & Telco sectors to unlock new business opportunities 
@@ -701,7 +701,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
 **How will I be set up for success?**
 
-* Evidence of success selling direct to brands across Beauty & Fashion, CPG or Tech & Telco sectors 
+* Evidence of success selling direct to brands across Beauty & Fashion, CPG or Tech & Telco sectors in Australia
 * Strong existing relationships with top marketing decision makers for brands within priority verticals 
 * Extensive knowledge of category eco-systems, their nuances, and future state opportunities 
 * Excellent negotiation and problem solving skills 
@@ -710,13 +710,13 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
 **How can I stand out even more?** 
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -755,9 +755,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1336,9 +1336,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1357,7 +1357,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -1367,13 +1367,13 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
 **What do I get from Livewire?** 
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -1412,9 +1412,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1993,9 +1993,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2014,15 +2014,15 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]--> 
+<!\\[endif]--> 
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -2061,9 +2061,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2642,9 +2642,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2663,7 +2663,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 * 🤑 A competitive bonus/commission structure – edit as applicable
 * 🚀 The rare opportunity to help support the transition of a scale up business into a global leader 
