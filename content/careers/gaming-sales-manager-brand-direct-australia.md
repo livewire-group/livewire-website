@@ -1,5 +1,5 @@
 ---
-title: Gaming Sales Manager - Brand Direct (Melbourne)
+title: Gaming Sales Manager - Brand Direct (Victoria, Australia)
 location: Melbourne, Victoria (Fully Remote)
 employment: Full Time
 ---
