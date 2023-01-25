@@ -5,22 +5,22 @@ employment: Full Time
 ---
 <!--StartFragment-->
 
-<!--\\\\\[if !mso]>
+<!--\\\\\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -59,9 +59,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -640,9 +640,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -671,7 +671,7 @@ If this sounds like you, keep scrolling! 👇
 
 **Who is Livewire?** 
 
-Established in 2020 by a skilled team of gaming, technology and marketing leaders who spotted a gap in the market, we are a global research and strategy-first game tech company, bursting with ideas and energy and continuing to grow as a leader in global gaming marketing. We are **united.** We are **engaged.** We are **progressive.** 
+Established in 2021 by a skilled team of gaming, technology and marketing leaders who spotted a gap in the market, we are a global research and strategy-first game tech company, bursting with ideas and energy and continuing to grow as a leader in global gaming marketing. We are **united.** We are **engaged.** We are **progressive.** 
 
 We’re leading the way for global brands such as **UberEats, Amazon, Warner Music** and the **NBL** to talk to the next generation of consumers through their passion of gaming, utilising all aspects of gaming marketing and gametech including in-game experiences, high-profile influencers, live streaming and more – all relevant to what today’s gamers want to see.  
 
@@ -710,13 +710,13 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
 **How can I stand out even more?** 
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -755,9 +755,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1336,9 +1336,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1357,7 +1357,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -1367,13 +1367,13 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 
 **What do I get from Livewire?** 
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -1412,9 +1412,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1993,9 +1993,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2014,15 +2014,15 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]--> 
+<!\\\\[endif]--> 
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -2061,9 +2061,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2642,9 +2642,9 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2663,7 +2663,7 @@ This is a **once in a generation role**, leveraging our unique USP, exclusivitie
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 * 🤑 A competitive commission structure
 * 🚀 The rare opportunity to help support the transition of a scale up business into a global leader 
