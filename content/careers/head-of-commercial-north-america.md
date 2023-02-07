@@ -1,5 +1,5 @@
 ---
-title: Head of Commercial, North America
+title: Head of Commercial (North America)
 location: New York or Los Angeles, Fully Remote
 employment: Full Time
 ---
