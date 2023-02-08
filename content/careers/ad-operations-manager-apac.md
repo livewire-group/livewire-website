@@ -3,22 +3,22 @@ title: Ad Operations Manager (APAC)
 location: Singapore, Fully Remote
 employment: Full Time
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -659,7 +659,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -669,51 +669,25 @@ Does your excitement for all things advertising operations get your mind racing 
 
 Do you want to be the first person pathing the way to help set up our media monetization agenda for APAC?
 
- 
-
 If this sounds like you, keep scrolling! 👇
-
-
 
 **Who is Livewire?** 
 
- 
-
 Established in 2020 by a skilled team of gaming, technology and marketing leaders who spotted a gap in the market, we are a global research and strategy-first game tech company, bursting with ideas and energy and continuing to grow as a leader in global gaming marketing. Think of Livewire as a brands single entry point to the world of gaming.
-
- 
 
 We are **united.** We are **engaged.** We are **progressive.** 
 
- 
-
 We’re driving the way for global brands such as **UberEats, Amazon, Warner Music** and the **NBL** to to engage the next generation of consumers through their passion of gaming, utilising all aspects of the gaming ecosystem. 
-
- 
 
 We are focused on making a **positive global impact** on the video game ecosystem by leading the creation and adoption of new gaming marketing and gametech technologies with our clients. 
 
- 
-
-
-
 **What’s my new career opportunity?**
 
- 
-
-As the very first person in this newly created Ad Ops position, you’ll be responsible for responsible for developing and executing ad ops strategies and digital trafficking campaigns for our media assets for APAC. Your broad remit will include business partnering with internal stakeholders such as our Executive team, product and commercial verticals where you’ll showcase your extensive end to end expertise in ad ops and guide us all accordingly to ensure monetization efforts are aligned with our business strategy.
-
- 
+As the very first person in this newly created Ad Ops position, you’ll be responsible for developing and executing ad ops strategies and digital trafficking campaigns for our media assets for APAC. Your broad remit will include business partnering with internal stakeholders such as our Executive team, product and commercial verticals where you’ll showcase your extensive end to end expertise in ad ops and guide us all accordingly to ensure monetization efforts are aligned with our business strategy.
 
 This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully energising global gaming audiences with brands in an authentic way. 
 
- 
-
- 
-
  **What will I be doing?**
-
- 
 
 * Developing and implementing advertising operations strategies for our media assets in APAC – digital trafficking, targeting the right audience, optimizing for performance, tracking and reporting on results
 * Analysing data to identify monetization opportunities and optimize current strategies
@@ -722,13 +696,7 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Managing budget and resources to maximize revenue potential
 * Having a constantly curious mentality about the evolving world of gaming marketing and Gametech 
 
-                                                                                     
-
- 
-
 **How will I be set up for success?**
-
-
 
 * Fluency in English, both verbal and written 
 * A deep understanding of the APAC digital media landscape within the entertainment industry
@@ -737,17 +705,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Experience working on a number of different regions and campaigns at once
 * Strong analytical skills and experience using data to drive business decisions
 
-
-
 **How can I stand out even more?** 
 
- 
-
 * Experience working in gaming verticals (publishers, platforms, influencers, content, media and social)
-
-
-
-
 
 **What do I get from Livewire?** 
 
@@ -758,25 +718,13 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * 💻 Top of the range equipment  
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
- 
-
-
-
 **I’m interested! What do I do now?**
-
- 
 
 Drop us a note to [careers@livewire.group](mailto:careers@livewire.group) and our talent team will be in touch just as soon as we have overthrown this Final Boss! 🎮👾
 
- 
-
 Feel free to complement your application with supporting information on your programmatic operational successes and why you’d want to be a part of our journey. 
 
- 
-
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you require any additional support for your application experience, please let us know. 
-
- 
 
 **We look forward to hearing from you. Let’s play!** 
 
