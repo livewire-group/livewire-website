@@ -663,9 +663,9 @@ w\:* {behavior:url(#default#VML);}
 
 <!--StartFragment-->
 
-The gaming market is booming… and our growing team of creatives and strategists are ready and waiting for your guidance on the most informed and inspired research expertise in order for us to level up 
+The gaming market is booming… and our growing team of creatives and strategists are ready and waiting for your guidance on the most informed and inspired research expertise in order for us to level up our unique global offering 🚀
 
-Can you help advance our unique offering with your audience insights experience within the global marketing space? 🌍
+With your audience insights experience within the global marketing space, is this your time to shine? 🌍
 
 If this sounds like you, keep scrolling! 👇
 
