@@ -3,22 +3,22 @@ title: Research and Insights Manager (Global)
 location: United Kingdom    l     Fully Remote
 employment: Full Time
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -659,7 +659,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -681,29 +681,15 @@ We’re driving the way for global brands such as UberEats, Amazon, and more to 
 
 We are focused on making a positive global impact on the whole gaming ecosystem by leading the creation and adoption of innovative gaming marketing approaches and developing technologies to empower our clients.
 
-
-
 **What’s my new career opportunity?**
-
- 
 
 **Livewire Labs** is the home of our **creatives, strategists, analysts and producers**. We’re the people who plan, create and deliver the most forward-thinking gaming strategies out there. 
 
- 
-
 As our v**ery first Research and Insights Manager**, you’ll play a crucial role in ensuring our teams are delivering the most advanced and inspired expertise to our partners in order to elevate their understanding and ultimately their prominence within the world of gaming.
-
- 
 
 This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully energise global gaming audiences with brands in an authentic way. 
 
- 
-
- 
-
  **What will I be doing?**
-
-
 
 * Developing and driving our research capabilities based on trends and insights on the gaming world
 * Partnering closely with internal stakeholders at all levels to translate what the marketing insights mean for our business – always ahead of the game, you’ll know what’s around the corner within the gaming market
@@ -712,33 +698,19 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Delivering post-campaign reports that unlock repeat business
 * Having a constantly curious mentality about the evolving world of gaming marketing and GameTech 
 
-                                                                                     
-
- 
-
 **How will I be set up for success?**
-
- 
 
 * Evidence of an in-depth knowledge and passion for gaming
 * An author of research and insights reports
 * Interested in the cultural aspects of gaming as much as the data
 * Global leadership experience, seasoned in driving transformation across multiple partners and markets
 * Experience partnering with external agencies and third-party partners\
-  <!--\[if !supportLineBreakNewLine]-->\
-  <!--\[endif]-->
 
 **How can I stand out even more?** 
 
- 
-
 * Experience working in gaming verticals (publishers, platforms, influencers, content, media and social)
 
-
-
 **What do I get from Livewire?** 
-
- 
 
 * 🚀 The rare opportunity to help support the transition of a scale up business into a global leader 
 * 😇 Remote working, flexible hours and a commitment to work/life balance 
@@ -749,25 +721,13 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * 💻 Top of the range equipment and up to 750 AUD towards your home office set up
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
- 
-
-
-
 **I’m interested! What do I do now?**
-
- 
 
 Drop us a note to [careers@livewire.group](mailto:careers@livewire.group) and our talent team will be in touch soon. 
 
- 
-
 Feel free to complement your application with supporting information on your research successes and why you’d want to be a part of our journey. 
 
- 
-
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you require any additional support for your application experience, please let us know. 
-
- 
 
 **We look forward to hearing from you. Let’s play!** 
 
