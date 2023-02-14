@@ -1,6 +1,6 @@
 ---
 title: Research and Insights Manager (Global)
-location: United Kingdom    l     Fully Remote
+location: London - UK, Fully Remote
 employment: Full Time
 ---
 <!--\\[if !mso]>
