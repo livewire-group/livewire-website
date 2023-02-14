@@ -1,6 +1,6 @@
 ---
 title: Head of Strategy (South East Asia)
-location: Singapore, Thailand or Indonesia    l     Fully Remote
+location: Singapore, Thailand or Indonesia, Fully Remote
 employment: Full Time
 ---
 <!--\[if !mso]>
