@@ -1,6 +1,6 @@
 ---
 title: Creative Director, Global
-location: UK     l     Fully Remote
+location: UK, Fully Remote
 employment: Full Time
 ---
 <!--\[if gte mso 9]><xml>
