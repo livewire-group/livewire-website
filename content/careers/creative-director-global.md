@@ -3,13 +3,13 @@ title: Creative Director, Global
 location: UK, Fully Remote
 employment: Full Time
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -48,9 +48,9 @@ employment: Full Time
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -629,13 +629,13 @@ employment: Full Time
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if !supportAnnotations]-->
+<!--\\[if !supportAnnotations]-->
 
-<!--\[endif]-->
+<!--\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -662,7 +662,7 @@ employment: Full Time
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -671,8 +671,6 @@ The gaming market is booming… and our ever growing client list is in need of a
 Do you have an eye for the craft and a thrill for ingenious creative graft? Are you someone who knows gaming inside out and an expert collaborator across time zones. \
 \
 If this sounds like you, keep scrolling! 👇
-
-
 
 **Who is Livewire?**
 
@@ -686,13 +684,13 @@ We are focused on making a positive global impact on the whole gaming ecosystem 
 
 **What’s my new career opportunity?**
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -731,9 +729,9 @@ We are focused on making a positive global impact on the whole gaming ecosystem 
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1312,9 +1310,9 @@ We are focused on making a positive global impact on the whole gaming ecosystem 
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1333,25 +1331,17 @@ We are focused on making a positive global impact on the whole gaming ecosystem 
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 **Livewire Labs** is the home of our **creatives, strategists, analysts and producers**. We’re the people who plan, create and deliver the most forward-thinking gaming strategies out there. 
 
- 
-
 As our very first Creative Director, you’ll have the opportunity to use your gaming and agency or in-house creative expertise to make your mark in the fastest growing industry in the world. 
-
- 
 
 Your curiosity and open-minded nature will enable you to create a track record of creating and launching multiple gaming campaigns across a variety of online platforms. Your ability to see the never been done before and inspire others to join you will be clear in the quality of your standout work delivered. 
 
- 
-
 This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully energise global gaming audiences with brands in an authentic way. 
-
-
 
 **What will my responsibilities include?**
 
@@ -1370,8 +1360,6 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 
 **How will I be set up for success?**
 
- 
-
 * An in-depth knowledge and passion for gaming   
 * Significant working experience at highly respected creative agency and / or in-house creative studio, social platform or media publication 
 * Global experience – awareness of cultural nuances for the regional consumers 
@@ -1381,22 +1369,18 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Strategic thinking and approach- excellent awareness of digital content and interactive entertainment   
 * Experience in inspiring and managing creative teams and line management of different skillsets 
 
- 
-
 **How can I stand out even more?**
 
 * Experience working in gaming verticals (publishers, platforms, influencers, content, media and social)
 * A black book of brand and/or agency connections
 
-
-
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -1435,9 +1419,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2016,9 +2000,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2037,19 +2021,17 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-
-
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -2088,9 +2070,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2669,9 +2651,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2690,11 +2672,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
-
-
 
 **What do I get from Livewire?** 
 
@@ -2706,16 +2686,9 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * 🎂 Celebrate your birthday your way, every year, with a paid day off
 * 🗣 Work with the world’s leading gaming brands, advertisers, talent and more 
 * 💪 A team culture that empowers you through clear structure and autonomy, encourages learning and celebrates success 
-* 💻 Top of the range equipment and up to 750 AUD towards your home office set up
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
- 
-
-
-
 **I’m interested! What do I do now?**
-
-
 
 We know you’re busy, you may even be gaming right now and that’s ok!
 
@@ -2725,12 +2698,8 @@ Feel free to complement your application with supporting information on your cre
 
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you require any additional support for your application experience, please let us know. 
 
- 
-
 **We look forward to hearing from you. Let’s play!** 
 
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
