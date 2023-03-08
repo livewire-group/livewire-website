@@ -1,6 +1,6 @@
 ---
 title: Sales Lead - Agency m/f/d (DACH)
-location: Germany, Fully Remote
+location: Hamburg or Düsseldorf,  Germany      I       Fully Remote
 employment: Full Time
 ---
 <!--\\\[if !mso]>
