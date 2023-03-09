@@ -1,5 +1,5 @@
 ---
-title: Head of Strategy (North America)
+title: Strategy Manager (North America)
 location: New York, Los Angeles or San Francisco           l     Fully Remote
 employment: Full Time
 ---
