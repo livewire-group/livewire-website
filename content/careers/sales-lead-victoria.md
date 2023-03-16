@@ -1,24 +1,24 @@
 ---
-title: Sales Lead (Victoria)
+title: Sales Manager (Victoria)
 location: Melbourne, Fully Remote
 employment: Full Time
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -659,65 +659,39 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 How would you like to leverage your Melbourne advertising agency and direct brand networks and connect them with the biggest growing industry in the world? 🎮
 
- 
-
 Do you want to make an impact at the very start of the global gaming marketing revolution? 🌏
-
- 
 
 Is it about time that you to grab your console and navigate your career journey to the next level? 🚀
 
- 
-
 If this sounds like you, keep scrolling! 👇
-
-
 
 **Who is Livewire?** 
 
- 
-
 Established in 2021 by a skilled team of gaming, technology and marketing leaders who spotted a gap in the market, we are a global research and strategy-first game tech company, bursting with ideas and energy and continuing to grow as a leader in global gaming marketing. We are **united.** We are **engaged.** We are **progressive.** 
-
- 
 
 We’re leading the way for global brands such as **UberEats, Amazon, Warner Music** and the **NBL** to talk to the next generation of consumers through their passion of gaming, utilising all aspects of gaming marketing and gametech including in-game experiences, high-profile influencers, live streaming and more – all relevant to what today’s gamers want to see.  
 
- 
-
 We are focused on making a **positive global impact** on the video game ecosystem by leading the creation and adoption of new gaming marketing and gametech technologies with our clients. 
-
- 
-
-
 
 **What’s my new career opportunity?**
 
- 
-
-As our Sales Lead, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across a designated portfolio of agencies and direct brands, while super servicing and growing our existing clients.
-
- 
+As our Sales Manager, you will be an integral part of the Commercial team and collaborate closely with our Head of Australia & New Zealand. You’ll be responsible for bringing on new business across a designated portfolio of agencies and direct brands, while super servicing and growing our existing clients. 
 
 Your energy for the gaming industry, spark for sales and effortless ability to engage cold contacts and build relationships will enable you to level up quickly.  With a system-driven and organised mentality, you’ll know how to ensure all your contacts are proactively engaged and communicated with regularly.  
 
- 
-
 This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully connect global gaming audiences with brands in an authentic way. 
 
- 
 
- 
+
+
 
  **What will I be doing?**
-
-
 
 * Building relationships with Director, VP and C-level marketing executives and key marketing decision makers within media agencies and direct brands in Melbourne and surrounding areas
 * Hitting the ground running within the Beauty & Fashion, CPG or Tech & Telco sectors to unlock new business opportunities 
@@ -730,13 +704,7 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Using thoughtful and innovative sales techniques, from strategy to concepts and from brief to pitch 
 * Having a constantly curious mentality about gaming marketing and gametech
 
- 
-
- 
-
 **How will I be set up for success?**
-
- 
 
 * Evidence of extensive agency and brand direct networking and a suite of contacts eager and ready to partner with Livewire
 * Expertise in digital advertising sales within the Beauty & Fashion, CPG or Tech & Telco sectors 
@@ -746,21 +714,11 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Experience using Salesforce (or similar) 
 * The ability to work in a highly autonomous role balancing fun & performance. 
 
- 
-
-                                                                       
-
 **How can I stand out even more?** 
-
- 
 
 * Experience working in gaming verticals (publishers, platforms, influencers, content, media and social) 
 
-
-
 **What do I get from Livewire?** 
-
- 
 
 * 🤑 A competitive commission structure 
 * 🚀 The rare opportunity to help support the transition of a scale up business into a global leader 
@@ -772,27 +730,13 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * 💻 Top of the range equipment and up to 750 AUD towards your home office set up
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
- 
-
- 
-
-
-
 **How can I get in touch to show I’m interested?**
-
- 
 
 Drop us a note to [careers@livewire.group](mailto:careers@livewire.group) and our talent team will be in touch as soon as we’ve overthrown this Final Boss! 🎮 
 
- 
-
 Feel free to complement your application with supporting information on your sales successes and why you’d want to be a part of our journey. 
 
- 
-
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you need any [additional](<>) support for your application experience, please let us know. 
-
- 
 
 **We look forward to hearing from you. Let’s play!** 
 
