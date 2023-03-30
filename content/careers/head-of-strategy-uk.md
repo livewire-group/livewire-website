@@ -3,22 +3,22 @@ title: Head of Strategy, UK
 location: London (Fully Remote)
 employment: Full Time
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -659,71 +659,39 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 Are you ready to maximise your strategic expertise to help shape one of the world’s most exciting and growing industries? 🎮
 
- 
-
 Does your excitement for all things gaming get your mind racing about the bigger picture and future gaming consumption? 💭
-
- 
 
 Do you want to be the first person paving the way in the setup of our gaming strategy department for the UK? 🌏
 
- 
-
 If this sounds like you, keep scrolling! 👇
 
-
-
 **Who is Livewire?** 
-
-
 
 Recently established by a skilled team of gaming and marketing leaders who spotted a gap in the market, we created [Livewire!](https://livewire.group/) We are a GameTech company combining the largest inventory of in-game advertising with best in class gaming strategy and execution. Think of Livewire as a brands single entry point to the world of gaming.\
 \
 We are bursting with ideas and energy and continuing to grow to as a leader in global gaming marketing.
 
- 
-
 **We are united. We are engaged. We are progressive.**
-
- 
 
 We’re driving the way for global brands such as **UberEats, Amazon,** **McDonalds** and more to engage the next generation of consumers through their passion of gaming, utilising all aspects of the gaming ecosystem.
 
- 
-
 We are focused on making a positive global impact on the whole gaming ecosystem by leading the creation and adoption of innovative gaming marketing approaches and developing technologies to empower our clients.
-
- 
-
- 
 
 **What’s my new career opportunity?**
 
- 
-
 **Livewire Labs** is the home of our creatives, strategists, analysts and producers. We’re the people who plan, create and deliver the most forward-thinking gaming strategies out there. 
 
- 
-
-As **our very first Head of Strategy for SEA**, you’ll play a crucial role in ensuring our teams are delivering the most advanced and inspired expertise to our partners in order to elevate their understanding and ultimately their prominence within the world of gaming.
-
- 
-
- 
+As **our very first Head of Strategy for the UK**, you’ll play a crucial role in ensuring our teams are delivering the most advanced and inspired expertise to our partners in order to elevate their understanding and ultimately their prominence within the world of gaming.
 
 This is a once in a generation role, leveraging our unique USP, exclusivities and partnerships across the gaming ecosystem, working with a highly motivated team with a common goal to create new categories to successfully energise global gaming audiences with brands in an authentic way. 
 
- 
-
 **What will I be doing?**
-
- 
 
 * Partnering with our local Head of Commercial to identify and formulate pitches, execute and deliver commercial opportunities
 * Forming and developing relationships with external brand partners, agencies and publishers, gaining their trust through the quality of your work
@@ -737,13 +705,7 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Forming strong relationships with all key internal stakeholders and be comfortable presenting to senior executives across the business, being comfortable to defend your initiatives as required
 * Have a constantly curious mentality about the evolving world of gaming marketing and GameTech 
 
-                                                                                     
-
- 
-
 **How will I be set up for success?**
-
-
 
 * Evidence of an in-depth knowledge and passion for gaming
 * Significant senior strategic advisory experience with global brands and/or advertising agencies within the UK
@@ -752,20 +714,12 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * Experience working on multiple client initiatives in a fast-paced, evolving environment 
 * Excellent ability to absorb information and surface the essence to management within a matrix type structure  
 
-           
-
 **How can I stand out even more?** 
-
- 
 
 * Experience working in gaming verticals (publishers, platforms, influencers, content, media and social)
 * An author of research and insights reports
 
-
-
 **What do I get from Livewire?** 
-
- 
 
 * 🚀 The rare opportunity to help support the transition of a scale up business into a global leader 
 * 😇 Remote working, flexible hours and a commitment to work/life balance 
@@ -775,25 +729,13 @@ This is a once in a generation role, leveraging our unique USP, exclusivities an
 * 💪 A team culture that empowers you through clear structure and autonomy, encourages learning and celebrates success 
 * 👾 Change the face of gaming while also having fun on virtual quarterly all team game days 
 
- 
-
- 
-
 **I’m interested! What do I do now?**
-
- 
 
 Drop us a note to [careers@livewire.group](mailto:careers@livewire.group) and our talent team will be in touch soon. 
 
- 
-
 Feel free to complement your application with supporting information on your strategic successes and why you’d want to be a part of our journey. 
 
- 
-
 We are an equal opportunity employer focused on building a dynamic and inclusive work culture that values equality, equity and diversity and where everyone can have their voices heard. This means hiring and developing talent across all ages, races, ethnicities, religions, gender identities, sexual orientations and abilities. If you require any additional support for your application experience, please let us know. 
-
- 
 
 **We look forward to hearing from you. Let’s play!** 
 
