@@ -1,5 +1,5 @@
 ---
-title: New careers page... loading...... 🔃
+title: Careers
 menu:
   main:
     weight: 29
