@@ -8,6 +8,4 @@ menu:
 location: Click below for all available roles
 employment: Full Time
 ---
-N﻿ew careers page ... loading... 🔃
-
-[P﻿lease visit our temporary page here](https://livewire-1678901160.teamtailor.com/)
+N﻿ew careers page ... loading... 🔃 p[﻿lease visit our temporary page here](https://livewire-1678901160.teamtailor.com/)
