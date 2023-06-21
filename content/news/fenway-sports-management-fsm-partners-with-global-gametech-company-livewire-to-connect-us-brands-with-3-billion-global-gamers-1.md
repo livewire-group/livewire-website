@@ -6,7 +6,7 @@ description: Boston – June 21, 2023 – Global sports marketing firm Fenway Sp
   Management (FSM) has partnered with global gametech company Livewire on a
   partnership to increase its presence among the lucrative gaming audience and
   scale Livewire’s offering across North America.
-image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto/v1687333798/LW_X_FSM_px5f9b.png
+image: https://res.cloudinary.com/livewire-group/image/upload/c_scale,f_auto,q_auto,w_580/v1687333798/LW_X_FSM_px5f9b.png
 ---
 Currently, Livewire’s presence spans across six live markets including North America, Australia, Southeast Asia, United Kingdom, DACH (Germany, Austria, Switzerland), and India. The team specializes in connecting brands with the global gaming audience, by driving the biggest inventory of in-game advertising opportunities through highly strategic and creative execution.
 
