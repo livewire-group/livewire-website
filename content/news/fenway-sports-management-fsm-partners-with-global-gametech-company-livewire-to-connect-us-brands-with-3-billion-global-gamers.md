@@ -8,7 +8,7 @@ description: >+
   increase its presence among the lucrative gaming audience and scale Livewire’s
   offering across North America.
 
-image: null
+image: ""
 ---
 <!--\[if gte mso 9]><xml>
  <w:WordDocument>
