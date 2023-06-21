@@ -26,8 +26,6 @@ Brad Manuel and Indy Khabra, Co-Founders and Co-CEOs of Livewire said that the p
 
 Livewire’s position as the single entry point in gaming for brands has enabled significant campaigns to be run across major brands including Amazon Music and Alienware. Its in-game Ad Marketplace reaches 944m MAU’s, enabling global reach and the ability to segment audiences in a highly targeted way, ensuring the right advertising reaches the right person, on the right platform at the right time.
 
-For further information on Livewire, please visit [www.livewire.group](http://www.livewire.group/)
-
 ***About Livewire***
 
 Livewire is a global gametech company.
