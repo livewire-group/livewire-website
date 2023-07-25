@@ -1,6 +1,6 @@
 ---
-title: "THIS SUMMER’S MUST-SEE HORROR TALK TO ME HEADS TO FORTNITE IN
-  WORLD-FIRST IMMERSIVE CROSSOVER "
+title: This Summers must-see horror, Talk To Me heads to Fortnite in world-first
+  immersive crossover.
 date: 2023-07-25T23:46:50.175Z
 description: "Independent UK studio Altitude has launched a branded Fortnite
   Creative integration for this Summer’s highly anticipated horror, TALK TO ME,
