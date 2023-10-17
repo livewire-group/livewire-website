@@ -4,7 +4,7 @@ date: 2023-10-17T05:18:31.744Z
 description: Livewire expands its global network with new London office
 image: https://mediashotz.co.uk/wp-content/uploads/2023/10/Tom-Simpson-CEO-Livewire.jpg
 ---
-London, UK, 10 October 2023 - Livewire, the [global gaming marketing company](https://livewire.group/), has opened a new global office in London. The London office will be led by Tom Simpson who has been appointed Livewire’s Global Chief Executive Officer.
+Livewire, the [global gaming marketing company](https://livewire.group/), has opened a new global office in London. The London office will be led by Tom Simpson who has been appointed Livewire’s Global Chief Executive Officer.
 
 Simpson will head up Livewire’s global growth and business development as the company continues to expand internationally. Leading the global business from the UK, he will oversee team development and expansion across the company globally with presence in the UK, USA, APAC and new markets soon to be announced. 
 
